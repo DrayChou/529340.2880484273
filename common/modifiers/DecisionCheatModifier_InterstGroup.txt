@@ -1,0 +1,86 @@
+﻿DecisionCheatInterestGroup_all_approval_Modifier = {
+	interest_group_approval_add = 1
+}
+DecisionCheatInterestGroup_in_government_approval_Modifier = {
+	interest_group_in_government_approval_add = 1
+}
+DecisionCheatInterestGroup_in_opposition_approval_Modifier = {
+	interest_group_in_opposition_approval_add = 1
+}
+#############################################
+DecisionCheatInterestGroup_ig_armed_forces_approval_Modifier = {
+	interest_group_ig_armed_forces_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_devout_approval_Modifier = {
+	interest_group_ig_devout_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_industrialists_approval_Modifier = {
+	interest_group_ig_industrialists_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_intelligentsia_approval_Modifier = {
+	interest_group_ig_intelligentsia_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_landowners_approval_Modifier = {
+	interest_group_ig_landowners_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_petty_bourgeoisie_approval_Modifier = {
+	interest_group_ig_petty_bourgeoisie_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_rural_folk_approval_Modifier = {
+	interest_group_ig_rural_folk_approval_add = 1
+}
+DecisionCheatInterestGroup_ig_trade_unions_approval_Modifier = {
+	interest_group_ig_trade_unions_approval_add = 1
+}
+###################################################
+DecisionCheatInterestGroup_polstr_ig_armed_forces_Modifier = {
+	interest_group_ig_armed_forces_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_devout_Modifier = {
+	interest_group_ig_devout_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_industrialists_Modifier = {
+	interest_group_ig_industrialists_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_intelligentsia_Modifier = {
+	interest_group_ig_intelligentsia_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_landowners_Modifier = {
+	interest_group_ig_landowners_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_petty_bourgeoisie_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_rural_folk_Modifier = {
+	interest_group_ig_rural_folk_pol_str_mult = 1
+}
+DecisionCheatInterestGroup_polstr_ig_trade_unions_Modifier = {
+	interest_group_ig_trade_unions_pol_str_mult = 1
+}
+######################################################
+DecisionCheatInterestGroup_ig_armed_forces_pop_attraction_Modifier = {
+	interest_group_ig_armed_forces_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_devout_pop_attraction_Modifier = {
+	interest_group_ig_devout_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_industrialists_pop_attraction_Modifier = {
+	interest_group_ig_industrialists_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_intelligentsia_pop_attraction_Modifier = {
+	interest_group_ig_intelligentsia_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_landowners_pop_attraction_Modifier = {
+	interest_group_ig_landowners_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_petty_bourgeoisie_pop_attraction_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_rural_folk_pop_attraction_Modifier = {
+	interest_group_ig_rural_folk_pop_attraction_mult = 1
+}
+DecisionCheatInterestGroup_ig_trade_unions_pop_attraction_Modifier = {
+	interest_group_ig_trade_unions_pop_attraction_mult = 1
+}
+
+

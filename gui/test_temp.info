@@ -1,0 +1,77 @@
+window = {
+    name = "test_window"
+    parentanchor = center
+    size = { 400 400 }
+    layer = windows_layer
+	movable = no
+
+    background = {
+		using = default_background
+		margin = { 15 15 }
+	}
+
+    state = {
+        name = _show
+        using = Animation_FadeIn_Quick
+
+        on_start = "[GetVariableSystem.Set( 'ui_components_tabs', 'buttons' )]"
+    }
+	editor_textinput = {
+		name = "value_textbox"
+		layoutpolicy_horizontal = fixed
+		layoutpolicy_vertical = fixed
+		size = { 52 24 }
+		align = center
+		block "input" {}
+	}
+}
+
+event_window = {
+	name = "test_event_window"
+	blockoverride "event_content" {
+		
+		# bg
+		icon = {
+			texture = "gfx/event_pictures/icon_various.dds"
+			alwaystransparent = yes
+			size = { 620 600 }
+			alpha = 0.75
+		}
+		
+		# icon
+		container = {
+			parentanchor = vcenter
+			position = { 160 0 }
+			datacontext = "[EventWindow.GetEvent.GetIcon('center_icon')]"
+
+			icon = {
+				visible = "[EventIcon.IsTexture]"
+				texture = "[EventIcon.GetTexture]"
+				size = { 200 200 }
+			}
+		}
+		button_checkbox_label = {
+
+							onclick = ""
+							blockoverride "checkbox"
+							{
+
+								checked = ""
+							}
+							blockoverride "text"
+							{
+								raw_text = "Down State (selected buttons in lists etc)"
+							}
+						}
+	}
+}
+
+
+
+
+
+
+
+
+
+

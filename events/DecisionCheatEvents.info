@@ -1,0 +1,12 @@
+﻿namespace = decisioncheat_test
+decisioncheat_test.01 = {
+	type = country_event
+	title = decisioncheat_test.01.t
+	desc = decisioncheat_test.01.desc
+	gui_window = test_event_window
+	immediate = {
+	}
+	option = { 
+		name = decisioncheat_test.01.a
+	}
+}

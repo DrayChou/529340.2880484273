@@ -1,0 +1,124 @@
+DC_MarkInterstGroupClrVariable_effect = {
+	remove_variable = DC_MarkInterstGroup_ig_armed_forces
+	remove_variable = DC_MarkInterstGroup_ig_devout
+	remove_variable = DC_MarkInterstGroup_ig_industrialists
+	remove_variable = DC_MarkInterstGroup_ig_intelligentsia
+	remove_variable = DC_MarkInterstGroup_ig_landowners
+	remove_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+	remove_variable = DC_MarkInterstGroup_ig_rural_folk
+	remove_variable = DC_MarkInterstGroup_ig_trade_unions
+}
+
+
+
+
+
+
+
+
+
+DC_InterstGroup_add_pol_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_add_pol_modifier_effect
+	}
+}
+DC_InterstGroup_add_pol_modifier_effect = {
+	if = {
+		limit = {
+			has_global_variable = DC_InterstGroup_var
+		}
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_polstr_$group$_Modifier
+			multiplier = global_var:DC_InterstGroup_var
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_polstr_$group$_Modifier
+		}
+	}
+}
+
+DC_InterstGroup_remove_pol_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_remove_pol_modifier_effect
+	}
+}
+DC_InterstGroup_remove_pol_modifier_effect = {
+	remove_enactment_modifier = DecisionCheatInterestGroup_polstr_$group$_Modifier
+}
+
+DC_InterstGroup_add_approval_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_add_approval_modifier_effect
+	}
+}
+DC_InterstGroup_add_approval_modifier_effect = {
+	if = {
+		limit = {
+			has_global_variable = DC_InterstGroup_var
+		}
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_$group$_approval_Modifier
+			multiplier = global_var:DC_InterstGroup_var
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_$group$_approval_Modifier
+		}
+	}
+}
+
+DC_InterstGroup_remove_approval_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_remove_approval_modifier_effect
+	}
+}
+DC_InterstGroup_remove_approval_modifier_effect = {
+	remove_enactment_modifier = DecisionCheatInterestGroup_$group$_approval_Modifier
+}
+
+
+
+DC_InterstGroup_add_pop_attraction_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_add_pop_attraction_modifier_effect
+	}
+}
+DC_InterstGroup_add_pop_attraction_modifier_effect = {
+	if = {
+		limit = {
+			has_global_variable = DC_InterstGroup_var
+		}
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_$group$_pop_attraction_Modifier
+			multiplier = global_var:DC_InterstGroup_var
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = DecisionCheatInterestGroup_$group$_pop_attraction_Modifier
+		}
+	}
+}
+DC_InterstGroup_remove_pop_attraction_modifier = {
+	DC_select_interstgroup_no_arguments_effect = {
+		effect = DC_InterstGroup_remove_pop_attraction_modifier_effect
+	}
+}
+DC_InterstGroup_remove_pop_attraction_modifier_effect = {
+	remove_enactment_modifier = DecisionCheatInterestGroup_$group$_pop_attraction_Modifier
+}
+
+
+
+
+
+
+
+
+
+
+
+

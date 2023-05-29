@@ -1,0 +1,157 @@
+﻿building_output_ammunition_mult = {
+	good = yes
+	percent = yes
+}
+building_output_grain_mult = {
+	good = yes
+	percent = yes
+}
+building_output_fish_mult = {
+	good = yes
+	percent = yes
+}
+building_output_wood_mult = {
+	good = yes
+	percent = yes
+}
+building_output_groceries_mult = {
+	good = yes
+	percent = yes
+}
+building_output_clothes_mult = {
+	good = yes
+	percent = yes
+}
+building_output_furniture_mult = {
+	good = yes
+	percent = yes
+}
+building_output_paper_mult = {
+	good = yes
+	percent = yes
+}
+building_output_services_mult = {
+	good = yes
+	percent = yes
+}
+building_output_transportation_mult = {
+	good = yes
+	percent = yes
+}
+building_output_dye_mult = {
+	good = yes
+	percent = yes
+}
+building_output_sulfur_mult = {
+	good = yes
+	percent = yes
+}
+building_output_coal_mult = {
+	good = yes
+	percent = yes
+}
+building_output_iron_mult = {
+	good = yes
+	percent = yes
+}
+building_output_lead_mult = {
+	good = yes
+	percent = yes
+}
+building_output_rubber_mult = {
+	good = yes
+	percent = yes
+}
+building_output_steel_mult = {
+	good = yes
+	percent = yes
+}
+building_output_glass_mult = {
+	good = yes
+	percent = yes
+}
+building_output_fertilizer_mult = {
+	good = yes
+	percent = yes
+}
+building_output_explosives_mult = {
+	good = yes
+	percent = yes
+}
+building_output_porcelain_mult = {
+	good = yes
+	percent = yes
+}
+building_output_meat_mult = {
+	good = yes
+	percent = yes
+}
+building_output_tea_mult = {
+	good = yes
+	percent = yes
+}
+building_output_coffee_mult = {
+	good = yes
+	percent = yes
+}
+building_output_tobacco_mult = {
+	good = yes
+	percent = yes
+}
+building_output_opium_mult = {
+	good = yes
+	percent = yes
+}
+building_output_telephones_mult = {
+	good = yes
+	percent = yes
+}
+building_output_radios_mult = {
+	good = yes
+	percent = yes
+}
+building_output_luxury_clothes_mult = {
+	good = yes
+	percent = yes
+}
+building_output_luxury_furniture_mult = {
+	good = yes
+	percent = yes
+}
+building_output_gold_mult = {
+	good = yes
+	percent = yes
+}
+building_output_fine_art_mult = {
+	good = yes
+	percent = yes
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

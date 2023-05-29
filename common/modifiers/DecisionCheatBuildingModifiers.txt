@@ -1,0 +1,455 @@
+﻿
+DecisionCheat_building_throughput_modifier = {
+	building_throughput_mult = 1
+}
+
+DecisionCheat_building_group_bg_heavy_industry_throughput_modifier = {
+	building_group_bg_heavy_industry_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_light_industry_throughput_modifier = {
+	building_group_bg_light_industry_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_agriculture_throughput_modifier = {
+	building_group_bg_agriculture_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_subsistence_agriculture_throughput_modifier = {
+	building_group_bg_subsistence_agriculture_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_plantations_throughput_modifier = {
+	building_group_bg_plantations_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_mining_throughput_modifier = {
+	building_group_bg_mining_throughput_mult = 1
+}
+DecisionCheat_building_group_bg_government_throughput_modifier = {
+	building_group_bg_government_throughput_mult = 1
+}
+
+
+
+
+# industry
+DecisionCheat_building_food_industry_throughput_modifier = {
+	building_food_industry_throughput_mult = 1
+}
+DecisionCheat_building_textile_mills_throughput_modifier = {
+	building_textile_mills_throughput_mult = 1
+}
+DecisionCheat_building_furniture_manufacturies_throughput_modifier = {
+	building_furniture_manufacturies_throughput_mult = 1
+}
+DecisionCheat_building_glassworks_throughput_modifier = {
+	building_glassworks_throughput_mult = 1
+}
+DecisionCheat_building_tooling_workshops_throughput_modifier = {
+	building_tooling_workshops_throughput_mult = 1
+}
+DecisionCheat_building_paper_mills_throughput_modifier = {
+	building_paper_mills_throughput_mult = 1
+}
+DecisionCheat_building_chemical_plants_throughput_modifier = {
+	building_chemical_plants_throughput_mult = 1
+}
+DecisionCheat_building_synthetics_plants_throughput_modifier = {
+	building_synthetics_plants_throughput_mult = 1
+}
+DecisionCheat_building_steel_mills_throughput_modifier = {
+	building_steel_mills_throughput_mult = 1
+}
+DecisionCheat_building_motor_industry_throughput_modifier = {
+	building_motor_industry_throughput_mult = 1
+}
+DecisionCheat_building_shipyards_throughput_modifier = {
+	building_shipyards_throughput_mult = 1
+}
+DecisionCheat_building_war_machine_industry_throughput_modifier = {
+	building_war_machine_industry_throughput_mult = 1
+}
+DecisionCheat_building_electrics_industry_throughput_modifier = {
+	building_electrics_industry_throughput_mult = 1
+}
+DecisionCheat_building_arms_industry_throughput_modifier = {
+	building_arms_industry_throughput_mult = 1
+}
+DecisionCheat_building_munition_plants_throughput_modifier = {
+	building_munition_plants_throughput_mult = 1
+}
+# agro
+DecisionCheat_building_rye_farm_throughput_modifier = {
+	building_rye_farm_throughput_mult = 1
+}
+DecisionCheat_building_wheat_farm_throughput_modifier = {
+	building_wheat_farm_throughput_mult = 1
+}
+DecisionCheat_building_rice_farm_throughput_modifier = {
+	building_rice_farm_throughput_mult = 1
+}
+DecisionCheat_building_maize_farm_throughput_modifier = {
+	building_maize_farm_throughput_mult = 1
+}
+DecisionCheat_building_millet_farm_throughput_modifier = {
+	building_millet_farm_throughput_mult = 1
+}
+DecisionCheat_building_livestock_ranch_throughput_modifier = {
+	building_livestock_ranch_throughput_mult = 1
+}
+# mines
+DecisionCheat_building_coal_mine_throughput_modifier = {
+	building_coal_mine_throughput_mult = 1
+}
+DecisionCheat_building_iron_mine_throughput_modifier = {
+	building_iron_mine_throughput_mult = 1
+}
+DecisionCheat_building_lead_mine_throughput_modifier = {
+	building_lead_mine_throughput_mult = 1
+}
+DecisionCheat_building_sulfur_mine_throughput_modifier = {
+	building_sulfur_mine_throughput_mult = 1
+}
+DecisionCheat_building_gold_mine_throughput_modifier = {
+	building_gold_mine_throughput_mult = 1
+}
+DecisionCheat_building_gold_fields_throughput_modifier = {
+	building_gold_fields_throughput_mult = 1
+}
+# plantations
+DecisionCheat_building_coffee_plantation_throughput_modifier = {
+	building_coffee_plantation_throughput_mult = 1
+}
+DecisionCheat_building_cotton_plantation_throughput_modifier = {
+	building_cotton_plantation_throughput_mult = 1
+}
+DecisionCheat_building_dye_plantation_throughput_modifier = {
+	building_dye_plantation_throughput_mult = 1
+}
+DecisionCheat_building_opium_plantation_throughput_modifier = {
+	building_opium_plantation_throughput_mult = 1
+}
+DecisionCheat_building_tea_plantation_throughput_modifier = {
+	building_tea_plantation_throughput_mult = 1
+}
+DecisionCheat_building_tobacco_plantation_throughput_modifier = {
+	building_tobacco_plantation_throughput_mult = 1
+}
+DecisionCheat_building_sugar_plantation_throughput_modifier = {
+	building_sugar_plantation_throughput_mult = 1
+}
+DecisionCheat_building_banana_plantation_throughput_modifier = {
+	building_banana_plantation_throughput_mult = 1
+}
+DecisionCheat_building_silk_plantation_throughput_modifier = {
+	building_silk_plantation_throughput_mult = 1
+}
+# military
+DecisionCheat_building_barracks_throughput_modifier = {
+	building_barracks_throughput_mult = 1
+}
+DecisionCheat_building_conscription_center_throughput_modifier = {
+	building_conscription_center_throughput_mult = 1
+}
+DecisionCheat_building_naval_base_throughput_modifier = {
+	building_naval_base_throughput_mult = 1
+}
+# urban_center
+DecisionCheat_building_urban_center_throughput_modifier = {
+	building_urban_center_throughput_mult = 1
+}
+DecisionCheat_building_arts_academy_throughput_modifier = {
+	building_arts_academy_throughput_mult = 1
+}
+DecisionCheat_building_power_plant_throughput_modifier = {
+	building_power_plant_throughput_mult = 1
+}
+# government
+DecisionCheat_building_port_throughput_modifier = {
+	building_port_throughput_mult = 1
+}
+DecisionCheat_building_government_administration_throughput_modifier = {
+	building_government_administration_throughput_mult = 1
+}
+DecisionCheat_building_university_throughput_modifier = {
+	building_university_throughput_mult = 1
+}
+DecisionCheat_building_skyscraper_throughput_modifier = {
+	building_skyscraper_throughput_mult = 1
+}
+# monuments
+DecisionCheat_building_eiffel_tower_throughput_modifier = {
+	building_eiffel_tower_throughput_mult = 1
+}
+DecisionCheat_building_angkor_wat_throughput_modifier = {
+	building_angkor_wat_throughput_mult = 1
+}
+DecisionCheat_building_big_ben_throughput_modifier = {
+	building_big_ben_throughput_mult = 1
+}
+DecisionCheat_building_forbidden_city_throughput_modifier = {
+	building_forbidden_city_throughput_mult = 1
+}
+DecisionCheat_building_hagia_sophia_throughput_modifier = {
+	building_hagia_sophia_throughput_mult = 1
+}
+DecisionCheat_building_mosque_of_djenne_throughput_modifier = {
+	building_mosque_of_djenne_throughput_mult = 1
+}
+DecisionCheat_building_saint_basils_cathedral_throughput_modifier = {
+	building_saint_basils_cathedral_throughput_mult = 1
+}
+DecisionCheat_building_statue_of_liberty_throughput_modifier = {
+	building_statue_of_liberty_throughput_mult = 1
+}
+DecisionCheat_building_taj_mahal_throughput_modifier = {
+	building_taj_mahal_throughput_mult = 1
+}
+DecisionCheat_building_vatican_city_throughput_modifier = {
+	building_vatican_city_throughput_mult = 1
+}
+DecisionCheat_building_white_house_throughput_modifier = {
+	building_white_house_throughput_mult = 1
+}
+DecisionCheat_building_machu_picchu_throughput_modifier = {
+	building_machu_picchu_throughput_mult = 1
+}
+DecisionCheat_building_argebam_throughput_modifier = {
+	building_argebam_throughput_mult = 1
+}
+DecisionCheat_building_chichen_itza_throughput_modifier = {
+	building_chichen_itza_throughput_mult = 1
+}
+DecisionCheat_building_easter_island_heads_throughput_modifier = {
+	building_easter_island_heads_throughput_mult = 1
+}
+DecisionCheat_building_eye_of_sahara_throughput_modifier = {
+	building_eye_of_sahara_throughput_mult = 1
+}
+DecisionCheat_building_giza_necropolis_throughput_modifier = {
+	building_giza_necropolis_throughput_mult = 1
+}
+DecisionCheat_building_khaju_bridge_throughput_modifier = {
+	building_khaju_bridge_throughput_mult = 1
+}
+DecisionCheat_building_petra_throughput_modifier = {
+	building_petra_throughput_mult = 1
+}
+DecisionCheat_building_capitol_hill_throughput_modifier = {
+	building_capitol_hill_throughput_mult = 1
+}
+DecisionCheat_building_central_park_throughput_modifier = {
+	building_central_park_throughput_mult = 1
+}
+# misc_resource
+DecisionCheat_building_logging_camp_throughput_modifier = {
+	building_logging_camp_throughput_mult = 1
+}
+DecisionCheat_building_rubber_plantation_throughput_modifier = {
+	building_rubber_plantation_throughput_mult = 1
+}
+DecisionCheat_building_fishing_wharf_throughput_modifier = {
+	building_fishing_wharf_throughput_mult = 1
+}
+DecisionCheat_building_whaling_station_throughput_modifier = {
+	building_whaling_station_throughput_mult = 1
+}
+DecisionCheat_building_oil_rig_throughput_modifier = {
+	building_oil_rig_throughput_mult = 1
+}
+# canals
+DecisionCheat_building_suez_canal_throughput_modifier = {
+	building_suez_canal_throughput_mult = 1
+}
+DecisionCheat_building_panama_canal_throughput_modifier = {
+	building_panama_canal_throughput_mult = 1
+}
+# private_infrastructure
+DecisionCheat_building_railway_throughput_modifier = {
+	building_railway_throughput_mult = 1
+}
+DecisionCheat_building_trade_center_throughput_modifier = {
+	building_trade_center_throughput_mult = 1
+}
+# subsistence
+DecisionCheat_building_subsistence_farms_throughput_modifier = {
+	building_subsistence_farms_throughput_mult = 1
+}
+DecisionCheat_building_subsistence_orchards_throughput_modifier = {
+	building_subsistence_orchards_throughput_mult = 1
+}
+DecisionCheat_building_subsistence_pastures_throughput_modifier = {
+	building_subsistence_pastures_throughput_mult = 1
+}
+# construction
+DecisionCheat_building_construction_sector_throughput_modifier = {
+	building_construction_sector_throughput_mult = 1
+}
+
+###########################################################
+DecisionCheat_building_output_ammunition_modifier = {
+	building_output_ammunition_mult = 1
+}
+DecisionCheat_building_output_small_arms_modifier = {
+	building_output_small_arms_mult = 1
+}
+DecisionCheat_building_output_artillery_modifier = {
+	building_output_artillery_mult = 1
+}
+DecisionCheat_building_output_tanks_modifier = {
+	building_output_tanks_mult = 1
+}
+DecisionCheat_building_output_aeroplanes_modifier = {
+	building_output_aeroplanes_mult = 1
+}
+DecisionCheat_building_output_manowars_modifier = {
+	building_output_manowars_mult = 1
+}
+DecisionCheat_building_output_ironclads_modifier = {
+	building_output_ironclads_mult = 1
+}
+DecisionCheat_building_output_grain_modifier = {
+	building_output_grain_mult = 1
+}
+DecisionCheat_building_output_fish_modifier = {
+	building_output_fish_mult = 1
+}
+DecisionCheat_building_output_fabric_modifier = {
+	building_output_fabric_mult = 1
+}
+DecisionCheat_building_output_wood_modifier = {
+	building_output_wood_mult = 1
+}
+DecisionCheat_building_output_groceries_modifier = {
+	building_output_groceries_mult = 1
+}
+DecisionCheat_building_output_clothes_modifier = {
+	building_output_clothes_mult = 1
+}
+DecisionCheat_building_output_furniture_modifier = {
+	building_output_furniture_mult = 1
+}
+DecisionCheat_building_output_paper_modifier = {
+	building_output_paper_mult = 1
+}
+DecisionCheat_building_output_services_modifier = {
+	building_output_services_mult = 1
+}
+DecisionCheat_building_output_transportation_modifier = {
+	building_output_transportation_mult = 1
+}
+DecisionCheat_building_output_electricity_modifier = {
+	building_output_electricity_mult = 1
+}
+DecisionCheat_building_output_clippers_modifier = {
+	building_output_clippers_mult = 1
+}
+DecisionCheat_building_output_steamers_modifier = {
+	building_output_steamers_mult = 1
+}
+DecisionCheat_building_output_silk_modifier = {
+	building_output_silk_mult = 1
+}
+DecisionCheat_building_output_dye_modifier = {
+	building_output_dye_mult = 1
+}
+DecisionCheat_building_output_sulfur_modifier = {
+	building_output_sulfur_mult = 1
+}
+DecisionCheat_building_output_coal_modifier = {
+	building_output_coal_mult = 1
+}
+DecisionCheat_building_output_iron_modifier = {
+	building_output_iron_mult = 1
+}
+DecisionCheat_building_output_lead_modifier = {
+	building_output_lead_mult = 1
+}
+DecisionCheat_building_output_hardwood_modifier = {
+	building_output_hardwood_mult = 1
+}
+DecisionCheat_building_output_rubber_modifier = {
+	building_output_rubber_mult = 1
+}
+DecisionCheat_building_output_oil_modifier = {
+	building_output_oil_mult = 1
+}
+DecisionCheat_building_output_engines_modifier = {
+	building_output_engines_mult = 1
+}
+DecisionCheat_building_output_steel_modifier = {
+	building_output_steel_mult = 1
+}
+DecisionCheat_building_output_glass_modifier = {
+	building_output_glass_mult = 1
+}
+DecisionCheat_building_output_fertilizer_modifier = {
+	building_output_fertilizer_mult = 1
+}
+DecisionCheat_building_output_tools_modifier = {
+	building_output_tools_mult = 1
+}
+DecisionCheat_building_output_explosives_modifier = {
+	building_output_explosives_mult = 1
+}
+DecisionCheat_building_output_porcelain_modifier = {
+	building_output_porcelain_mult = 1
+}
+DecisionCheat_building_output_meat_modifier = {
+	building_output_meat_mult = 1
+}
+DecisionCheat_building_output_fruit_modifier = {
+	building_output_fruit_mult = 1
+}
+DecisionCheat_building_output_liquor_modifier = {
+	building_output_liquor_mult = 1
+}
+DecisionCheat_building_output_wine_modifier = {
+	building_output_wine_mult = 1
+}
+DecisionCheat_building_output_tea_modifier = {
+	building_output_tea_mult = 1
+}
+DecisionCheat_building_output_coffee_modifier = {
+	building_output_coffee_mult = 1
+}
+DecisionCheat_building_output_sugar_modifier = {
+	building_output_sugar_mult = 1
+}
+DecisionCheat_building_output_tobacco_modifier = {
+	building_output_tobacco_mult = 1
+}
+DecisionCheat_building_output_opium_modifier = {
+	building_output_opium_mult = 1
+}
+DecisionCheat_building_output_automobiles_modifier = {
+	building_output_automobiles_mult = 1
+}
+DecisionCheat_building_output_telephones_modifier = {
+	building_output_telephones_mult = 1
+}
+DecisionCheat_building_output_radios_modifier = {
+	building_output_radios_mult = 1
+}
+DecisionCheat_building_output_luxury_clothes_modifier = {
+	building_output_luxury_clothes_mult = 1
+}
+DecisionCheat_building_output_luxury_furniture_modifier = {
+	building_output_luxury_furniture_mult = 1
+}
+DecisionCheat_building_output_gold_modifier = {
+	building_output_gold_mult = 1
+}
+DecisionCheat_building_output_fine_art_modifier = {
+	building_output_fine_art_mult = 1
+}
+
+DecisionCheat_country_private_construction_allocation_modifier = {
+	country_private_construction_allocation_mult = 0.01
+}
+
+
+
+
+
+
+
+
+
+

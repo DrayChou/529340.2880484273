@@ -1,0 +1,158 @@
+﻿l_english:
+ Open_InterstGroupCheat_Decision:"Open [concept_interest_group] Cheat Decision"
+ Open_InterstGroupCheat_Decision_desc:""
+ Close_InterstGroupCheat_Decision:"Close [concept_interest_group] Cheat Decision"
+ Close_InterstGroupCheat_Decision_desc:""
+ 
+ InterstGroupCheat_IncreaseVar_Decision:"#P Increase #! the interst group modifier value"
+ InterstGroupCheat_IncreaseVar_Decision_desc:"Current modifier value: [GetGlobalVariable('DC_InterstGroup_var').GetValue]"
+ InterstGroupCheat_DecreaseVar_Decision:"#N Decrease #! the interst group modifier value"
+ InterstGroupCheat_DecreaseVar_Decision_desc:"Current modifier value: [GetGlobalVariable('DC_InterstGroup_var').GetValue]"
+ 
+ InterstGroupCheat_AddAllApprovalModifier_Decision:"Add All [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_AddAllApprovalModifier_Decision_desc:""
+ InterstGroupCheat_RemoveAllApprovalModifier_Decision:"Remove All [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_RemoveAllApprovalModifier_Decision_desc:""
+ 
+ InterstGroupCheat_AddInGovernmentApprovalModifier_Decision:"Add [concept_in_government] [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_AddInGovernmentApprovalModifier_Decision_desc:""
+ InterstGroupCheat_RemoveInGovernmentApprovalModifier_Decision:"Remove [concept_in_government] [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_RemoveInGovernmentApprovalModifier_Decision_desc:""
+ 
+ InterstGroupCheat_AddInOppostionApprovalModifier_Decision:"Add [concept_in_opposition] [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_AddInOppostionApprovalModifier_Decision_desc:""
+ InterstGroupCheat_RemoveInOppostionApprovalModifier_Decision:"Remove [concept_in_opposition] [concept_interest_group] [concept_approval] Modifier"
+ InterstGroupCheat_RemoveInOppostionApprovalModifier_Decision_desc:""
+
+
+ InterstGroupCheat_SelectGroup_ig_armed_forces_Decision:"Mark [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_armed_forces_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_armed_forces_Decision:"Cancel Marking [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_armed_forces_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_devout_Decision:"Mark [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_devout_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_devout_Decision:"Cancel Marking [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_devout_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_industrialists_Decision:"Mark [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_industrialists_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_industrialists_Decision:"Cancel Marking [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_industrialists_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_intelligentsia_Decision:"Mark [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_intelligentsia_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_intelligentsia_Decision:"Cancel Marking [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_intelligentsia_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_landowners_Decision:"Mark [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_landowners_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_landowners_Decision:"Cancel Marking [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_landowners_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_petty_bourgeoisie_Decision:"Mark [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_petty_bourgeoisie_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_petty_bourgeoisie_Decision:"Cancel Marking [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_petty_bourgeoisie_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_rural_folk_Decision:"Mark [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_rural_folk_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_rural_folk_Decision:"Cancel Marking [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_rural_folk_Decision_desc:""
+ InterstGroupCheat_SelectGroup_ig_trade_unions_Decision:"Mark [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_SelectGroup_ig_trade_unions_Decision_desc:""
+ InterstGroupCheat_RemoveSelectGroup_ig_trade_unions_Decision:"Cancel Marking [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant]"
+ InterstGroupCheat_RemoveSelectGroup_ig_trade_unions_Decision_desc:""
+ ############################################################################
+ InterstGroupCheat_AddPolStrMultModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_AddPolStr_Modifier')]"
+ InterstGroupCheat_AddPolStrMultModifier_Decision_desc:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_PolStr_desc_Modifier')]"
+ InterstGroupCheat_RemovePolStrMultModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_RemovePolStr_Modifier')]"
+ InterstGroupCheat_RemovePolStrMultModifier_Decision_desc:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_PolStr_desc_Modifier')]"
+
+ DecisionCheatInterstGroupSelect_ig_armed_forces_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_AddPolStr_Modifier:"Add [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_RemovePolStr_Modifier:"Remove [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength] Modifier"
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_devout_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_devout',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_industrialists_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_landowners_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_landowners',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetClout|v%1] [concept_clout]"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_PolStr_desc_Modifier:"[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant]: [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetClout|v%1] [concept_clout]"
+ 
+ ############################################################################
+ InterstGroupCheat_AddOneApprovalModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_AddOneApproval_Modifier')]"
+ InterstGroupCheat_AddOneApprovalModifier_Decision_desc:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_OneApproval_desc_Modifier')]"
+ InterstGroupCheat_RemoveOneApprovalModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_RemoveOneApproval_Modifier')]"
+ InterstGroupCheat_RemoveOneApprovalModifier_Decision_desc:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_OneApproval_desc_Modifier')]"
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_AddOneApproval_Modifier:"Add [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_RemoveOneApproval_Modifier:"Remove [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_approval] Modifier"
+
+ DecisionCheatInterstGroupSelect_ig_armed_forces_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_devout_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_devout',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_industrialists_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_landowners_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_landowners',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetApprovalValue|+=]"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_OneApproval_desc_Modifier:"[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_approval]: [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetApprovalValue|+=]"
+ ############################################################################
+ 
+ 
+ InterstGroupCheat_AddOnePopAttractionModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_AddPopAttraction_Modifier')]"
+ InterstGroupCheat_AddOnePopAttractionModifier_Decision_desc:""
+ InterstGroupCheat_RemoveOnePopAttractionModifier_Decision:"[GetPlayer.GetCustom('DecisionCheat_InterstGroupSelect_RemovePopAttraction_Modifier')]"
+ InterstGroupCheat_RemoveOnePopAttractionModifier_Decision_desc:""
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_AddPopAttraction_Modifier:"Add [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ 
+ DecisionCheatInterstGroupSelect_ig_armed_forces_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_devout_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_industrialists_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_intelligentsia_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_landowners_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_rural_folk_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ DecisionCheatInterstGroupSelect_ig_trade_unions_RemovePopAttraction_Modifier:"Remove [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant][concept_interest_group_attraction] Modifier"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

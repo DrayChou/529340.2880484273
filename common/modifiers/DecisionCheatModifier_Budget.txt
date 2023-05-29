@@ -1,0 +1,44 @@
+﻿DecisionCheat_Budget_TaxConsumption_Modifier = {
+	tax_consumption_add = 0.01
+}
+DecisionCheat_Budget_TaxLand_Modifier = {
+	tax_land_add = 0.01
+}
+DecisionCheat_Budget_TaxIncome_Modifier = {
+	tax_income_add = 0.01
+}
+DecisionCheat_Budget_TaxPerCapita_Modifier = {
+	tax_per_capita_add = 0.01
+}
+DecisionCheat_Budget_TaxDividends_Modifier = {
+	tax_dividends_add = 0.01
+}
+DecisionCheat_Budget_Tariff_Import_Modifier = {
+	tariff_import_add = 0.01
+}
+DecisionCheat_Budget_Tariff_Export_Modifier = {
+	tariff_export_add = 0.01
+}
+DecisionCheat_Budget_WelfarePayments_Modifier = {
+	state_welfare_payments_add = 0.01
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

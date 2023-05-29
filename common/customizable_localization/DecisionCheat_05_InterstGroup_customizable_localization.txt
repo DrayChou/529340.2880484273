@@ -1,0 +1,474 @@
+DecisionCheat_InterstGroupSelect_AddPolStr_Modifier = {
+	type = country
+	random_valid = no
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_AddPolStr_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_AddPolStr_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_AddPolStr_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_AddPolStr_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_AddPolStr_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddPolStr_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_AddPolStr_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_AddPolStr_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+DecisionCheat_InterstGroupSelect_RemovePolStr_Modifier = {
+	type = country
+	random_valid = no
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_RemovePolStr_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_RemovePolStr_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_RemovePolStr_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_RemovePolStr_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_RemovePolStr_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemovePolStr_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_RemovePolStr_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_RemovePolStr_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+DecisionCheat_InterstGroupSelect_PolStr_desc_Modifier = {
+	type = country
+	random_valid = no
+
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_PolStr_desc_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_PolStr_desc_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_PolStr_desc_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_PolStr_desc_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_PolStr_desc_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_PolStr_desc_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_PolStr_desc_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_PolStr_desc_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+###################################
+DecisionCheat_InterstGroupSelect_AddOneApproval_Modifier = {
+	type = country
+	random_valid = no
+	
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_AddOneApproval_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_AddOneApproval_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_AddOneApproval_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_AddOneApproval_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_AddOneApproval_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddOneApproval_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_AddOneApproval_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_AddOneApproval_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+DecisionCheat_InterstGroupSelect_RemoveOneApproval_Modifier = {
+	type = country
+	random_valid = no
+	
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_RemoveOneApproval_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_RemoveOneApproval_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_RemoveOneApproval_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_RemoveOneApproval_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_RemoveOneApproval_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemoveOneApproval_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_RemoveOneApproval_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_RemoveOneApproval_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+DecisionCheat_InterstGroupSelect_OneApproval_desc_Modifier = {
+	type = country
+	random_valid = no
+
+
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_OneApproval_desc_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_OneApproval_desc_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_OneApproval_desc_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_OneApproval_desc_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_OneApproval_desc_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_OneApproval_desc_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_OneApproval_desc_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_OneApproval_desc_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+#####################################
+DecisionCheat_InterstGroupSelect_AddPopAttraction_Modifier = {
+	type = country
+	random_valid = no
+
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_AddPopAttraction_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_AddPopAttraction_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_AddPopAttraction_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_AddPopAttraction_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_AddPopAttraction_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_AddPopAttraction_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_AddPopAttraction_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_AddPopAttraction_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+DecisionCheat_InterstGroupSelect_RemovePopAttraction_Modifier = {
+	type = country
+	random_valid = no
+	
+	text = { # ig_armed_forces
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_armed_forces_RemovePopAttraction_Modifier
+	}
+	text = { # ig_devout
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_devout_RemovePopAttraction_Modifier
+	}
+	text = { # ig_industrialists
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_industrialists_RemovePopAttraction_Modifier
+	}
+	text = { # ig_intelligentsia
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_intelligentsia_RemovePopAttraction_Modifier
+	}
+	text = { # ig_landowners
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_landowners_RemovePopAttraction_Modifier
+	}
+	text = { # ig_petty_bourgeoisie
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_petty_bourgeoisie_RemovePopAttraction_Modifier
+	}
+	text = { # ig_rural_folk
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_rural_folk_RemovePopAttraction_Modifier
+	}
+	text = { # ig_trade_unions
+		trigger = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		localization_key = DecisionCheatInterstGroupSelect_ig_trade_unions_RemovePopAttraction_Modifier
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

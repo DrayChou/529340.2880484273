@@ -1,0 +1,983 @@
+Open_InterstGroup_Str_Increase_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = openInterstGroup_Str_IncreaseDecision_variable }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = openInterstGroup_Str_IncreaseDecision_variable
+	}
+}
+Close_InterstGroup_Str_Increase_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = openInterstGroup_Str_IncreaseDecision_variable
+	}
+}
+
+AddInterstGroup_Str_Increase_intelligentsia_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_intelligentsia_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_armed_forces_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_armed_forces_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_devout_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_devout_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_industrialists_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_industrialists_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_landowners_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_landowners_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_rural_folk_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_rural_folk_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Increase_trade_unions_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Increase_trade_unions_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_IncreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier
+	}
+} 
+
+Open_InterstGroup_Str_Decrease_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = openInterstGroup_Str_DecreaseDecision_variable }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = openInterstGroup_Str_DecreaseDecision_variable
+	}
+}
+Close_InterstGroup_Str_Decrease_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = openInterstGroup_Str_DecreaseDecision_variable
+	}
+}
+
+AddInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_armed_forces_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_armed_forces_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_devout_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_devout_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_industrialists_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_industrialists_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_landowners_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_landowners_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_rural_folk_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_rural_folk_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier
+	}
+} 
+
+AddInterstGroup_Str_Decrease_trade_unions_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier
+	}
+} 
+RemoveInterstGroup_Str_Decrease_trade_unions_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openInterstGroup_Str_DecreaseDecision_variable
+		has_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open_StateExpectedSol_Increase_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = openStateExpectedSol_IncreaseDecision_variable }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = openStateExpectedSol_IncreaseDecision_variable
+	}
+}
+Close_StateExpectedSol_Increase_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = openStateExpectedSol_IncreaseDecision_variable
+	}
+}
+
+AddStateExpectedSol_Increase_poor_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_poor_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_poor_Increase_Modifier
+	}
+} 
+RemoveStateExpectedSol_Increase_poor_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_poor_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_poor_Increase_Modifier
+	}
+} 
+
+AddStateExpectedSol_Increase_middle_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_middle_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_middle_Increase_Modifier
+	}
+} 
+RemoveStateExpectedSol_Increase_middle_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_middle_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_middle_Increase_Modifier
+	}
+} 
+
+AddStateExpectedSol_Increase_rich_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_rich_Increase_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_rich_Increase_Modifier
+	}
+} 
+RemoveStateExpectedSol_Increase_rich_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_IncreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_rich_Increase_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_rich_Increase_Modifier
+	}
+} 
+
+Open_StateExpectedSol_Decrease_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = openStateExpectedSol_DecreaseDecision_variable }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = openStateExpectedSol_DecreaseDecision_variable
+	}
+}
+Close_StateExpectedSol_Decrease_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = openStateExpectedSol_DecreaseDecision_variable
+	}
+}
+
+AddStateExpectedSol_Decrease_poor_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_poor_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_poor_Decrease_Modifier
+	}
+} 
+RemoveStateExpectedSol_Decrease_poor_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_poor_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_poor_Decrease_Modifier
+	}
+} 
+
+AddStateExpectedSol_Decrease_middle_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_middle_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_middle_Decrease_Modifier
+	}
+} 
+RemoveStateExpectedSol_Decrease_middle_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_middle_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_middle_Decrease_Modifier
+	}
+} 
+
+AddStateExpectedSol_Decrease_rich_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		NOT = { has_modifier = DecisionCheat_StateExpectedSol_rich_Decrease_Modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_StateExpectedSol_rich_Decrease_Modifier
+	}
+} 
+RemoveStateExpectedSol_Decrease_rich_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = openStateExpectedSol_DecreaseDecision_variable
+		has_modifier = DecisionCheat_StateExpectedSol_rich_Decrease_Modifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_StateExpectedSol_rich_Decrease_Modifier
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

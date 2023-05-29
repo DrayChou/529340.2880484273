@@ -1,0 +1,372 @@
+﻿Open_BudgetCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = BudgetCheat_variable }
+		NOT = { has_variable = Open_AnyCheat_Decision_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = BudgetCheat_variable
+		set_variable = Open_AnyCheat_Decision_variable
+	}
+}
+Close_BudgetCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+		has_variable = Open_AnyCheat_Decision_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = BudgetCheat_variable
+		remove_variable = Open_AnyCheat_Decision_variable
+	}
+}
+
+BudgetCheat_Increase_TaxConsumption_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_TaxConsumption_var
+			modifier = DecisionCheat_Budget_TaxConsumption_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_TaxConsumption_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_TaxConsumption_var
+			modifier = DecisionCheat_Budget_TaxConsumption_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_TaxLand_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_TaxLand_var
+			modifier = DecisionCheat_Budget_TaxLand_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_TaxLand_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_TaxLand_var
+			modifier = DecisionCheat_Budget_TaxLand_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_TaxIncome_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_TaxIncome_var
+			modifier = DecisionCheat_Budget_TaxIncome_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_TaxIncome_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_TaxIncome_var
+			modifier = DecisionCheat_Budget_TaxIncome_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_TaxPerCapita_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_TaxPerCapita_var
+			modifier = DecisionCheat_Budget_TaxPerCapita_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_TaxPerCapita_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_TaxPerCapita_var
+			modifier = DecisionCheat_Budget_TaxPerCapita_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_TaxDividends_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_TaxDividends_var
+			modifier = DecisionCheat_Budget_TaxDividends_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_TaxDividends_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_TaxDividends_var
+			modifier = DecisionCheat_Budget_TaxDividends_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_Tariff_Import_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_Tariff_Import_var
+			modifier = DecisionCheat_Budget_Tariff_Import_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_Tariff_Import_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_Tariff_Import_var
+			modifier = DecisionCheat_Budget_Tariff_Import_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_Tariff_Export_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_Tariff_Export_var
+			modifier = DecisionCheat_Budget_Tariff_Export_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_Tariff_Export_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_Tariff_Export_var
+			modifier = DecisionCheat_Budget_Tariff_Export_Modifier
+		}
+	}
+} 
+
+BudgetCheat_Increase_WelfarePayments_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_IncreaseModifier = {
+			var = DC_Budget_WelfarePayments_var
+			modifier = DecisionCheat_Budget_WelfarePayments_Modifier
+		}
+	}
+} 
+BudgetCheat_Decrease_WelfarePayments_Modifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BudgetCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Budget_DecreaseModifier = {
+			var = DC_Budget_WelfarePayments_var
+			modifier = DecisionCheat_Budget_WelfarePayments_Modifier
+		}
+	}
+} 
+
+
+
+
+
+
+
+

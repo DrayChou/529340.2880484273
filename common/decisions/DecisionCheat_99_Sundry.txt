@@ -1,0 +1,61 @@
+﻿Open_SundryCheat_Decision = {
+	is_shown = {
+		always = no
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = SundryCheat_variable }
+		NOT = { has_variable = Open_AnyCheat_Decision_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = SundryCheat_variable
+		set_variable = Open_AnyCheat_Decision_variable
+	}
+}
+Close_SundryCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = SundryCheat_variable
+		has_variable = Open_AnyCheat_Decision_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = SundryCheat_variable
+		remove_variable = Open_AnyCheat_Decision_variable
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

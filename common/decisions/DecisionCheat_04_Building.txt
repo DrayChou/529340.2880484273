@@ -1,0 +1,6510 @@
+﻿Open_BuildingModifierCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = BuildingModifierCheat_variable }
+		NOT = { has_variable = Open_AnyCheat_Decision_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = BuildingModifierCheat_variable
+		set_variable = Open_AnyCheat_Decision_variable
+	}
+}
+Close_BuildingModifierCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = Open_AnyCheat_Decision_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = BuildingModifierCheat_variable
+		remove_variable = Open_AnyCheat_Decision_variable
+	}
+}
+
+BuildingModifierCheat_IncreaseVar_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_global_variable = DC_building_var }
+			}
+			set_global_variable = {
+				name = DC_building_var
+				value = 1
+			}
+		}
+		else = {
+			change_global_variable = {
+				name = DC_building_var
+				add = 1
+			}
+		}
+	}
+} 
+BuildingModifierCheat_DecreaseVar_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = {
+				has_global_variable = DC_building_var
+			}
+			change_global_variable = {
+				name = DC_building_var
+				subtract = 1
+			}
+		}
+	}
+} 
+
+BuildingModifierCheat_Increase_CountryPrivateConstructionAllocation_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Var_IncreaseModifier = {
+			var = DC_Building_ConstructionAllocation_var
+			modifier = DecisionCheat_country_private_construction_allocation_modifier
+		}
+	}
+} 
+BuildingModifierCheat_Decrease_CountryPrivateConstructionAllocation_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_Var_DecreaseModifier = {
+			var = DC_Building_ConstructionAllocation_var
+			modifier = DecisionCheat_country_private_construction_allocation_modifier
+		}
+	}
+} 
+
+Open_CreateBuildingAndLevel_GroupDecision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		NOT = { has_variable = CreateBuildingAndLevel_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = CreateBuildingAndLevel_variable
+	}
+}
+Close_CreateBuildingAndLevel_GroupDecision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = CreateBuildingAndLevel_variable
+	}
+}
+
+
+CreateBuildingAndLevel_Increase_building_tooling_workshops_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = manufacturies
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_tooling_workshops
+		}
+	}
+}
+CreateBuildingAndLevel_Increase_building_steel_mills_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = steelworking
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_steel_mills
+		}
+	}
+}
+CreateBuildingAndLevel_Increase_building_motor_industry_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = atmospheric_engine
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_motor_industry
+		}
+	}
+}
+CreateBuildingAndLevel_Increase_building_railway_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = railways
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_railway
+		}
+	}
+}
+CreateBuildingAndLevel_Increase_building_government_administration = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = tech_bureaucracy
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_government_administration
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open_BuildingOutput_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		NOT = { has_variable = BuildingOutput_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = BuildingOutput_variable
+	}
+}
+Close_BuildingOutput_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = BuildingOutput_variable
+	}
+}
+
+
+BuildingOutput_Add_building_output_ammunition_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_ammunition_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_ammunition_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_ammunition_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_ammunition_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_ammunition_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_ammunition_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_small_arms_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_small_arms_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_small_arms_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_small_arms_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_small_arms_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_small_arms_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_small_arms_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_artillery_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_artillery_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_artillery_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_artillery_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_artillery_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_artillery_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_artillery_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_tanks_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_tanks_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tanks_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tanks_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_tanks_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_tanks_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_tanks_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_aeroplanes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_aeroplanes_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_aeroplanes_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_aeroplanes_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_aeroplanes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_aeroplanes_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_aeroplanes_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_manowars_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_manowars_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_manowars_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_manowars_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_manowars_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_manowars_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_manowars_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_ironclads_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_ironclads_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_ironclads_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_ironclads_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_ironclads_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_ironclads_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_ironclads_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_grain_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_grain_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_grain_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_grain_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_grain_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_grain_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_grain_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_fish_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_fish_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fish_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fish_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_fish_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_fish_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_fish_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_fabric_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_fabric_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fabric_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fabric_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_fabric_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_fabric_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_fabric_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_wood_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_wood_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_wood_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_wood_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_wood_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_wood_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_wood_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_groceries_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_groceries_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_groceries_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_groceries_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_groceries_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_groceries_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_groceries_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_clothes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_clothes_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_clothes_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_clothes_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_clothes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_clothes_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_clothes_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_furniture_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_furniture_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_furniture_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_furniture_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_furniture_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_furniture_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_furniture_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_paper_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_paper_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_paper_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_paper_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_paper_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_paper_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_paper_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_services_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_services_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_services_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_services_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_services_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_services_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_services_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_transportation_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_transportation_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_transportation_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_transportation_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_transportation_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_transportation_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_transportation_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_electricity_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_electricity_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_electricity_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_electricity_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_electricity_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_electricity_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_electricity_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_clippers_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_clippers_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_clippers_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_clippers_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_clippers_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_clippers_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_clippers_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_steamers_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_steamers_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_steamers_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_steamers_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_steamers_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_steamers_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_steamers_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_silk_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_silk_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_silk_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_silk_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_silk_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_silk_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_silk_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_dye_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_dye_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_dye_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_dye_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_dye_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_dye_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_dye_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_sulfur_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_sulfur_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_sulfur_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_sulfur_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_sulfur_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_sulfur_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_sulfur_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_coal_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_coal_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_coal_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_coal_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_coal_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_coal_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_coal_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_iron_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_iron_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_iron_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_iron_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_iron_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_iron_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_iron_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_lead_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_lead_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_lead_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_lead_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_lead_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_lead_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_lead_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_hardwood_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_hardwood_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_hardwood_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_hardwood_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_hardwood_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_hardwood_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_hardwood_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_rubber_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_rubber_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_rubber_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_rubber_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_rubber_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_rubber_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_rubber_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_oil_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_oil_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_oil_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_oil_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_oil_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_oil_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_oil_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_engines_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_engines_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_engines_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_engines_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_engines_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_engines_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_engines_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_steel_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_steel_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_steel_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_steel_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_steel_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_steel_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_steel_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_glass_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_glass_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_glass_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_glass_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_glass_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_glass_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_glass_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_fertilizer_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_fertilizer_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fertilizer_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fertilizer_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_fertilizer_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_fertilizer_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_fertilizer_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_tools_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_tools_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tools_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tools_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_tools_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_tools_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_tools_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_explosives_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_explosives_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_explosives_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_explosives_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_explosives_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_explosives_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_explosives_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_porcelain_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_porcelain_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_porcelain_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_porcelain_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_porcelain_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_porcelain_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_porcelain_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_meat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_meat_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_meat_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_meat_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_meat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_meat_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_meat_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_fruit_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_fruit_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fruit_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fruit_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_fruit_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_fruit_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_fruit_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_liquor_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_liquor_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_liquor_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_liquor_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_liquor_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_liquor_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_liquor_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_wine_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_wine_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_wine_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_wine_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_wine_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_wine_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_wine_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_tea_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_tea_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tea_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tea_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_tea_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_tea_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_tea_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_coffee_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_coffee_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_coffee_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_coffee_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_coffee_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_coffee_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_coffee_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_sugar_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_sugar_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_sugar_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_sugar_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_sugar_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_sugar_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_sugar_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_tobacco_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_tobacco_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tobacco_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_tobacco_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_tobacco_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_tobacco_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_tobacco_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_opium_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_opium_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_opium_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_opium_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_opium_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_opium_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_opium_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_automobiles_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_automobiles_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_automobiles_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_automobiles_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_automobiles_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_automobiles_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_automobiles_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_telephones_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_telephones_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_telephones_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_telephones_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_telephones_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_telephones_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_telephones_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_radios_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_radios_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_radios_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_radios_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_radios_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_radios_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_radios_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_luxury_clothes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_luxury_clothes_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_luxury_clothes_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_luxury_clothes_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_luxury_clothes_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_luxury_clothes_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_luxury_clothes_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_luxury_furniture_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_luxury_furniture_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_luxury_furniture_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_luxury_furniture_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_luxury_furniture_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_luxury_furniture_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_luxury_furniture_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_gold_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_gold_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_gold_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_gold_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_gold_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_gold_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_gold_modifier
+	}
+}
+
+BuildingOutput_Add_building_output_fine_art_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		NOT = { has_modifier = DecisionCheat_building_output_fine_art_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fine_art_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_output_fine_art_modifier
+			}
+		}
+	}
+}
+BuildingOutput_Remove_building_output_fine_art_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingOutput_variable
+		has_modifier = DecisionCheat_building_output_fine_art_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_output_fine_art_modifier
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open_BuildingThroughput_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		NOT = { has_variable = BuildingThroughput_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = BuildingThroughput_variable
+	}
+}
+Close_BuildingThroughput_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = BuildingThroughput_variable
+	}
+}
+
+BuildingThroughput_Add_building_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_throughput_modifier
+	}
+}
+
+
+
+
+
+BuildingThroughput_Add_building_food_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_food_industry_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_food_industry_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_food_industry_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_food_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_food_industry_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_food_industry_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_textile_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_textile_mills_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_textile_mills_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_textile_mills_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_textile_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_textile_mills_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_textile_mills_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_furniture_manufacturies_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_furniture_manufacturies_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_furniture_manufacturies_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_furniture_manufacturies_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_furniture_manufacturies_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_furniture_manufacturies_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_furniture_manufacturies_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_glassworks_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_glassworks_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_glassworks_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_glassworks_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_glassworks_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_glassworks_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_glassworks_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_tooling_workshops_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_tooling_workshops_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tooling_workshops_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tooling_workshops_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_tooling_workshops_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_tooling_workshops_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_tooling_workshops_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_paper_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_paper_mills_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_paper_mills_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_paper_mills_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_paper_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_paper_mills_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_paper_mills_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_chemical_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_chemical_plants_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_chemical_plants_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_chemical_plants_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_chemical_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_chemical_plants_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_chemical_plants_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_synthetics_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_synthetics_plants_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_synthetics_plants_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_synthetics_plants_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_synthetics_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_synthetics_plants_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_synthetics_plants_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_steel_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_steel_mills_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_steel_mills_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_steel_mills_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_steel_mills_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_steel_mills_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_steel_mills_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_motor_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_motor_industry_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_motor_industry_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_motor_industry_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_motor_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_motor_industry_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_motor_industry_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_shipyards_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_shipyards_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_shipyards_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_shipyards_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_shipyards_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_shipyards_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_shipyards_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_war_machine_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_war_machine_industry_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_war_machine_industry_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_war_machine_industry_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_war_machine_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_war_machine_industry_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_war_machine_industry_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_electrics_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_electrics_industry_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_electrics_industry_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_electrics_industry_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_electrics_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_electrics_industry_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_electrics_industry_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_arms_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_arms_industry_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_arms_industry_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_arms_industry_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_arms_industry_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_arms_industry_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_arms_industry_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_munition_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_munition_plants_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_munition_plants_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_munition_plants_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_munition_plants_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_munition_plants_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_munition_plants_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_rye_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_rye_farm_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rye_farm_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rye_farm_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_rye_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_rye_farm_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_rye_farm_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_wheat_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_wheat_farm_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_wheat_farm_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_wheat_farm_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_wheat_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_wheat_farm_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_wheat_farm_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_rice_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_rice_farm_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rice_farm_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rice_farm_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_rice_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_rice_farm_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_rice_farm_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_maize_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_maize_farm_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_maize_farm_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_maize_farm_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_maize_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_maize_farm_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_maize_farm_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_millet_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_millet_farm_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_millet_farm_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_millet_farm_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_millet_farm_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_millet_farm_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_millet_farm_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_livestock_ranch_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_livestock_ranch_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_livestock_ranch_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_livestock_ranch_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_livestock_ranch_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_livestock_ranch_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_livestock_ranch_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_coal_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_coal_mine_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_coal_mine_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_coal_mine_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_coal_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_coal_mine_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_coal_mine_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_iron_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_iron_mine_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_iron_mine_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_iron_mine_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_iron_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_iron_mine_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_iron_mine_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_lead_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_lead_mine_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_lead_mine_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_lead_mine_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_lead_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_lead_mine_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_lead_mine_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_sulfur_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_sulfur_mine_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_sulfur_mine_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_sulfur_mine_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_sulfur_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_sulfur_mine_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_sulfur_mine_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_gold_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_gold_mine_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_gold_mine_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_gold_mine_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_gold_mine_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_gold_mine_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_gold_mine_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_gold_fields_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_gold_fields_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_gold_fields_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_gold_fields_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_gold_fields_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_gold_fields_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_gold_fields_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_coffee_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_coffee_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_coffee_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_coffee_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_coffee_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_coffee_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_coffee_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_cotton_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_cotton_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_cotton_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_cotton_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_cotton_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_cotton_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_cotton_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_dye_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_dye_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_dye_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_dye_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_dye_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_dye_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_dye_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_opium_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_opium_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_opium_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_opium_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_opium_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_opium_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_opium_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_tea_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_tea_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tea_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tea_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_tea_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_tea_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_tea_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_tobacco_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_tobacco_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tobacco_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_tobacco_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_tobacco_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_tobacco_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_tobacco_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_sugar_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_sugar_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_sugar_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_sugar_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_sugar_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_sugar_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_sugar_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_banana_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_banana_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_banana_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_banana_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_banana_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_banana_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_banana_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_silk_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_silk_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_silk_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_silk_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_silk_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_silk_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_silk_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_barracks_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_barracks_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_barracks_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_barracks_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_barracks_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_barracks_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_barracks_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_conscription_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_conscription_center_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_conscription_center_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_conscription_center_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_conscription_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_conscription_center_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_conscription_center_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_naval_base_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_naval_base_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_naval_base_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_naval_base_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_naval_base_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_naval_base_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_naval_base_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_urban_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_urban_center_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_urban_center_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_urban_center_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_urban_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_urban_center_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_urban_center_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_arts_academy_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_arts_academy_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_arts_academy_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_arts_academy_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_arts_academy_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_arts_academy_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_arts_academy_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_power_plant_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_power_plant_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_power_plant_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_power_plant_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_power_plant_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_power_plant_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_power_plant_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_port_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_port_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_port_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_port_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_port_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_port_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_port_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_government_administration_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_government_administration_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_government_administration_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_government_administration_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_government_administration_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_government_administration_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_government_administration_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_university_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_university_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_university_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_university_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_university_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_university_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_university_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_skyscraper_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_skyscraper_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_skyscraper_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_skyscraper_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_skyscraper_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_skyscraper_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_skyscraper_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_eiffel_tower_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_eiffel_tower_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_eiffel_tower_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_eiffel_tower_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_eiffel_tower_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_eiffel_tower_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_eiffel_tower_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_angkor_wat_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_angkor_wat_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_angkor_wat_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_angkor_wat_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_angkor_wat_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_angkor_wat_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_angkor_wat_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_big_ben_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_big_ben_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_big_ben_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_big_ben_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_big_ben_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_big_ben_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_big_ben_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_forbidden_city_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_forbidden_city_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_forbidden_city_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_forbidden_city_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_forbidden_city_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_forbidden_city_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_forbidden_city_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_hagia_sophia_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_hagia_sophia_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_hagia_sophia_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_hagia_sophia_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_hagia_sophia_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_hagia_sophia_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_hagia_sophia_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_mosque_of_djenne_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_mosque_of_djenne_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_mosque_of_djenne_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_mosque_of_djenne_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_mosque_of_djenne_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_mosque_of_djenne_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_mosque_of_djenne_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_saint_basils_cathedral_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_saint_basils_cathedral_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_saint_basils_cathedral_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_saint_basils_cathedral_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_saint_basils_cathedral_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_saint_basils_cathedral_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_saint_basils_cathedral_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_statue_of_liberty_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_statue_of_liberty_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_statue_of_liberty_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_statue_of_liberty_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_statue_of_liberty_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_statue_of_liberty_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_statue_of_liberty_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_taj_mahal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_taj_mahal_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_taj_mahal_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_taj_mahal_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_taj_mahal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_taj_mahal_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_taj_mahal_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_vatican_city_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_vatican_city_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_vatican_city_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_vatican_city_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_vatican_city_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_vatican_city_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_vatican_city_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_white_house_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_white_house_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_white_house_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_white_house_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_white_house_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_white_house_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_white_house_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_logging_camp_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_logging_camp_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_logging_camp_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_logging_camp_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_logging_camp_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_logging_camp_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_logging_camp_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_rubber_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_rubber_plantation_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rubber_plantation_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_rubber_plantation_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_rubber_plantation_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_rubber_plantation_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_rubber_plantation_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_fishing_wharf_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_fishing_wharf_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_fishing_wharf_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_fishing_wharf_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_fishing_wharf_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_fishing_wharf_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_fishing_wharf_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_whaling_station_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_whaling_station_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_whaling_station_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_whaling_station_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_whaling_station_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_whaling_station_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_whaling_station_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_oil_rig_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_oil_rig_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_oil_rig_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_oil_rig_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_oil_rig_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_oil_rig_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_oil_rig_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_suez_canal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_suez_canal_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_suez_canal_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_suez_canal_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_suez_canal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_suez_canal_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_suez_canal_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_panama_canal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_panama_canal_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_panama_canal_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_panama_canal_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_panama_canal_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_panama_canal_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_panama_canal_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_railway_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_railway_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_railway_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_railway_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_railway_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_railway_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_railway_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_trade_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_trade_center_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_trade_center_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_trade_center_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_trade_center_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_trade_center_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_trade_center_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_subsistence_farms_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_subsistence_farms_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_farms_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_farms_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_subsistence_farms_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_subsistence_farms_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_subsistence_farms_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_subsistence_orchards_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_subsistence_orchards_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_orchards_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_orchards_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_subsistence_orchards_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_subsistence_orchards_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_subsistence_orchards_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_subsistence_pastures_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_subsistence_pastures_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_pastures_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_subsistence_pastures_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_subsistence_pastures_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_subsistence_pastures_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_subsistence_pastures_throughput_modifier
+	}
+}
+
+
+BuildingThroughput_Add_building_construction_sector_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		NOT = { has_modifier = DecisionCheat_building_construction_sector_throughput_modifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		if = {
+			limit = { has_global_variable = DC_building_var }
+			add_enactment_modifier = {
+				name = DecisionCheat_building_construction_sector_throughput_modifier
+				multiplier = global_var:DC_building_var
+			}
+		}
+		else = {
+			add_enactment_modifier = {
+				name = DecisionCheat_building_construction_sector_throughput_modifier
+			}
+		}
+	}
+}
+BuildingThroughput_Remove_building_construction_sector_throughput_mult_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = BuildingThroughput_variable
+		has_modifier = DecisionCheat_building_construction_sector_throughput_modifier
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_enactment_modifier = DecisionCheat_building_construction_sector_throughput_modifier
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

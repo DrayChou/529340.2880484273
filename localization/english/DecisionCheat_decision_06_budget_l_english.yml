@@ -1,0 +1,54 @@
+﻿l_english:
+ Open_BudgetCheat_Decision:"Open [concept_taxes] Cheat Decision"
+ Open_BudgetCheat_Decision_desc:""
+ Close_BudgetCheat_Decision:"Close [concept_taxes] Cheat Decision"
+ Close_BudgetCheat_Decision_desc:""
+
+ BudgetCheat_Increase_TaxConsumption_Modifier_Decision:"#P Increase #![concept_budget_consumption_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_consumption_add')|%] "
+ BudgetCheat_Increase_TaxConsumption_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxConsumption_Modifier_Decision:"#N Decrease #![concept_budget_consumption_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_consumption_add')|%]"
+ BudgetCheat_Decrease_TaxConsumption_Modifier_Decision_desc:""
+
+ BudgetCheat_Increase_TaxLand_Modifier_Decision:"#P Increase #![concept_budget_land_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_land_add')|%]@money"
+ BudgetCheat_Increase_TaxLand_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxLand_Modifier_Decision:"#N Decrease #![concept_budget_land_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_land_add')|%]@money"
+ BudgetCheat_Decrease_TaxLand_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxIncome_Modifier_Decision:"#P Increase #![concept_budget_income_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_income_add')|%]"
+ BudgetCheat_Increase_TaxIncome_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxIncome_Modifier_Decision:"#N Decrease #![concept_budget_income_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_income_add')|%]"
+ BudgetCheat_Decrease_TaxIncome_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxPerCapita_Modifier_Decision:"#P Increase #![concept_budget_per_capita_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_per_capita_add')|%]@money"
+ BudgetCheat_Increase_TaxPerCapita_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxPerCapita_Modifier_Decision:"#N Decrease #![concept_budget_per_capita_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_per_capita_add')|%]@money"
+ BudgetCheat_Decrease_TaxPerCapita_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxDividends_Modifier_Decision:"#P Increase #![concept_budget_dividends_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_dividends_add')|%]"
+ BudgetCheat_Increase_TaxDividends_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxDividends_Modifier_Decision:"#N Decrease #![concept_budget_dividends_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_dividends_add')|%]"
+ BudgetCheat_Decrease_TaxDividends_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_Tariff_Import_Modifier_Decision:"#P Increase #![concept_tariffs] on Import: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_import_add')|%]"
+ BudgetCheat_Increase_Tariff_Import_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_Tariff_Import_Modifier_Decision:"#N Decrease #![concept_tariffs] on Import: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_import_add')|%]"
+ BudgetCheat_Decrease_Tariff_Import_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_Tariff_Export_Modifier_Decision:"#P Increase #![concept_tariffs] on Export: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_export_add')|%]"
+ BudgetCheat_Increase_Tariff_Export_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_Tariff_Export_Modifier_Decision:"#N Decrease #![concept_tariffs] on Export: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_export_add')|%]"
+ BudgetCheat_Decrease_Tariff_Export_Modifier_Decision_desc:""
+
+ BudgetCheat_Increase_WelfarePayments_Modifier_Decision:"#P Increase #![concept_welfare_payments]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('state_welfare_payments_add')|%]"
+ BudgetCheat_Increase_WelfarePayments_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_WelfarePayments_Modifier_Decision:"#N Decrease #![concept_welfare_payments]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('state_welfare_payments_add')|%]"
+ BudgetCheat_Decrease_WelfarePayments_Modifier_Decision_desc:""
+
+ DecisionCheat_Budget_TaxConsumption_Modifier:"TaxConsumption Modifier"
+ DecisionCheat_Budget_TaxLand_Modifier:"TaxLand Modifier"
+ DecisionCheat_Budget_TaxIncome_Modifier:"TaxIncome Modifier"
+ DecisionCheat_Budget_TaxPerCapita_Modifier:"TaxPerCapita Modifier"
+ DecisionCheat_Budget_TaxDividends_Modifier:"TaxDividends Modifier"
+ DecisionCheat_Budget_Tariff_Import_Modifier:"Tariff Import Modifier"
+ DecisionCheat_Budget_Tariff_Export_Modifier:"Tariff Export Modifier"
+ DecisionCheat_Budget_WelfarePayments_Modifier:"WelfarePayments Modifier"

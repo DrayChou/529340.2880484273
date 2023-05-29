@@ -1,0 +1,7666 @@
+﻿#
+DC_select_culture_no_arguments_effect = {
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_german }
+		}
+		$effect$ = {
+			culture = north_german
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_german }
+		}
+		$effect$ = {
+			culture = south_german
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ashkenazi }
+		}
+		$effect$ = {
+			culture = ashkenazi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dutch }
+		}
+		$effect$ = {
+			culture = dutch
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_flemish }
+		}
+		$effect$ = {
+			culture = flemish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wallonian }
+		}
+		$effect$ = {
+			culture = wallonian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_boer }
+		}
+		$effect$ = {
+			culture = boer
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swiss }
+		}
+		$effect$ = {
+			culture = swiss
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swedish }
+		}
+		$effect$ = {
+			culture = swedish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_danish }
+		}
+		$effect$ = {
+			culture = danish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_norwegian }
+		}
+		$effect$ = {
+			culture = norwegian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_icelandic }
+		}
+		$effect$ = {
+			culture = icelandic
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_finnish }
+		}
+		$effect$ = {
+			culture = finnish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sami }
+		}
+		$effect$ = {
+			culture = sami
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_british }
+		}
+		$effect$ = {
+			culture = british
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_irish }
+		}
+		$effect$ = {
+			culture = irish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_australian }
+		}
+		$effect$ = {
+			culture = australian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_italian }
+		}
+		$effect$ = {
+			culture = north_italian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_italian }
+		}
+		$effect$ = {
+			culture = south_italian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maltese }
+		}
+		$effect$ = {
+			culture = maltese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_basque }
+		}
+		$effect$ = {
+			culture = basque
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_spanish }
+		}
+		$effect$ = {
+			culture = spanish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_catalan }
+		}
+		$effect$ = {
+			culture = catalan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_portuguese }
+		}
+		$effect$ = {
+			culture = portuguese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_french }
+		}
+		$effect$ = {
+			culture = french
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_occitan }
+		}
+		$effect$ = {
+			culture = occitan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_breton }
+		}
+		$effect$ = {
+			culture = breton
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_croat }
+		}
+		$effect$ = {
+			culture = croat
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_serb }
+		}
+		$effect$ = {
+			culture = serb
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bulgarian }
+		}
+		$effect$ = {
+			culture = bulgarian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_albanian }
+		}
+		$effect$ = {
+			culture = albanian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovene }
+		}
+		$effect$ = {
+			culture = slovene
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bosniak }
+		}
+		$effect$ = {
+			culture = bosniak
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_romanian }
+		}
+		$effect$ = {
+			culture = romanian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hungarian }
+		}
+		$effect$ = {
+			culture = hungarian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polish }
+		}
+		$effect$ = {
+			culture = polish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lithuanian }
+		}
+		$effect$ = {
+			culture = lithuanian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_czech }
+		}
+		$effect$ = {
+			culture = czech
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovak }
+		}
+		$effect$ = {
+			culture = slovak
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_russian }
+		}
+		$effect$ = {
+			culture = russian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_byelorussian }
+		}
+		$effect$ = {
+			culture = byelorussian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ukrainian }
+		}
+		$effect$ = {
+			culture = ukrainian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ugrian }
+		}
+		$effect$ = {
+			culture = ugrian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_latvian }
+		}
+		$effect$ = {
+			culture = latvian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_estonian }
+		}
+		$effect$ = {
+			culture = estonian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_greek }
+		}
+		$effect$ = {
+			culture = greek
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_georgian }
+		}
+		$effect$ = {
+			culture = georgian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_armenian }
+		}
+		$effect$ = {
+			culture = armenian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sephardic }
+		}
+		$effect$ = {
+			culture = sephardic
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkish }
+		}
+		$effect$ = {
+			culture = turkish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azerbaijani }
+		}
+		$effect$ = {
+			culture = azerbaijani
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_caucasian }
+		}
+		$effect$ = {
+			culture = north_caucasian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maghrebi }
+		}
+		$effect$ = {
+			culture = maghrebi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_misri }
+		}
+		$effect$ = {
+			culture = misri
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mashriqi }
+		}
+		$effect$ = {
+			culture = mashriqi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bedouin }
+		}
+		$effect$ = {
+			culture = bedouin
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_berber }
+		}
+		$effect$ = {
+			culture = berber
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_persian }
+		}
+		$effect$ = {
+			culture = persian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uzbek }
+		}
+		$effect$ = {
+			culture = uzbek
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kazak }
+		}
+		$effect$ = {
+			culture = kazak
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kirgiz }
+		}
+		$effect$ = {
+			culture = kirgiz
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tajik }
+		}
+		$effect$ = {
+			culture = tajik
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uighur }
+		}
+		$effect$ = {
+			culture = uighur
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pashtun }
+		}
+		$effect$ = {
+			culture = pashtun
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baluchi }
+		}
+		$effect$ = {
+			culture = baluchi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hazara }
+		}
+		$effect$ = {
+			culture = hazara
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkmen }
+		}
+		$effect$ = {
+			culture = turkmen
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kurdish }
+		}
+		$effect$ = {
+			culture = kurdish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tatar }
+		}
+		$effect$ = {
+			culture = tatar
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongol }
+		}
+		$effect$ = {
+			culture = mongol
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kalmyk }
+		}
+		$effect$ = {
+			culture = kalmyk
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siberian }
+		}
+		$effect$ = {
+			culture = siberian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yakut }
+		}
+		$effect$ = {
+			culture = yakut
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tibetan }
+		}
+		$effect$ = {
+			culture = tibetan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assamese }
+		}
+		$effect$ = {
+			culture = assamese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bengali }
+		}
+		$effect$ = {
+			culture = bengali
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bihari }
+		}
+		$effect$ = {
+			culture = bihari
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manipuri }
+		}
+		$effect$ = {
+			culture = manipuri
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nepali }
+		}
+		$effect$ = {
+			culture = nepali
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oriya }
+		}
+		$effect$ = {
+			culture = oriya
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sinhala }
+		}
+		$effect$ = {
+			culture = sinhala
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_avadhi }
+		}
+		$effect$ = {
+			culture = avadhi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanauji }
+		}
+		$effect$ = {
+			culture = kanauji
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_panjabi }
+		}
+		$effect$ = {
+			culture = panjabi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kashmiri }
+		}
+		$effect$ = {
+			culture = kashmiri
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_gujarati }
+		}
+		$effect$ = {
+			culture = gujarati
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_marathi }
+		}
+		$effect$ = {
+			culture = marathi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sindi }
+		}
+		$effect$ = {
+			culture = sindi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rajput }
+		}
+		$effect$ = {
+			culture = rajput
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kannada }
+		}
+		$effect$ = {
+			culture = kannada
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malayalam }
+		}
+		$effect$ = {
+			culture = malayalam
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tamil }
+		}
+		$effect$ = {
+			culture = tamil
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_telegu }
+		}
+		$effect$ = {
+			culture = telegu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_vietnamese }
+		}
+		$effect$ = {
+			culture = vietnamese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmer }
+		}
+		$effect$ = {
+			culture = khmer
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_batak }
+		}
+		$effect$ = {
+			culture = batak
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dayak }
+		}
+		$effect$ = {
+			culture = dayak
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malagasy }
+		}
+		$effect$ = {
+			culture = malagasy
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_filipino }
+		}
+		$effect$ = {
+			culture = filipino
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moro }
+		}
+		$effect$ = {
+			culture = moro
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_javan }
+		}
+		$effect$ = {
+			culture = javan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moluccan }
+		}
+		$effect$ = {
+			culture = moluccan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_thai }
+		}
+		$effect$ = {
+			culture = thai
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mon }
+		}
+		$effect$ = {
+			culture = mon
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmu }
+		}
+		$effect$ = {
+			culture = khmu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lao }
+		}
+		$effect$ = {
+			culture = lao
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shan }
+		}
+		$effect$ = {
+			culture = shan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_burmese }
+		}
+		$effect$ = {
+			culture = burmese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kachin }
+		}
+		$effect$ = {
+			culture = kachin
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_karen }
+		}
+		$effect$ = {
+			culture = karen
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_japanese }
+		}
+		$effect$ = {
+			culture = japanese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manchu }
+		}
+		$effect$ = {
+			culture = manchu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_han }
+		}
+		$effect$ = {
+			culture = han
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_korean }
+		}
+		$effect$ = {
+			culture = korean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ainu }
+		}
+		$effect$ = {
+			culture = ainu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hakka }
+		}
+		$effect$ = {
+			culture = hakka
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miao }
+		}
+		$effect$ = {
+			culture = miao
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_min }
+		}
+		$effect$ = {
+			culture = min
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zhuang }
+		}
+		$effect$ = {
+			culture = zhuang
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yi }
+		}
+		$effect$ = {
+			culture = yi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yue }
+		}
+		$effect$ = {
+			culture = yue
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polynesian }
+		}
+		$effect$ = {
+			culture = polynesian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hawaiian }
+		}
+		$effect$ = {
+			culture = hawaiian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_melanesian }
+		}
+		$effect$ = {
+			culture = melanesian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_micronesian }
+		}
+		$effect$ = {
+			culture = micronesian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maori }
+		}
+		$effect$ = {
+			culture = maori
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aborigine }
+		}
+		$effect$ = {
+			culture = aborigine
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zapotec }
+		}
+		$effect$ = {
+			culture = zapotec
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mayan }
+		}
+		$effect$ = {
+			culture = mayan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nahua }
+		}
+		$effect$ = {
+			culture = nahua
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tarascan }
+		}
+		$effect$ = {
+			culture = tarascan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_quechua }
+		}
+		$effect$ = {
+			culture = quechua
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guarani }
+		}
+		$effect$ = {
+			culture = guarani
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aimara }
+		}
+		$effect$ = {
+			culture = aimara
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amazonian }
+		}
+		$effect$ = {
+			culture = amazonian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_patagonian }
+		}
+		$effect$ = {
+			culture = patagonian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guajiro }
+		}
+		$effect$ = {
+			culture = guajiro
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tupinamba }
+		}
+		$effect$ = {
+			culture = tupinamba
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_metis }
+		}
+		$effect$ = {
+			culture = metis
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dakota }
+		}
+		$effect$ = {
+			culture = dakota
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cherokee }
+		}
+		$effect$ = {
+			culture = cherokee
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muskogean }
+		}
+		$effect$ = {
+			culture = muskogean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pueblo }
+		}
+		$effect$ = {
+			culture = pueblo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_inuit }
+		}
+		$effect$ = {
+			culture = inuit
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cree }
+		}
+		$effect$ = {
+			culture = cree
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_navajo }
+		}
+		$effect$ = {
+			culture = navajo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_athabaskan }
+		}
+		$effect$ = {
+			culture = athabaskan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_salish }
+		}
+		$effect$ = {
+			culture = salish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nez_perce }
+		}
+		$effect$ = {
+			culture = nez_perce
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siouan }
+		}
+		$effect$ = {
+			culture = siouan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_comanche }
+		}
+		$effect$ = {
+			culture = comanche
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_algonquian }
+		}
+		$effect$ = {
+			culture = algonquian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_iroquoian }
+		}
+		$effect$ = {
+			culture = iroquoian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caddoan }
+		}
+		$effect$ = {
+			culture = caddoan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_paiute }
+		}
+		$effect$ = {
+			culture = paiute
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hokan }
+		}
+		$effect$ = {
+			culture = hokan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_apache }
+		}
+		$effect$ = {
+			culture = apache
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oodham }
+		}
+		$effect$ = {
+			culture = oodham
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mixtec }
+		}
+		$effect$ = {
+			culture = mixtec
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muisca }
+		}
+		$effect$ = {
+			culture = muisca
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miskito }
+		}
+		$effect$ = {
+			culture = miskito
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cariban }
+		}
+		$effect$ = {
+			culture = cariban
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yankee }
+		}
+		$effect$ = {
+			culture = yankee
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dixie }
+		}
+		$effect$ = {
+			culture = dixie
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mexican }
+		}
+		$effect$ = {
+			culture = mexican
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_central_american }
+		}
+		$effect$ = {
+			culture = central_american
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caribeno }
+		}
+		$effect$ = {
+			culture = caribeno
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_andean }
+		}
+		$effect$ = {
+			culture = north_andean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_andean }
+		}
+		$effect$ = {
+			culture = south_andean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_platinean }
+		}
+		$effect$ = {
+			culture = platinean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_brazilian }
+		}
+		$effect$ = {
+			culture = brazilian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_american }
+		}
+		$effect$ = {
+			culture = afro_american
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribbean }
+		}
+		$effect$ = {
+			culture = afro_caribbean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribeno }
+		}
+		$effect$ = {
+			culture = afro_caribeno
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_brazilian }
+		}
+		$effect$ = {
+			culture = afro_brazilian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_antillean }
+		}
+		$effect$ = {
+			culture = afro_antillean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_akan }
+		}
+		$effect$ = {
+			culture = akan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bambara }
+		}
+		$effect$ = {
+			culture = bambara
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bassa }
+		}
+		$effect$ = {
+			culture = bassa
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dyula }
+		}
+		$effect$ = {
+			culture = dyula
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_edo }
+		}
+		$effect$ = {
+			culture = edo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ewe }
+		}
+		$effect$ = {
+			culture = ewe
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fon }
+		}
+		$effect$ = {
+			culture = fon
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fulbe }
+		}
+		$effect$ = {
+			culture = fulbe
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_haratin }
+		}
+		$effect$ = {
+			culture = haratin
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hausa }
+		}
+		$effect$ = {
+			culture = hausa
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibibio }
+		}
+		$effect$ = {
+			culture = ibibio
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibo }
+		}
+		$effect$ = {
+			culture = ibo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kissi }
+		}
+		$effect$ = {
+			culture = kissi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kru }
+		}
+		$effect$ = {
+			culture = kru
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mande }
+		}
+		$effect$ = {
+			culture = mande
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maures }
+		}
+		$effect$ = {
+			culture = maures
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mossi }
+		}
+		$effect$ = {
+			culture = mossi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_senufo }
+		}
+		$effect$ = {
+			culture = senufo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_songhai }
+		}
+		$effect$ = {
+			culture = songhai
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tiv }
+		}
+		$effect$ = {
+			culture = tiv
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuareg }
+		}
+		$effect$ = {
+			culture = tuareg
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wolof }
+		}
+		$effect$ = {
+			culture = wolof
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yoruba }
+		}
+		$effect$ = {
+			culture = yoruba
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bakongo }
+		}
+		$effect$ = {
+			culture = bakongo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baguirmi }
+		}
+		$effect$ = {
+			culture = baguirmi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fang }
+		}
+		$effect$ = {
+			culture = fang
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanuri }
+		}
+		$effect$ = {
+			culture = kanuri
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luba }
+		}
+		$effect$ = {
+			culture = luba
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lunda }
+		}
+		$effect$ = {
+			culture = lunda
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongo }
+		}
+		$effect$ = {
+			culture = mongo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sara }
+		}
+		$effect$ = {
+			culture = sara
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_teda }
+		}
+		$effect$ = {
+			culture = teda
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_equatorial_bantu }
+		}
+		$effect$ = {
+			culture = equatorial_bantu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fluvian_bantu }
+		}
+		$effect$ = {
+			culture = fluvian_bantu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nilotic }
+		}
+		$effect$ = {
+			culture = nilotic
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amhara }
+		}
+		$effect$ = {
+			culture = amhara
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afar }
+		}
+		$effect$ = {
+			culture = afar
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azande }
+		}
+		$effect$ = {
+			culture = azande
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baganda }
+		}
+		$effect$ = {
+			culture = baganda
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_beja }
+		}
+		$effect$ = {
+			culture = beja
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dinka }
+		}
+		$effect$ = {
+			culture = dinka
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fur }
+		}
+		$effect$ = {
+			culture = fur
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kikuyu }
+		}
+		$effect$ = {
+			culture = kikuyu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luo }
+		}
+		$effect$ = {
+			culture = luo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maasai }
+		}
+		$effect$ = {
+			culture = maasai
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuer }
+		}
+		$effect$ = {
+			culture = nuer
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuba }
+		}
+		$effect$ = {
+			culture = nuba
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oromo }
+		}
+		$effect$ = {
+			culture = oromo
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ruanda }
+		}
+		$effect$ = {
+			culture = ruanda
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rundi }
+		}
+		$effect$ = {
+			culture = rundi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sidama }
+		}
+		$effect$ = {
+			culture = sidama
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_somali }
+		}
+		$effect$ = {
+			culture = somali
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sudanese }
+		}
+		$effect$ = {
+			culture = sudanese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sukuma }
+		}
+		$effect$ = {
+			culture = sukuma
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swahili }
+		}
+		$effect$ = {
+			culture = swahili
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tigray }
+		}
+		$effect$ = {
+			culture = tigray
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_unyamwezi }
+		}
+		$effect$ = {
+			culture = unyamwezi
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lacustrine_bantu }
+		}
+		$effect$ = {
+			culture = lacustrine_bantu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_chewa }
+		}
+		$effect$ = {
+			culture = chewa
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_herero }
+		}
+		$effect$ = {
+			culture = herero
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khoisan }
+		}
+		$effect$ = {
+			culture = khoisan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lomwe }
+		}
+		$effect$ = {
+			culture = lomwe
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_makua }
+		}
+		$effect$ = {
+			culture = makua
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nguni }
+		}
+		$effect$ = {
+			culture = nguni
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ovimbundu }
+		}
+		$effect$ = {
+			culture = ovimbundu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sena }
+		}
+		$effect$ = {
+			culture = sena
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shona }
+		}
+		$effect$ = {
+			culture = shona
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sotho }
+		}
+		$effect$ = {
+			culture = sotho
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tonga }
+		}
+		$effect$ = {
+			culture = tonga
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tswana }
+		}
+		$effect$ = {
+			culture = tswana
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_xhosa }
+		}
+		$effect$ = {
+			culture = xhosa
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yao }
+		}
+		$effect$ = {
+			culture = yao
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zulu }
+		}
+		$effect$ = {
+			culture = zulu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kavango_bantu }
+		}
+		$effect$ = {
+			culture = kavango_bantu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_anglo_canadian }
+		}
+		$effect$ = {
+			culture = anglo_canadian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_franco_canadian }
+		}
+		$effect$ = {
+			culture = franco_canadian
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sorb }
+		}
+		$effect$ = {
+			culture = sorb
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuvan }
+		}
+		$effect$ = {
+			culture = tuvan
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_corsican }
+		}
+		$effect$ = {
+			culture = corsican
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yemenite }
+		}
+		$effect$ = {
+			culture = yemenite
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_welsh }
+		}
+		$effect$ = {
+			culture = welsh
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_scottish }
+		}
+		$effect$ = {
+			culture = scottish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_galician }
+		}
+		$effect$ = {
+			culture = galician
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malay }
+		}
+		$effect$ = {
+			culture = malay
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bornean }
+		}
+		$effect$ = {
+			culture = bornean
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sumatran }
+		}
+		$effect$ = {
+			culture = sumatran
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_balinese }
+		}
+		$effect$ = {
+			culture = balinese
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cajun }
+		}
+		$effect$ = {
+			culture = cajun
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assyrian }
+		}
+		$effect$ = {
+			culture = assyrian
+		}
+	}
+	else = {
+		$effect$ = {
+			culture = han
+		}
+	}
+}
+
+DC_select_culture_one_arguments_effect = {
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_german }
+		}
+		$effect$ = {
+			culture = north_german
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_german }
+		}
+		$effect$ = {
+			culture = south_german
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ashkenazi }
+		}
+		$effect$ = {
+			culture = ashkenazi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dutch }
+		}
+		$effect$ = {
+			culture = dutch
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_flemish }
+		}
+		$effect$ = {
+			culture = flemish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wallonian }
+		}
+		$effect$ = {
+			culture = wallonian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_boer }
+		}
+		$effect$ = {
+			culture = boer
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swiss }
+		}
+		$effect$ = {
+			culture = swiss
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swedish }
+		}
+		$effect$ = {
+			culture = swedish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_danish }
+		}
+		$effect$ = {
+			culture = danish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_norwegian }
+		}
+		$effect$ = {
+			culture = norwegian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_icelandic }
+		}
+		$effect$ = {
+			culture = icelandic
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_finnish }
+		}
+		$effect$ = {
+			culture = finnish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sami }
+		}
+		$effect$ = {
+			culture = sami
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_british }
+		}
+		$effect$ = {
+			culture = british
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_irish }
+		}
+		$effect$ = {
+			culture = irish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_australian }
+		}
+		$effect$ = {
+			culture = australian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_italian }
+		}
+		$effect$ = {
+			culture = north_italian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_italian }
+		}
+		$effect$ = {
+			culture = south_italian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maltese }
+		}
+		$effect$ = {
+			culture = maltese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_basque }
+		}
+		$effect$ = {
+			culture = basque
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_spanish }
+		}
+		$effect$ = {
+			culture = spanish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_catalan }
+		}
+		$effect$ = {
+			culture = catalan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_portuguese }
+		}
+		$effect$ = {
+			culture = portuguese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_french }
+		}
+		$effect$ = {
+			culture = french
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_occitan }
+		}
+		$effect$ = {
+			culture = occitan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_breton }
+		}
+		$effect$ = {
+			culture = breton
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_croat }
+		}
+		$effect$ = {
+			culture = croat
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_serb }
+		}
+		$effect$ = {
+			culture = serb
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bulgarian }
+		}
+		$effect$ = {
+			culture = bulgarian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_albanian }
+		}
+		$effect$ = {
+			culture = albanian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovene }
+		}
+		$effect$ = {
+			culture = slovene
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bosniak }
+		}
+		$effect$ = {
+			culture = bosniak
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_romanian }
+		}
+		$effect$ = {
+			culture = romanian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hungarian }
+		}
+		$effect$ = {
+			culture = hungarian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polish }
+		}
+		$effect$ = {
+			culture = polish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lithuanian }
+		}
+		$effect$ = {
+			culture = lithuanian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_czech }
+		}
+		$effect$ = {
+			culture = czech
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovak }
+		}
+		$effect$ = {
+			culture = slovak
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_russian }
+		}
+		$effect$ = {
+			culture = russian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_byelorussian }
+		}
+		$effect$ = {
+			culture = byelorussian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ukrainian }
+		}
+		$effect$ = {
+			culture = ukrainian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ugrian }
+		}
+		$effect$ = {
+			culture = ugrian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_latvian }
+		}
+		$effect$ = {
+			culture = latvian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_estonian }
+		}
+		$effect$ = {
+			culture = estonian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_greek }
+		}
+		$effect$ = {
+			culture = greek
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_georgian }
+		}
+		$effect$ = {
+			culture = georgian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_armenian }
+		}
+		$effect$ = {
+			culture = armenian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sephardic }
+		}
+		$effect$ = {
+			culture = sephardic
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkish }
+		}
+		$effect$ = {
+			culture = turkish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azerbaijani }
+		}
+		$effect$ = {
+			culture = azerbaijani
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_caucasian }
+		}
+		$effect$ = {
+			culture = north_caucasian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maghrebi }
+		}
+		$effect$ = {
+			culture = maghrebi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_misri }
+		}
+		$effect$ = {
+			culture = misri
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mashriqi }
+		}
+		$effect$ = {
+			culture = mashriqi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bedouin }
+		}
+		$effect$ = {
+			culture = bedouin
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_berber }
+		}
+		$effect$ = {
+			culture = berber
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_persian }
+		}
+		$effect$ = {
+			culture = persian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uzbek }
+		}
+		$effect$ = {
+			culture = uzbek
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kazak }
+		}
+		$effect$ = {
+			culture = kazak
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kirgiz }
+		}
+		$effect$ = {
+			culture = kirgiz
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tajik }
+		}
+		$effect$ = {
+			culture = tajik
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uighur }
+		}
+		$effect$ = {
+			culture = uighur
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pashtun }
+		}
+		$effect$ = {
+			culture = pashtun
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baluchi }
+		}
+		$effect$ = {
+			culture = baluchi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hazara }
+		}
+		$effect$ = {
+			culture = hazara
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkmen }
+		}
+		$effect$ = {
+			culture = turkmen
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kurdish }
+		}
+		$effect$ = {
+			culture = kurdish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tatar }
+		}
+		$effect$ = {
+			culture = tatar
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongol }
+		}
+		$effect$ = {
+			culture = mongol
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kalmyk }
+		}
+		$effect$ = {
+			culture = kalmyk
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siberian }
+		}
+		$effect$ = {
+			culture = siberian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yakut }
+		}
+		$effect$ = {
+			culture = yakut
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tibetan }
+		}
+		$effect$ = {
+			culture = tibetan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assamese }
+		}
+		$effect$ = {
+			culture = assamese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bengali }
+		}
+		$effect$ = {
+			culture = bengali
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bihari }
+		}
+		$effect$ = {
+			culture = bihari
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manipuri }
+		}
+		$effect$ = {
+			culture = manipuri
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nepali }
+		}
+		$effect$ = {
+			culture = nepali
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oriya }
+		}
+		$effect$ = {
+			culture = oriya
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sinhala }
+		}
+		$effect$ = {
+			culture = sinhala
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_avadhi }
+		}
+		$effect$ = {
+			culture = avadhi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanauji }
+		}
+		$effect$ = {
+			culture = kanauji
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_panjabi }
+		}
+		$effect$ = {
+			culture = panjabi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kashmiri }
+		}
+		$effect$ = {
+			culture = kashmiri
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_gujarati }
+		}
+		$effect$ = {
+			culture = gujarati
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_marathi }
+		}
+		$effect$ = {
+			culture = marathi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sindi }
+		}
+		$effect$ = {
+			culture = sindi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rajput }
+		}
+		$effect$ = {
+			culture = rajput
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kannada }
+		}
+		$effect$ = {
+			culture = kannada
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malayalam }
+		}
+		$effect$ = {
+			culture = malayalam
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tamil }
+		}
+		$effect$ = {
+			culture = tamil
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_telegu }
+		}
+		$effect$ = {
+			culture = telegu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_vietnamese }
+		}
+		$effect$ = {
+			culture = vietnamese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmer }
+		}
+		$effect$ = {
+			culture = khmer
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_batak }
+		}
+		$effect$ = {
+			culture = batak
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dayak }
+		}
+		$effect$ = {
+			culture = dayak
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malagasy }
+		}
+		$effect$ = {
+			culture = malagasy
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_filipino }
+		}
+		$effect$ = {
+			culture = filipino
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moro }
+		}
+		$effect$ = {
+			culture = moro
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_javan }
+		}
+		$effect$ = {
+			culture = javan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moluccan }
+		}
+		$effect$ = {
+			culture = moluccan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_thai }
+		}
+		$effect$ = {
+			culture = thai
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mon }
+		}
+		$effect$ = {
+			culture = mon
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmu }
+		}
+		$effect$ = {
+			culture = khmu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lao }
+		}
+		$effect$ = {
+			culture = lao
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shan }
+		}
+		$effect$ = {
+			culture = shan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_burmese }
+		}
+		$effect$ = {
+			culture = burmese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kachin }
+		}
+		$effect$ = {
+			culture = kachin
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_karen }
+		}
+		$effect$ = {
+			culture = karen
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_japanese }
+		}
+		$effect$ = {
+			culture = japanese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manchu }
+		}
+		$effect$ = {
+			culture = manchu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_han }
+		}
+		$effect$ = {
+			culture = han
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_korean }
+		}
+		$effect$ = {
+			culture = korean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ainu }
+		}
+		$effect$ = {
+			culture = ainu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hakka }
+		}
+		$effect$ = {
+			culture = hakka
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miao }
+		}
+		$effect$ = {
+			culture = miao
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_min }
+		}
+		$effect$ = {
+			culture = min
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zhuang }
+		}
+		$effect$ = {
+			culture = zhuang
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yi }
+		}
+		$effect$ = {
+			culture = yi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yue }
+		}
+		$effect$ = {
+			culture = yue
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polynesian }
+		}
+		$effect$ = {
+			culture = polynesian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hawaiian }
+		}
+		$effect$ = {
+			culture = hawaiian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_melanesian }
+		}
+		$effect$ = {
+			culture = melanesian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_micronesian }
+		}
+		$effect$ = {
+			culture = micronesian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maori }
+		}
+		$effect$ = {
+			culture = maori
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aborigine }
+		}
+		$effect$ = {
+			culture = aborigine
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zapotec }
+		}
+		$effect$ = {
+			culture = zapotec
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mayan }
+		}
+		$effect$ = {
+			culture = mayan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nahua }
+		}
+		$effect$ = {
+			culture = nahua
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tarascan }
+		}
+		$effect$ = {
+			culture = tarascan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_quechua }
+		}
+		$effect$ = {
+			culture = quechua
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guarani }
+		}
+		$effect$ = {
+			culture = guarani
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aimara }
+		}
+		$effect$ = {
+			culture = aimara
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amazonian }
+		}
+		$effect$ = {
+			culture = amazonian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_patagonian }
+		}
+		$effect$ = {
+			culture = patagonian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guajiro }
+		}
+		$effect$ = {
+			culture = guajiro
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tupinamba }
+		}
+		$effect$ = {
+			culture = tupinamba
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_metis }
+		}
+		$effect$ = {
+			culture = metis
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dakota }
+		}
+		$effect$ = {
+			culture = dakota
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cherokee }
+		}
+		$effect$ = {
+			culture = cherokee
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muskogean }
+		}
+		$effect$ = {
+			culture = muskogean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pueblo }
+		}
+		$effect$ = {
+			culture = pueblo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_inuit }
+		}
+		$effect$ = {
+			culture = inuit
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cree }
+		}
+		$effect$ = {
+			culture = cree
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_navajo }
+		}
+		$effect$ = {
+			culture = navajo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_athabaskan }
+		}
+		$effect$ = {
+			culture = athabaskan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_salish }
+		}
+		$effect$ = {
+			culture = salish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nez_perce }
+		}
+		$effect$ = {
+			culture = nez_perce
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siouan }
+		}
+		$effect$ = {
+			culture = siouan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_comanche }
+		}
+		$effect$ = {
+			culture = comanche
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_algonquian }
+		}
+		$effect$ = {
+			culture = algonquian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_iroquoian }
+		}
+		$effect$ = {
+			culture = iroquoian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caddoan }
+		}
+		$effect$ = {
+			culture = caddoan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_paiute }
+		}
+		$effect$ = {
+			culture = paiute
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hokan }
+		}
+		$effect$ = {
+			culture = hokan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_apache }
+		}
+		$effect$ = {
+			culture = apache
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oodham }
+		}
+		$effect$ = {
+			culture = oodham
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mixtec }
+		}
+		$effect$ = {
+			culture = mixtec
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muisca }
+		}
+		$effect$ = {
+			culture = muisca
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miskito }
+		}
+		$effect$ = {
+			culture = miskito
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cariban }
+		}
+		$effect$ = {
+			culture = cariban
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yankee }
+		}
+		$effect$ = {
+			culture = yankee
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dixie }
+		}
+		$effect$ = {
+			culture = dixie
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mexican }
+		}
+		$effect$ = {
+			culture = mexican
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_central_american }
+		}
+		$effect$ = {
+			culture = central_american
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caribeno }
+		}
+		$effect$ = {
+			culture = caribeno
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_andean }
+		}
+		$effect$ = {
+			culture = north_andean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_andean }
+		}
+		$effect$ = {
+			culture = south_andean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_platinean }
+		}
+		$effect$ = {
+			culture = platinean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_brazilian }
+		}
+		$effect$ = {
+			culture = brazilian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_american }
+		}
+		$effect$ = {
+			culture = afro_american
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribbean }
+		}
+		$effect$ = {
+			culture = afro_caribbean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribeno }
+		}
+		$effect$ = {
+			culture = afro_caribeno
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_brazilian }
+		}
+		$effect$ = {
+			culture = afro_brazilian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_antillean }
+		}
+		$effect$ = {
+			culture = afro_antillean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_akan }
+		}
+		$effect$ = {
+			culture = akan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bambara }
+		}
+		$effect$ = {
+			culture = bambara
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bassa }
+		}
+		$effect$ = {
+			culture = bassa
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dyula }
+		}
+		$effect$ = {
+			culture = dyula
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_edo }
+		}
+		$effect$ = {
+			culture = edo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ewe }
+		}
+		$effect$ = {
+			culture = ewe
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fon }
+		}
+		$effect$ = {
+			culture = fon
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fulbe }
+		}
+		$effect$ = {
+			culture = fulbe
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_haratin }
+		}
+		$effect$ = {
+			culture = haratin
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hausa }
+		}
+		$effect$ = {
+			culture = hausa
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibibio }
+		}
+		$effect$ = {
+			culture = ibibio
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibo }
+		}
+		$effect$ = {
+			culture = ibo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kissi }
+		}
+		$effect$ = {
+			culture = kissi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kru }
+		}
+		$effect$ = {
+			culture = kru
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mande }
+		}
+		$effect$ = {
+			culture = mande
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maures }
+		}
+		$effect$ = {
+			culture = maures
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mossi }
+		}
+		$effect$ = {
+			culture = mossi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_senufo }
+		}
+		$effect$ = {
+			culture = senufo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_songhai }
+		}
+		$effect$ = {
+			culture = songhai
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tiv }
+		}
+		$effect$ = {
+			culture = tiv
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuareg }
+		}
+		$effect$ = {
+			culture = tuareg
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wolof }
+		}
+		$effect$ = {
+			culture = wolof
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yoruba }
+		}
+		$effect$ = {
+			culture = yoruba
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bakongo }
+		}
+		$effect$ = {
+			culture = bakongo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baguirmi }
+		}
+		$effect$ = {
+			culture = baguirmi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fang }
+		}
+		$effect$ = {
+			culture = fang
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanuri }
+		}
+		$effect$ = {
+			culture = kanuri
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luba }
+		}
+		$effect$ = {
+			culture = luba
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lunda }
+		}
+		$effect$ = {
+			culture = lunda
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongo }
+		}
+		$effect$ = {
+			culture = mongo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sara }
+		}
+		$effect$ = {
+			culture = sara
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_teda }
+		}
+		$effect$ = {
+			culture = teda
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_equatorial_bantu }
+		}
+		$effect$ = {
+			culture = equatorial_bantu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fluvian_bantu }
+		}
+		$effect$ = {
+			culture = fluvian_bantu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nilotic }
+		}
+		$effect$ = {
+			culture = nilotic
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amhara }
+		}
+		$effect$ = {
+			culture = amhara
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afar }
+		}
+		$effect$ = {
+			culture = afar
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azande }
+		}
+		$effect$ = {
+			culture = azande
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baganda }
+		}
+		$effect$ = {
+			culture = baganda
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_beja }
+		}
+		$effect$ = {
+			culture = beja
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dinka }
+		}
+		$effect$ = {
+			culture = dinka
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fur }
+		}
+		$effect$ = {
+			culture = fur
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kikuyu }
+		}
+		$effect$ = {
+			culture = kikuyu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luo }
+		}
+		$effect$ = {
+			culture = luo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maasai }
+		}
+		$effect$ = {
+			culture = maasai
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuer }
+		}
+		$effect$ = {
+			culture = nuer
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuba }
+		}
+		$effect$ = {
+			culture = nuba
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oromo }
+		}
+		$effect$ = {
+			culture = oromo
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ruanda }
+		}
+		$effect$ = {
+			culture = ruanda
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rundi }
+		}
+		$effect$ = {
+			culture = rundi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sidama }
+		}
+		$effect$ = {
+			culture = sidama
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_somali }
+		}
+		$effect$ = {
+			culture = somali
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sudanese }
+		}
+		$effect$ = {
+			culture = sudanese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sukuma }
+		}
+		$effect$ = {
+			culture = sukuma
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swahili }
+		}
+		$effect$ = {
+			culture = swahili
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tigray }
+		}
+		$effect$ = {
+			culture = tigray
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_unyamwezi }
+		}
+		$effect$ = {
+			culture = unyamwezi
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lacustrine_bantu }
+		}
+		$effect$ = {
+			culture = lacustrine_bantu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_chewa }
+		}
+		$effect$ = {
+			culture = chewa
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_herero }
+		}
+		$effect$ = {
+			culture = herero
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khoisan }
+		}
+		$effect$ = {
+			culture = khoisan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lomwe }
+		}
+		$effect$ = {
+			culture = lomwe
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_makua }
+		}
+		$effect$ = {
+			culture = makua
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nguni }
+		}
+		$effect$ = {
+			culture = nguni
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ovimbundu }
+		}
+		$effect$ = {
+			culture = ovimbundu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sena }
+		}
+		$effect$ = {
+			culture = sena
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shona }
+		}
+		$effect$ = {
+			culture = shona
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sotho }
+		}
+		$effect$ = {
+			culture = sotho
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tonga }
+		}
+		$effect$ = {
+			culture = tonga
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tswana }
+		}
+		$effect$ = {
+			culture = tswana
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_xhosa }
+		}
+		$effect$ = {
+			culture = xhosa
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yao }
+		}
+		$effect$ = {
+			culture = yao
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zulu }
+		}
+		$effect$ = {
+			culture = zulu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kavango_bantu }
+		}
+		$effect$ = {
+			culture = kavango_bantu
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_anglo_canadian }
+		}
+		$effect$ = {
+			culture = anglo_canadian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_franco_canadian }
+		}
+		$effect$ = {
+			culture = franco_canadian
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sorb }
+		}
+		$effect$ = {
+			culture = sorb
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuvan }
+		}
+		$effect$ = {
+			culture = tuvan
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_corsican }
+		}
+		$effect$ = {
+			culture = corsican
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yemenite }
+		}
+		$effect$ = {
+			culture = yemenite
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_welsh }
+		}
+		$effect$ = {
+			culture = welsh
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_scottish }
+		}
+		$effect$ = {
+			culture = scottish
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_galician }
+		}
+		$effect$ = {
+			culture = galician
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malay }
+		}
+		$effect$ = {
+			culture = malay
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bornean }
+		}
+		$effect$ = {
+			culture = bornean
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sumatran }
+		}
+		$effect$ = {
+			culture = sumatran
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_balinese }
+		}
+		$effect$ = {
+			culture = balinese
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cajun }
+		}
+		$effect$ = {
+			culture = cajun
+			$varA$ = $valueA$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assyrian }
+		}
+		$effect$ = {
+			culture = assyrian
+			$varA$ = $valueA$
+		}
+	}
+	else = {
+		$effect$ = {
+			culture = han
+			$varA$ = $valueA$
+		}
+	}
+}
+
+DC_select_culture_two_arguments_effect = {
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_german }
+		}
+		$effect$ = {
+			culture = north_german
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_german }
+		}
+		$effect$ = {
+			culture = south_german
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ashkenazi }
+		}
+		$effect$ = {
+			culture = ashkenazi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dutch }
+		}
+		$effect$ = {
+			culture = dutch
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_flemish }
+		}
+		$effect$ = {
+			culture = flemish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wallonian }
+		}
+		$effect$ = {
+			culture = wallonian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_boer }
+		}
+		$effect$ = {
+			culture = boer
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swiss }
+		}
+		$effect$ = {
+			culture = swiss
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swedish }
+		}
+		$effect$ = {
+			culture = swedish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_danish }
+		}
+		$effect$ = {
+			culture = danish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_norwegian }
+		}
+		$effect$ = {
+			culture = norwegian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_icelandic }
+		}
+		$effect$ = {
+			culture = icelandic
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_finnish }
+		}
+		$effect$ = {
+			culture = finnish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sami }
+		}
+		$effect$ = {
+			culture = sami
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_british }
+		}
+		$effect$ = {
+			culture = british
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_irish }
+		}
+		$effect$ = {
+			culture = irish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_australian }
+		}
+		$effect$ = {
+			culture = australian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_italian }
+		}
+		$effect$ = {
+			culture = north_italian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_italian }
+		}
+		$effect$ = {
+			culture = south_italian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maltese }
+		}
+		$effect$ = {
+			culture = maltese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_basque }
+		}
+		$effect$ = {
+			culture = basque
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_spanish }
+		}
+		$effect$ = {
+			culture = spanish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_catalan }
+		}
+		$effect$ = {
+			culture = catalan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_portuguese }
+		}
+		$effect$ = {
+			culture = portuguese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_french }
+		}
+		$effect$ = {
+			culture = french
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_occitan }
+		}
+		$effect$ = {
+			culture = occitan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_breton }
+		}
+		$effect$ = {
+			culture = breton
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_croat }
+		}
+		$effect$ = {
+			culture = croat
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_serb }
+		}
+		$effect$ = {
+			culture = serb
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bulgarian }
+		}
+		$effect$ = {
+			culture = bulgarian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_albanian }
+		}
+		$effect$ = {
+			culture = albanian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovene }
+		}
+		$effect$ = {
+			culture = slovene
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bosniak }
+		}
+		$effect$ = {
+			culture = bosniak
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_romanian }
+		}
+		$effect$ = {
+			culture = romanian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hungarian }
+		}
+		$effect$ = {
+			culture = hungarian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polish }
+		}
+		$effect$ = {
+			culture = polish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lithuanian }
+		}
+		$effect$ = {
+			culture = lithuanian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_czech }
+		}
+		$effect$ = {
+			culture = czech
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_slovak }
+		}
+		$effect$ = {
+			culture = slovak
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_russian }
+		}
+		$effect$ = {
+			culture = russian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_byelorussian }
+		}
+		$effect$ = {
+			culture = byelorussian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ukrainian }
+		}
+		$effect$ = {
+			culture = ukrainian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ugrian }
+		}
+		$effect$ = {
+			culture = ugrian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_latvian }
+		}
+		$effect$ = {
+			culture = latvian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_estonian }
+		}
+		$effect$ = {
+			culture = estonian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_greek }
+		}
+		$effect$ = {
+			culture = greek
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_georgian }
+		}
+		$effect$ = {
+			culture = georgian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_armenian }
+		}
+		$effect$ = {
+			culture = armenian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sephardic }
+		}
+		$effect$ = {
+			culture = sephardic
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkish }
+		}
+		$effect$ = {
+			culture = turkish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azerbaijani }
+		}
+		$effect$ = {
+			culture = azerbaijani
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_caucasian }
+		}
+		$effect$ = {
+			culture = north_caucasian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maghrebi }
+		}
+		$effect$ = {
+			culture = maghrebi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_misri }
+		}
+		$effect$ = {
+			culture = misri
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mashriqi }
+		}
+		$effect$ = {
+			culture = mashriqi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bedouin }
+		}
+		$effect$ = {
+			culture = bedouin
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_berber }
+		}
+		$effect$ = {
+			culture = berber
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_persian }
+		}
+		$effect$ = {
+			culture = persian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uzbek }
+		}
+		$effect$ = {
+			culture = uzbek
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kazak }
+		}
+		$effect$ = {
+			culture = kazak
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kirgiz }
+		}
+		$effect$ = {
+			culture = kirgiz
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tajik }
+		}
+		$effect$ = {
+			culture = tajik
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_uighur }
+		}
+		$effect$ = {
+			culture = uighur
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pashtun }
+		}
+		$effect$ = {
+			culture = pashtun
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baluchi }
+		}
+		$effect$ = {
+			culture = baluchi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hazara }
+		}
+		$effect$ = {
+			culture = hazara
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_turkmen }
+		}
+		$effect$ = {
+			culture = turkmen
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kurdish }
+		}
+		$effect$ = {
+			culture = kurdish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tatar }
+		}
+		$effect$ = {
+			culture = tatar
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongol }
+		}
+		$effect$ = {
+			culture = mongol
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kalmyk }
+		}
+		$effect$ = {
+			culture = kalmyk
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siberian }
+		}
+		$effect$ = {
+			culture = siberian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yakut }
+		}
+		$effect$ = {
+			culture = yakut
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tibetan }
+		}
+		$effect$ = {
+			culture = tibetan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assamese }
+		}
+		$effect$ = {
+			culture = assamese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bengali }
+		}
+		$effect$ = {
+			culture = bengali
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bihari }
+		}
+		$effect$ = {
+			culture = bihari
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manipuri }
+		}
+		$effect$ = {
+			culture = manipuri
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nepali }
+		}
+		$effect$ = {
+			culture = nepali
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oriya }
+		}
+		$effect$ = {
+			culture = oriya
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sinhala }
+		}
+		$effect$ = {
+			culture = sinhala
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_avadhi }
+		}
+		$effect$ = {
+			culture = avadhi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanauji }
+		}
+		$effect$ = {
+			culture = kanauji
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_panjabi }
+		}
+		$effect$ = {
+			culture = panjabi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kashmiri }
+		}
+		$effect$ = {
+			culture = kashmiri
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_gujarati }
+		}
+		$effect$ = {
+			culture = gujarati
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_marathi }
+		}
+		$effect$ = {
+			culture = marathi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sindi }
+		}
+		$effect$ = {
+			culture = sindi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rajput }
+		}
+		$effect$ = {
+			culture = rajput
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kannada }
+		}
+		$effect$ = {
+			culture = kannada
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malayalam }
+		}
+		$effect$ = {
+			culture = malayalam
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tamil }
+		}
+		$effect$ = {
+			culture = tamil
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_telegu }
+		}
+		$effect$ = {
+			culture = telegu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_vietnamese }
+		}
+		$effect$ = {
+			culture = vietnamese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmer }
+		}
+		$effect$ = {
+			culture = khmer
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_batak }
+		}
+		$effect$ = {
+			culture = batak
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dayak }
+		}
+		$effect$ = {
+			culture = dayak
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malagasy }
+		}
+		$effect$ = {
+			culture = malagasy
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_filipino }
+		}
+		$effect$ = {
+			culture = filipino
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moro }
+		}
+		$effect$ = {
+			culture = moro
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_javan }
+		}
+		$effect$ = {
+			culture = javan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_moluccan }
+		}
+		$effect$ = {
+			culture = moluccan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_thai }
+		}
+		$effect$ = {
+			culture = thai
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mon }
+		}
+		$effect$ = {
+			culture = mon
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khmu }
+		}
+		$effect$ = {
+			culture = khmu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lao }
+		}
+		$effect$ = {
+			culture = lao
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shan }
+		}
+		$effect$ = {
+			culture = shan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_burmese }
+		}
+		$effect$ = {
+			culture = burmese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kachin }
+		}
+		$effect$ = {
+			culture = kachin
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_karen }
+		}
+		$effect$ = {
+			culture = karen
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_japanese }
+		}
+		$effect$ = {
+			culture = japanese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_manchu }
+		}
+		$effect$ = {
+			culture = manchu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_han }
+		}
+		$effect$ = {
+			culture = han
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_korean }
+		}
+		$effect$ = {
+			culture = korean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ainu }
+		}
+		$effect$ = {
+			culture = ainu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hakka }
+		}
+		$effect$ = {
+			culture = hakka
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miao }
+		}
+		$effect$ = {
+			culture = miao
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_min }
+		}
+		$effect$ = {
+			culture = min
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zhuang }
+		}
+		$effect$ = {
+			culture = zhuang
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yi }
+		}
+		$effect$ = {
+			culture = yi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yue }
+		}
+		$effect$ = {
+			culture = yue
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_polynesian }
+		}
+		$effect$ = {
+			culture = polynesian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hawaiian }
+		}
+		$effect$ = {
+			culture = hawaiian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_melanesian }
+		}
+		$effect$ = {
+			culture = melanesian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_micronesian }
+		}
+		$effect$ = {
+			culture = micronesian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maori }
+		}
+		$effect$ = {
+			culture = maori
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aborigine }
+		}
+		$effect$ = {
+			culture = aborigine
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zapotec }
+		}
+		$effect$ = {
+			culture = zapotec
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mayan }
+		}
+		$effect$ = {
+			culture = mayan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nahua }
+		}
+		$effect$ = {
+			culture = nahua
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tarascan }
+		}
+		$effect$ = {
+			culture = tarascan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_quechua }
+		}
+		$effect$ = {
+			culture = quechua
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guarani }
+		}
+		$effect$ = {
+			culture = guarani
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_aimara }
+		}
+		$effect$ = {
+			culture = aimara
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amazonian }
+		}
+		$effect$ = {
+			culture = amazonian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_patagonian }
+		}
+		$effect$ = {
+			culture = patagonian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_guajiro }
+		}
+		$effect$ = {
+			culture = guajiro
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tupinamba }
+		}
+		$effect$ = {
+			culture = tupinamba
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_metis }
+		}
+		$effect$ = {
+			culture = metis
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dakota }
+		}
+		$effect$ = {
+			culture = dakota
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cherokee }
+		}
+		$effect$ = {
+			culture = cherokee
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muskogean }
+		}
+		$effect$ = {
+			culture = muskogean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_pueblo }
+		}
+		$effect$ = {
+			culture = pueblo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_inuit }
+		}
+		$effect$ = {
+			culture = inuit
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cree }
+		}
+		$effect$ = {
+			culture = cree
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_navajo }
+		}
+		$effect$ = {
+			culture = navajo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_athabaskan }
+		}
+		$effect$ = {
+			culture = athabaskan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_salish }
+		}
+		$effect$ = {
+			culture = salish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nez_perce }
+		}
+		$effect$ = {
+			culture = nez_perce
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_siouan }
+		}
+		$effect$ = {
+			culture = siouan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_comanche }
+		}
+		$effect$ = {
+			culture = comanche
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_algonquian }
+		}
+		$effect$ = {
+			culture = algonquian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_iroquoian }
+		}
+		$effect$ = {
+			culture = iroquoian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caddoan }
+		}
+		$effect$ = {
+			culture = caddoan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_paiute }
+		}
+		$effect$ = {
+			culture = paiute
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hokan }
+		}
+		$effect$ = {
+			culture = hokan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_apache }
+		}
+		$effect$ = {
+			culture = apache
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oodham }
+		}
+		$effect$ = {
+			culture = oodham
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mixtec }
+		}
+		$effect$ = {
+			culture = mixtec
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_muisca }
+		}
+		$effect$ = {
+			culture = muisca
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_miskito }
+		}
+		$effect$ = {
+			culture = miskito
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cariban }
+		}
+		$effect$ = {
+			culture = cariban
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yankee }
+		}
+		$effect$ = {
+			culture = yankee
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dixie }
+		}
+		$effect$ = {
+			culture = dixie
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mexican }
+		}
+		$effect$ = {
+			culture = mexican
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_central_american }
+		}
+		$effect$ = {
+			culture = central_american
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_caribeno }
+		}
+		$effect$ = {
+			culture = caribeno
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_north_andean }
+		}
+		$effect$ = {
+			culture = north_andean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_south_andean }
+		}
+		$effect$ = {
+			culture = south_andean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_platinean }
+		}
+		$effect$ = {
+			culture = platinean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_brazilian }
+		}
+		$effect$ = {
+			culture = brazilian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_american }
+		}
+		$effect$ = {
+			culture = afro_american
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribbean }
+		}
+		$effect$ = {
+			culture = afro_caribbean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_caribeno }
+		}
+		$effect$ = {
+			culture = afro_caribeno
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_brazilian }
+		}
+		$effect$ = {
+			culture = afro_brazilian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afro_antillean }
+		}
+		$effect$ = {
+			culture = afro_antillean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_akan }
+		}
+		$effect$ = {
+			culture = akan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bambara }
+		}
+		$effect$ = {
+			culture = bambara
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bassa }
+		}
+		$effect$ = {
+			culture = bassa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dyula }
+		}
+		$effect$ = {
+			culture = dyula
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_edo }
+		}
+		$effect$ = {
+			culture = edo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ewe }
+		}
+		$effect$ = {
+			culture = ewe
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fon }
+		}
+		$effect$ = {
+			culture = fon
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fulbe }
+		}
+		$effect$ = {
+			culture = fulbe
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_haratin }
+		}
+		$effect$ = {
+			culture = haratin
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_hausa }
+		}
+		$effect$ = {
+			culture = hausa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibibio }
+		}
+		$effect$ = {
+			culture = ibibio
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ibo }
+		}
+		$effect$ = {
+			culture = ibo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kissi }
+		}
+		$effect$ = {
+			culture = kissi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kru }
+		}
+		$effect$ = {
+			culture = kru
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mande }
+		}
+		$effect$ = {
+			culture = mande
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maures }
+		}
+		$effect$ = {
+			culture = maures
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mossi }
+		}
+		$effect$ = {
+			culture = mossi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_senufo }
+		}
+		$effect$ = {
+			culture = senufo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_songhai }
+		}
+		$effect$ = {
+			culture = songhai
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tiv }
+		}
+		$effect$ = {
+			culture = tiv
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuareg }
+		}
+		$effect$ = {
+			culture = tuareg
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_wolof }
+		}
+		$effect$ = {
+			culture = wolof
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yoruba }
+		}
+		$effect$ = {
+			culture = yoruba
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bakongo }
+		}
+		$effect$ = {
+			culture = bakongo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baguirmi }
+		}
+		$effect$ = {
+			culture = baguirmi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fang }
+		}
+		$effect$ = {
+			culture = fang
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kanuri }
+		}
+		$effect$ = {
+			culture = kanuri
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luba }
+		}
+		$effect$ = {
+			culture = luba
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lunda }
+		}
+		$effect$ = {
+			culture = lunda
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_mongo }
+		}
+		$effect$ = {
+			culture = mongo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sara }
+		}
+		$effect$ = {
+			culture = sara
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_teda }
+		}
+		$effect$ = {
+			culture = teda
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_equatorial_bantu }
+		}
+		$effect$ = {
+			culture = equatorial_bantu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fluvian_bantu }
+		}
+		$effect$ = {
+			culture = fluvian_bantu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nilotic }
+		}
+		$effect$ = {
+			culture = nilotic
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_amhara }
+		}
+		$effect$ = {
+			culture = amhara
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_afar }
+		}
+		$effect$ = {
+			culture = afar
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_azande }
+		}
+		$effect$ = {
+			culture = azande
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_baganda }
+		}
+		$effect$ = {
+			culture = baganda
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_beja }
+		}
+		$effect$ = {
+			culture = beja
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_dinka }
+		}
+		$effect$ = {
+			culture = dinka
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_fur }
+		}
+		$effect$ = {
+			culture = fur
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kikuyu }
+		}
+		$effect$ = {
+			culture = kikuyu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_luo }
+		}
+		$effect$ = {
+			culture = luo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_maasai }
+		}
+		$effect$ = {
+			culture = maasai
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuer }
+		}
+		$effect$ = {
+			culture = nuer
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nuba }
+		}
+		$effect$ = {
+			culture = nuba
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_oromo }
+		}
+		$effect$ = {
+			culture = oromo
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ruanda }
+		}
+		$effect$ = {
+			culture = ruanda
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_rundi }
+		}
+		$effect$ = {
+			culture = rundi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sidama }
+		}
+		$effect$ = {
+			culture = sidama
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_somali }
+		}
+		$effect$ = {
+			culture = somali
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sudanese }
+		}
+		$effect$ = {
+			culture = sudanese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sukuma }
+		}
+		$effect$ = {
+			culture = sukuma
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_swahili }
+		}
+		$effect$ = {
+			culture = swahili
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tigray }
+		}
+		$effect$ = {
+			culture = tigray
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_unyamwezi }
+		}
+		$effect$ = {
+			culture = unyamwezi
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lacustrine_bantu }
+		}
+		$effect$ = {
+			culture = lacustrine_bantu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_chewa }
+		}
+		$effect$ = {
+			culture = chewa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_herero }
+		}
+		$effect$ = {
+			culture = herero
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_khoisan }
+		}
+		$effect$ = {
+			culture = khoisan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_lomwe }
+		}
+		$effect$ = {
+			culture = lomwe
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_makua }
+		}
+		$effect$ = {
+			culture = makua
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_nguni }
+		}
+		$effect$ = {
+			culture = nguni
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_ovimbundu }
+		}
+		$effect$ = {
+			culture = ovimbundu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sena }
+		}
+		$effect$ = {
+			culture = sena
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_shona }
+		}
+		$effect$ = {
+			culture = shona
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sotho }
+		}
+		$effect$ = {
+			culture = sotho
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tonga }
+		}
+		$effect$ = {
+			culture = tonga
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tswana }
+		}
+		$effect$ = {
+			culture = tswana
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_xhosa }
+		}
+		$effect$ = {
+			culture = xhosa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yao }
+		}
+		$effect$ = {
+			culture = yao
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_zulu }
+		}
+		$effect$ = {
+			culture = zulu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_kavango_bantu }
+		}
+		$effect$ = {
+			culture = kavango_bantu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_anglo_canadian }
+		}
+		$effect$ = {
+			culture = anglo_canadian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_franco_canadian }
+		}
+		$effect$ = {
+			culture = franco_canadian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sorb }
+		}
+		$effect$ = {
+			culture = sorb
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_tuvan }
+		}
+		$effect$ = {
+			culture = tuvan
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_corsican }
+		}
+		$effect$ = {
+			culture = corsican
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_yemenite }
+		}
+		$effect$ = {
+			culture = yemenite
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_welsh }
+		}
+		$effect$ = {
+			culture = welsh
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_scottish }
+		}
+		$effect$ = {
+			culture = scottish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_galician }
+		}
+		$effect$ = {
+			culture = galician
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_malay }
+		}
+		$effect$ = {
+			culture = malay
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_bornean }
+		}
+		$effect$ = {
+			culture = bornean
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_sumatran }
+		}
+		$effect$ = {
+			culture = sumatran
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_balinese }
+		}
+		$effect$ = {
+			culture = balinese
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_cajun }
+		}
+		$effect$ = {
+			culture = cajun
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkCulture_assyrian }
+		}
+		$effect$ = {
+			culture = assyrian
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else = {
+		$effect$ = {
+			culture = han
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+}
+
+DC_select_religion_no_arguments_effect = {	
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_catholic }
+		}
+		$effect$ = {
+			religion = catholic
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_protestant }
+		}
+		$effect$ = {
+			religion = protestant
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_orthodox }
+		}
+		$effect$ = {
+			religion = orthodox
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_oriental_orthodox }
+		}
+		$effect$ = {
+			religion = oriental_orthodox
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sunni }
+		}
+		$effect$ = {
+			religion = sunni
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shiite }
+		}
+		$effect$ = {
+			religion = shiite
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_jewish }
+		}
+		$effect$ = {
+			religion = jewish
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_mahayana }
+		}
+		$effect$ = {
+			religion = mahayana
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_gelugpa }
+		}
+		$effect$ = {
+			religion = gelugpa
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_theravada }
+		}
+		$effect$ = {
+			religion = theravada
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_hindu }
+		}
+		$effect$ = {
+			religion = hindu
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shinto }
+		}
+		$effect$ = {
+			religion = shinto
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sikh }
+		}
+		$effect$ = {
+			religion = sikh
+		}
+	}
+	else = {
+		$effect$ = {
+			religion = animist
+		}
+	}
+}
+
+DC_select_religion_two_arguments_effect = {	
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_catholic }
+		}
+		$effect$ = {
+			religion = catholic
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_protestant }
+		}
+		$effect$ = {
+			religion = protestant
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_orthodox }
+		}
+		$effect$ = {
+			religion = orthodox
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_oriental_orthodox }
+		}
+		$effect$ = {
+			religion = oriental_orthodox
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sunni }
+		}
+		$effect$ = {
+			religion = sunni
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shiite }
+		}
+		$effect$ = {
+			religion = shiite
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_jewish }
+		}
+		$effect$ = {
+			religion = jewish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_mahayana }
+		}
+		$effect$ = {
+			religion = mahayana
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_gelugpa }
+		}
+		$effect$ = {
+			religion = gelugpa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_theravada }
+		}
+		$effect$ = {
+			religion = theravada
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_hindu }
+		}
+		$effect$ = {
+			religion = hindu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shinto }
+		}
+		$effect$ = {
+			religion = shinto
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sikh }
+		}
+		$effect$ = {
+			religion = sikh
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+	else = {
+		$effect$ = {
+			religion = animist
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+		}
+	}
+}
+
+DC_select_religion_three_arguments_effect = {	
+	if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_catholic }
+		}
+		$effect$ = {
+			religion = catholic
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_protestant }
+		}
+		$effect$ = {
+			religion = protestant
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_orthodox }
+		}
+		$effect$ = {
+			religion = orthodox
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_oriental_orthodox }
+		}
+		$effect$ = {
+			religion = oriental_orthodox
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sunni }
+		}
+		$effect$ = {
+			religion = sunni
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shiite }
+		}
+		$effect$ = {
+			religion = shiite
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_jewish }
+		}
+		$effect$ = {
+			religion = jewish
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_mahayana }
+		}
+		$effect$ = {
+			religion = mahayana
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_gelugpa }
+		}
+		$effect$ = {
+			religion = gelugpa
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_theravada }
+		}
+		$effect$ = {
+			religion = theravada
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_hindu }
+		}
+		$effect$ = {
+			religion = hindu
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_shinto }
+		}
+		$effect$ = {
+			religion = shinto
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else_if = {
+		limit = {
+			root = { has_variable = DC_MarkReligion_sikh }
+		}
+		$effect$ = {
+			religion = sikh
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+	else = {
+		$effect$ = {
+			religion = animist
+			$varA$ = $valueA$
+			$varB$ = $valueB$
+			$varC$ = $valueC$
+		}
+	}
+}
+
+DC_select_interstgroup_no_arguments_effect = {
+	if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+		}
+		$effect$ = {
+			group = ig_armed_forces
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+		}
+		$effect$ = {
+			group = ig_devout
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+		}
+		$effect$ = {
+			group = ig_industrialists
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		}
+		$effect$ = {
+			group = ig_intelligentsia
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+		}
+		$effect$ = {
+			group = ig_landowners
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		}
+		$effect$ = {
+			group = ig_petty_bourgeoisie
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+		}
+		$effect$ = {
+			group = ig_rural_folk
+		}
+	}
+	else_if = {
+		limit = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+		}
+		$effect$ = {
+			group = ig_trade_unions
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

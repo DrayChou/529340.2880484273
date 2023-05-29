@@ -1,0 +1,144 @@
+﻿l_english:
+ #Decision:
+ Open_Cheat_Decision:"Open Cheat Decision"
+ Open_Cheat_Decision_desc:"Open All Cheat Decisions"
+ Close_Cheat_Decison:"Close Cheat Decison"
+ Close_Cheat_Decison_desc:"Close All Cheat Decisions"
+ 
+ 
+ Open_InterstGroup_Str_Increase_Decision:"Open [concept_interest_group] [concept_political_strength] Increase Decision"
+ Open_InterstGroup_Str_Increase_Decision_desc:""
+ Close_InterstGroup_Str_Increase_Decision:"Close [concept_interest_group] [concept_political_strength] Increase Decision"
+ Close_InterstGroup_Str_Increase_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_intelligentsia_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_intelligentsia_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_intelligentsia_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_intelligentsia_Modifier_Decision_desc:""
+
+ AddInterstGroup_Str_Increase_armed_forces_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_armed_forces_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_armed_forces_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_armed_forces_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_devout_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_devout_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_devout_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_devout_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_industrialists_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_industrialists_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_industrialists_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_industrialists_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_landowners_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_landowners_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_landowners_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_landowners_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_rural_folk_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_rural_folk_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_rural_folk_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_rural_folk_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Increase_trade_unions_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] Increase"
+ AddInterstGroup_Str_Increase_trade_unions_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Increase_trade_unions_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] Increase"
+ RemoveInterstGroup_Str_Increase_trade_unions_Modifier_Decision_desc:""
+ 
+ 
+ 
+ 
+ Open_InterstGroup_Str_Decrease_Decision:"Open [concept_interest_group] [concept_political_strength] Decrease Decision"
+ Open_InterstGroup_Str_Decrease_Decision_desc:""
+ Close_InterstGroup_Str_Decrease_Decision:"Close [concept_interest_group] [concept_political_strength] Decrease Decision"
+ Close_InterstGroup_Str_Decrease_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_armed_forces_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_armed_forces_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_armed_forces_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_armed_forces_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_devout_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_devout_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_devout_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_devout_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_industrialists_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_industrialists_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_industrialists_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_industrialists_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_landowners_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_landowners_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_landowners_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_landowners_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_rural_folk_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_rural_folk_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_rural_folk_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_rural_folk_Modifier_Decision_desc:""
+ 
+ AddInterstGroup_Str_Decrease_trade_unions_Modifier_Decision:"Gain [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] Decrease"
+ AddInterstGroup_Str_Decrease_trade_unions_Modifier_Decision_desc:""
+ RemoveInterstGroup_Str_Decrease_trade_unions_Modifier_Decision:"Remove [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] Decrease"
+ RemoveInterstGroup_Str_Decrease_trade_unions_Modifier_Decision_desc:""
+ 
+ Open_StateExpectedSol_Increase_Decision:"Open Strata [concept_expected_sol] Increase Decision"
+ Open_StateExpectedSol_Increase_Decision_desc:""
+ Close_StateExpectedSol_Increase_Decision:"Close Strata [concept_expected_sol] Increase Decision"
+ Close_StateExpectedSol_Increase_Decision_desc:""
+ 
+ AddStateExpectedSol_Increase_poor_Modifier_Decision:"Gain [concept_lower_strata] Expected Sol Increase"
+ AddStateExpectedSol_Increase_poor_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Increase_poor_Modifier_Decision:"Remove [concept_lower_strata] Expected Sol Increase"
+ RemoveStateExpectedSol_Increase_poor_Modifier_Decision_desc:""
+ 
+ AddStateExpectedSol_Increase_middle_Modifier_Decision:"Gain [concept_middle_strata] Expected Sol Increase"
+ AddStateExpectedSol_Increase_middle_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Increase_middle_Modifier_Decision:"Remove [concept_middle_strata] Expected Sol Increase"
+ RemoveStateExpectedSol_Increase_middle_Modifier_Decision_desc:""
+ 
+ AddStateExpectedSol_Increase_rich_Modifier_Decision:"Gain [concept_upper_strata] Expected Sol Increase"
+ AddStateExpectedSol_Increase_rich_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Increase_rich_Modifier_Decision:"Remove [concept_upper_strata] Expected Sol Increase"
+ RemoveStateExpectedSol_Increase_rich_Modifier_Decision_desc:""
+ 
+ Open_StateExpectedSol_Decrease_Decision:"Open Strata [concept_expected_sol] Decrease Decision"
+ Open_StateExpectedSol_Decrease_Decision_desc:""
+ Close_StateExpectedSol_Decrease_Decision:"Close Strata [concept_expected_sol] Decrease Decision"
+ Close_StateExpectedSol_Decrease_Decision_desc:""
+ 
+ AddStateExpectedSol_Decrease_poor_Modifier_Decision:"Gain [concept_lower_strata] Expected Sol Decrease"
+ AddStateExpectedSol_Decrease_poor_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Decrease_poor_Modifier_Decision:"Remove [concept_lower_strata] Expected Sol Decrease"
+ RemoveStateExpectedSol_Decrease_poor_Modifier_Decision_desc:""
+ 
+ AddStateExpectedSol_Decrease_middle_Modifier_Decision:"Gain [concept_middle_strata] Expected Sol Decrease"
+ AddStateExpectedSol_Decrease_middle_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Decrease_middle_Modifier_Decision:"Remove [concept_middle_strata] Expected Sol Decrease"
+ RemoveStateExpectedSol_Decrease_middle_Modifier_Decision_desc:""
+ 
+ AddStateExpectedSol_Decrease_rich_Modifier_Decision:"Gain [concept_upper_strata] Expected Sol Decrease"
+ AddStateExpectedSol_Decrease_rich_Modifier_Decision_desc:""
+ RemoveStateExpectedSol_Decrease_rich_Modifier_Decision:"Remove [concept_upper_strata] Expected Sol Decrease"
+ RemoveStateExpectedSol_Decrease_rich_Modifier_Decision_desc:""
+ 
+ 
+ DecisionCheatDecree_MarkState:"DecisionCheatDecree"
+ DecisionCheatDecree_MarkState_desc:"Mark this State"

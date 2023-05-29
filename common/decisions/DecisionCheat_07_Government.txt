@@ -1,0 +1,113 @@
+﻿Open_GovernmentCheat_Decision = {
+	is_shown = {
+		always = no
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = GovernmentCheat_variable }
+		NOT = { has_variable = Open_AnyCheat_Decision_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = GovernmentCheat_variable
+		set_variable = Open_AnyCheat_Decision_variable
+	}
+}
+Close_GovernmentCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = GovernmentCheat_variable
+		has_variable = Open_AnyCheat_Decision_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = GovernmentCheat_variable
+		remove_variable = Open_AnyCheat_Decision_variable
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

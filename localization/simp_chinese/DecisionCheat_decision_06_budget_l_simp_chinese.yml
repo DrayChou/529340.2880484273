@@ -1,0 +1,54 @@
+﻿l_simp_chinese:
+ Open_BudgetCheat_Decision:"打开 [concept_taxes] 作弊类决议"
+ Open_BudgetCheat_Decision_desc:""
+ Close_BudgetCheat_Decision:"关闭 [concept_taxes] 作弊类决议"
+ Close_BudgetCheat_Decision_desc:""
+
+ BudgetCheat_Increase_TaxConsumption_Modifier_Decision:"#P 提高 #![concept_budget_consumption_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_consumption_add')|%] "
+ BudgetCheat_Increase_TaxConsumption_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxConsumption_Modifier_Decision:"#N 降低 #![concept_budget_consumption_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_consumption_add')|%]"
+ BudgetCheat_Decrease_TaxConsumption_Modifier_Decision_desc:""
+
+ BudgetCheat_Increase_TaxLand_Modifier_Decision:"#P 提高 #![concept_budget_land_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_land_add')|%]@money"
+ BudgetCheat_Increase_TaxLand_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxLand_Modifier_Decision:"#N 降低 #![concept_budget_land_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_land_add')|%]@money"
+ BudgetCheat_Decrease_TaxLand_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxIncome_Modifier_Decision:"#P 提高 #![concept_budget_income_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_income_add')|%]"
+ BudgetCheat_Increase_TaxIncome_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxIncome_Modifier_Decision:"#N 降低 #![concept_budget_income_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_income_add')|%]"
+ BudgetCheat_Decrease_TaxIncome_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxPerCapita_Modifier_Decision:"#P 提高 #![concept_budget_per_capita_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_per_capita_add')|%]@money"
+ BudgetCheat_Increase_TaxPerCapita_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxPerCapita_Modifier_Decision:"#N 降低 #![concept_budget_per_capita_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_per_capita_add')|%]@money"
+ BudgetCheat_Decrease_TaxPerCapita_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_TaxDividends_Modifier_Decision:"#P 提高 #![concept_budget_dividends_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_dividends_add')|%]"
+ BudgetCheat_Increase_TaxDividends_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_TaxDividends_Modifier_Decision:"#N 降低 #![concept_budget_dividends_taxes]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tax_dividends_add')|%]"
+ BudgetCheat_Decrease_TaxDividends_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_Tariff_Import_Modifier_Decision:"#P 提高 #!进口[concept_tariffs]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_import_add')|%]"
+ BudgetCheat_Increase_Tariff_Import_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_Tariff_Import_Modifier_Decision:"#N 降低 #!进口[concept_tariffs]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_import_add')|%]"
+ BudgetCheat_Decrease_Tariff_Import_Modifier_Decision_desc:""
+ 
+ BudgetCheat_Increase_Tariff_Export_Modifier_Decision:"#P 提高 #!出口[concept_tariffs]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_export_add')|%]"
+ BudgetCheat_Increase_Tariff_Export_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_Tariff_Export_Modifier_Decision:"#N 降低 #!出口[concept_tariffs]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('tariff_export_add')|%]"
+ BudgetCheat_Decrease_Tariff_Export_Modifier_Decision_desc:""
+
+ BudgetCheat_Increase_WelfarePayments_Modifier_Decision:"#P 提高 #![concept_welfare_payments]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('state_welfare_payments_add')|%]"
+ BudgetCheat_Increase_WelfarePayments_Modifier_Decision_desc:""
+ BudgetCheat_Decrease_WelfarePayments_Modifier_Decision:"#N 降低 #![concept_welfare_payments]: [GetPlayer.GetModifier.GetValueWithBreakdownFor('state_welfare_payments_add')|%]"
+ BudgetCheat_Decrease_WelfarePayments_Modifier_Decision_desc:""
+
+ DecisionCheat_Budget_TaxConsumption_Modifier:"消费税 修正"
+ DecisionCheat_Budget_TaxLand_Modifier:"土地税 修正"
+ DecisionCheat_Budget_TaxIncome_Modifier:"所得税 修正"
+ DecisionCheat_Budget_TaxPerCapita_Modifier:"人均税 修正"
+ DecisionCheat_Budget_TaxDividends_Modifier:"红利税 修正"
+ DecisionCheat_Budget_Tariff_Import_Modifier:"进口关税 修正"
+ DecisionCheat_Budget_Tariff_Export_Modifier:"出口关税 修正"
+ DecisionCheat_Budget_WelfarePayments_Modifier:"福利金 修正"

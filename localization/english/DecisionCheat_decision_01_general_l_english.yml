@@ -1,0 +1,183 @@
+﻿l_english:
+ Open_GeneralCheat_Decision:"Open General Cheat Decision"
+ Open_GeneralCheat_Decision_desc:""
+ Close_GeneralCheat_Decision:"Close General Cheat Decision"
+ Close_GeneralCheat_Decision_desc:""
+
+ IncreasePopLoyalists_Decision:"Add [concept_loyalist] [concept_pop]"
+ IncreasePopLoyalists_Decision_desc:""
+ 
+ IncreasePopRadicals_Decision:"Add [concept_radical] [concept_pop]"
+ IncreasePopRadicals_Decision_desc:""
+ 
+ IncreasePopLiteracy_Decision:"Increase [concept_pop]'s [concept_literacy]"
+ IncreasePopLiteracy_Decision_desc:""
+ IncreasePopLiteracy_Decision_cp:"Increase 10% of [concept_pop]'s [concept_literacy]"
+ 
+ DecreasePopLiteracy_Decision:"Decrease [concept_pop]'s [concept_literacy]"
+ DecreasePopLiteracy_Decision_desc:""
+ DecreasePopLiteracy_Decision_cp:"Decrease 10% of [concept_pop]'s [concept_literacy]"
+
+ 
+ AddTreasury_100K_Decision:"Add 100K [concept_money]"
+ AddTreasury_100K_Decision_desc:""
+ AddTreasury_1000K_Decision:"Add 1000K [concept_money]"
+ AddTreasury_1000K_Decision_desc:""
+ AddTreasury_10000K_Decision:"Add 10000K [concept_money]"
+ AddTreasury_10000K_Decision_desc:""
+ 
+ 
+
+ 
+ AddArableLand_100_Decision:"Add 100 [concept_arable_land]"
+ AddArableLand_100_Decision_desc:"Use DecisionCheatDecree [concept_decree] To Mark A [concept_state] First.100 [concept_arable_land] will be added in the [concept_state] You Marked"
+
+ MakeIndependent_Decision:"Become Independent"
+ MakeIndependent_Decision_desc:""
+ 
+ MakeAllStateIncorporated_Decision:"[Concept('concept_incorporated_state','$concept_incorporated$')] [concept_unincorporated_state]"
+ MakeAllStateIncorporated_Decision_desc:""
+
+ AddCountryConstructionModifier_Decision:"Gain [concept_construction] Modifier"
+ AddCountryConstructionModifier_Decision_desc:""
+ RemoveCountryConstructionModifier_Decision:"Remove [concept_construction] Modifier"
+ RemoveCountryConstructionModifier_Decision_desc:""
+ 
+ AddStateTaxCapacityAddModifier_Decision:"Gain [concept_tax_capacity] Modifier"
+ AddStateTaxCapacityAddModifier_Decision_desc:""
+ RemoveStateTaxCapacityAddModifier_Decision:"Remove [concept_tax_capacity] Modifier"
+ RemoveStateTaxCapacityAddModifier_Decision_desc:""
+ 
+ AddStateInfrastructureAddModifier_Decision:"Gain [concept_infrastructure] Modifier"
+ AddStateInfrastructureAddModifier_Decision_desc:""
+ RemoveStateInfrastructureAddModifier_Decision:"Remove [concept_infrastructure] Modifier"
+ RemoveStateInfrastructureAddModifier_Decision_desc:""
+
+
+ AddStateConstructionModifier_Decision:"Gain StateConstruction Modifier"
+ AddStateConstructionModifier_Decision_desc:""
+ RemoveStateConstructionModifier_Decision:"Remove StateConstruction Modifier"
+ RemoveStateConstructionModifier_Decision_desc:""
+ 
+ AddCountryBureaucracyModifier_Decision:"Gain [concept_bureaucracy] Modifier"
+ AddCountryBureaucracyModifier_Decision_desc:""
+ RemoveCountryBureaucracyModifier_Decision:"Remove [concept_bureaucracy] Modifier"
+ RemoveCountryBureaucracyModifier_Decision_desc:""
+ 
+ AddCountryAuthorityModifier_Decision:"Gain [concept_authority] Modifier"
+ AddCountryAuthorityModifier_Decision_desc:""
+ RemoveCountryAuthorityModifier_Decision:"Remove [concept_authority] Modifier"
+ RemoveCountryAuthorityModifier_Decision_desc:""
+ 
+ AddCountryInfluenceModifier_Decision:"Gain [concept_influence] Modifier"
+ AddCountryInfluenceModifier_Decision_desc:""
+ RemoveCountryInfluenceModifier_Decision:"Remove [concept_influence] Modifier"
+ RemoveCountryInfluenceModifier_Decision_desc:""
+ 
+ AddWeeklyInnovationModifier_Decision:"Gain Weekly [concept_innovation] Modifier"
+ AddWeeklyInnovationModifier_Decision_desc:""
+ RemoveWeeklyInnovationModifier_Decision:"Remove Weekly [concept_innovation] Modifier"
+ RemoveWeeklyInnovationModifier_Decision_desc:""
+
+ AddStateBirthRateModifier_Decision:"Gain StateBirthRate Modifier"
+ AddStateBirthRateModifier_Decision_desc:""
+ RemoveStateBirthRateModifier_Decision:"Remove StateBirthRate Modifier"
+ RemoveStateBirthRateModifier_Decision_desc:""
+ 
+ AddMigrationPullModifier_Decision:"Gain MigrationAttraction Modifier"
+ AddMigrationPullModifier_Decision_desc:""
+ RemoveMigrationPullModifier_Decision:"Remove MigrationAttraction Modifier"
+ RemoveMigrationPullModifier_Decision_desc:""
+ 
+ AddInterestGroupApprovalModifier_Decision:"Gain InterestGroupApproval Modifier"
+ AddInterestGroupApprovalModifier_Decision_desc:""
+ RemoveInterestGroupApprovalModifier_Decision:"Remove InterestGroupApproval Modifier"
+ RemoveInterestGroupApprovalModifier_Decision_desc:""
+ 
+ AddCountryPrestigeModifier_Decision:"Gain CountryPrestige Modifier"
+ AddCountryPrestigeModifier_Decision_desc:""
+ RemoveCountryPrestigeModifier_Decision:"Remove CountryPrestige Modifier"
+ RemoveCountryPrestigeModifier_Decision_desc:""
+ 
+ AddUnityArmyBonusModifier_Decision:"Gain ArmyBonus Modifier"
+ AddUnityArmyBonusModifier_Decision_desc:""
+ RemoveUnityArmyBonusModifier_Decision:"Remove ArmyBonus Modifier"
+ RemoveUnityArmyBonusModifier_Decision_desc:""
+ 
+ AddUnityNavyBonusModifier_Decision:"Gain NavyBonus Modifier"
+ AddUnityNavyBonusModifier_Decision_desc:""
+ RemoveUnityNavyBonusModifier_Decision:"Remove NavyBonus Modifier"
+ RemoveUnityNavyBonusModifier_Decision_desc:""
+
+ AddCountryTaxIncomeBonusModifier_Decision:"Gain @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
+ AddCountryTaxIncomeBonusModifier_Decision_desc:""
+ RemoveCountryTaxIncomeBonusModifier_Decision:"Remove @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
+ RemoveCountryTaxIncomeBonusModifier_Decision_desc:""
+ 
+ AddCountryLegitimacyBaseBonusModifier_Decision:"Gain [concept_legitimacy] Modifier"
+ AddCountryLegitimacyBaseBonusModifier_Decision_desc:"Your [concept_government] has [GetPlayer.GetGovernmentLegitimacy|v] [concept_legitimacy]"
+ RemoveCountryLegitimacyBaseBonusModifier_Decision:"Remove [concept_legitimacy] Modifier"
+ RemoveCountryLegitimacyBaseBonusModifier_Decision_desc:"Your [concept_government] has [GetPlayer.GetGovernmentLegitimacy|v] [concept_legitimacy]"
+
+ AddBuildingMinesBonusModifier_Decision:"Gain Resource Industry Bonus Modifier"
+ AddBuildingMinesBonusModifier_Decision_desc:""
+ RemoveBuildingMinesBonusModifier_Decision:"Remove Resource Industry Bonus Modifier"
+ RemoveBuildingMinesBonusModifier_Decision_desc:""
+ 
+ AddBuildingFarmsBonusModifier_Decision:"Gain Agricultural Industry Bonus Modifier"
+ AddBuildingFarmsBonusModifier_Decision_desc:""
+ RemoveBuildingFarmsBonusModifier_Decision:"Remove Agricultural Industry Bonus Modifier"
+ RemoveBuildingFarmsBonusModifier_Decision_desc:""
+ 
+ AddCountryLawEnactmentTimeModifier_Decision:"Gain EnactmentTime Modifier"
+ AddCountryLawEnactmentTimeModifier_Decision_desc:""
+ RemoveCountryLawEnactmentTimeModifier_Decision:"Remove EnactmentTime Modifier"
+ RemoveCountryLawEnactmentTimeModifier_Decision_desc:""
+ 
+ AddStateAssimilationModifier_Decision:"Gain [concept_assimilation] Modifier"
+ AddStateAssimilationModifier_Decision_desc:""
+ RemoveStateAssimilationModifier_Decision:"Remove [concept_assimilation] Modifier"
+ RemoveStateAssimilationModifier_Decision_desc:""
+ 
+ AddCountryInfamyDecayDreaseModifier_Decision:"Gain Infamy Decay Increase Modifier"
+ AddCountryInfamyDecayDreaseModifier_Decision_desc:""
+ RemoveCountryInfamyDecayDreaseModifier_Decision:"Remove Infamy Decay Increase Modifier"
+ RemoveCountryInfamyDecayDreaseModifier_Decision_desc:""
+ 
+ AddCountryInfamyDecayIneaseModifier_Decision:"Gain Infamy Decay Decrease Modifier"
+ AddCountryInfamyDecayIneaseModifier_Decision_desc:""
+ RemoveCountryInfamyDecayIneaseModifier_Decision:"Remove Infamy Decay Decrease Modifier"
+ RemoveCountryInfamyDecayIneaseModifier_Decision_desc:""
+ 
+ AddStateStandardOfLivingModifier_Decision:"Gain Standard of Living Bonus Modifier"
+ AddStateStandardOfLivingModifier_Decision_desc:""
+ RemoveStateStandardOfLivingModifier_Decision:"Remove Standard of Living Bonus Modifier"
+ RemoveStateStandardOfLivingModifier_Decision_desc:""
+ 
+ AddStatePopQualificationModifier_Decision:"Gain [concept_pop_qualifications] Bonus Modifier"
+ AddStatePopQualificationModifier_Decision_desc:""
+ RemoveStatePopQualificationModifier_Decision:"Remove [concept_pop_qualifications] Bonus Modifier"
+ RemoveStatePopQualificationModifier_Decision_desc:""
+ 
+ AddColonyGrowthModifier_Decision:"Gain [concept_colonial_growth] Bonus Modifier"
+ AddColonyGrowthModifier_Decision_desc:""
+ RemoveColonyGrowthModifier_Decision:"Remove [concept_colonial_growth] Bonus Modifier"
+ RemoveColonyGrowthModifier_Decision_desc:""
+ 
+ AddStateEducationAccess_Decision:"Gain [concept_education_access] Bonus Modifier"
+ AddStateEducationAccess_Decision_desc:""
+ RemoveStateEducationAccess_Decision:"Remove [concept_education_access] Bonus Modifier"
+ RemoveStateEducationAccess_Decision_desc:""
+ 
+ AddCountryRelationImprove_Decision:"Gain Improve Relation Speed Modifier"
+ AddCountryRelationImprove_Decision_desc:""
+ RemoveCountryRelationImprove_Decision:"Remove Improve Relation Speed Modifier"
+ RemoveCountryRelationImprove_Decision_desc:""
+ 
+ AddCountryRelationDamage_Decision:"Gain Damage Relations Speed Modifier"
+ AddCountryRelationDamage_Decision_desc:""
+ RemoveCountryRelationDamage_Decision:"Remove Damage Relations Speed Modifier"
+ RemoveCountryRelationDamage_Decision_desc:""
+ 
+ TechnologAdd_All_Decision:"Gain All [concept_technology]"
+ TechnologAdd_All_Decision_desc:""

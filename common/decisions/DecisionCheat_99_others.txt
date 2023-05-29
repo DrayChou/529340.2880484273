@@ -1,0 +1,108 @@
+﻿
+##############################################
+
+
+
+###### developing
+TechnologAdd_Production_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		always = no
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		hidden_effect = {
+			add_technology_researched = sericulture
+			add_technology_researched = enclosure
+			add_technology_researched = manufacturies
+			add_technology_researched = shaft_mining
+			add_technology_researched = cotton_gin
+			add_technology_researched = lathe
+			add_technology_researched = distillation
+			add_technology_researched = steelworking
+			add_technology_researched = prospecting
+			
+			add_technology_researched = crystal_glass
+			add_technology_researched = intensive_agriculture
+			add_technology_researched = fractional_distillation
+			add_technology_researched = canneries
+			add_technology_researched = watertube_boiler
+			add_technology_researched = atmospheric_engine
+			add_technology_researched = railways
+			add_technology_researched = chemical_bleaching
+			add_technology_researched = nitroglycerin
+			add_technology_researched = bessemer_process
+			add_technology_researched = baking_powder
+			add_technology_researched = mechanized_workshops
+			add_technology_researched = mechanical_tools
+			
+			add_technology_researched = improved_fertilizer
+			add_technology_researched = steam_donkey
+			add_technology_researched = dynamite
+			add_technology_researched = rubber_mastication
+			add_technology_researched = electrical_generation
+			add_technology_researched = electrical_capacitors
+			add_technology_researched = rotary_valve_engine
+			add_technology_researched = reinforced_concrete
+			add_technology_researched = threshing_machine
+			add_technology_researched = pumpjacks
+			add_technology_researched = aniline
+			add_technology_researched = open_hearth_process
+			add_technology_researched = vulcanization
+			add_technology_researched = vacuum_canning
+			add_technology_researched = shift_work
+			add_technology_researched = steel_railway_cars
+			
+			add_technology_researched = mechanized_farming
+			add_technology_researched = art_silk
+			add_technology_researched = automatic_bottle_blowers
+			add_technology_researched = conveyors
+			add_technology_researched = pasteurization
+			add_technology_researched = electric_railway
+			add_technology_researched = combustion_engine
+			add_technology_researched = pneumatic_tools
+			add_technology_researched = nitrogen_fixation
+			add_technology_researched = electric_arc_process
+			add_technology_researched = steam_turbine
+			add_technology_researched = plastics
+			add_technology_researched = radio
+			add_technology_researched = telephone
+			
+			add_technology_researched = dough_rollers
+			add_technology_researched = flash_freezing
+			add_technology_researched = oil_turbine
+			add_technology_researched = arc_welding
+			add_technology_researched = compression_ignition	
+		}
+	}
+}
+
+TechnologAdd_All_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+		add_era_researched = era_4
+		add_era_researched = era_5
+	}
+}
+

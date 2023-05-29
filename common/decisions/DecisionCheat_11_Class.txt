@@ -1,0 +1,61 @@
+﻿Open_ClassCheat_Decision = {
+	is_shown = {
+		always = no
+		has_variable = openCheatDecision_variable
+		NOT = { has_variable = ClassCheat_variable }
+		NOT = { has_variable = Open_AnyCheat_Decision_variable }
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		set_variable = ClassCheat_variable
+		set_variable = Open_AnyCheat_Decision_variable
+	}
+}
+Close_ClassCheat_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = ClassCheat_variable
+		has_variable = Open_AnyCheat_Decision_variable
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_variable = ClassCheat_variable
+		remove_variable = Open_AnyCheat_Decision_variable
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

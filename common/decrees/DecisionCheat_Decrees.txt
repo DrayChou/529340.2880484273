@@ -1,0 +1,16 @@
+﻿DecisionCheatDecree_MarkState = {
+	texture = "gfx/interface/icons/decree/decree_promote_national_values.dds"
+	modifier = {
+	}
+	unlocking_technologies = { 
+		
+	}
+	valid = {
+		owner = { is_player = yes }
+	}
+	cost = 0
+
+	ai_weight = {
+		value = 0				
+	}
+}

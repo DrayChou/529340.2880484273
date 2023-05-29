@@ -1,0 +1,1712 @@
+﻿DecisionCheat_MarkCultureVariable = {
+	type = country
+	random_valid = no
+	text = { # north_german
+		trigger = {
+			has_variable = DC_MarkCulture_north_german
+		}
+		localization_key = north_german
+	}
+	text = { # south_german
+		trigger = {
+			has_variable = DC_MarkCulture_south_german
+		}
+		localization_key = south_german
+	}
+	text = { # ashkenazi
+		trigger = {
+			has_variable = DC_MarkCulture_ashkenazi
+		}
+		localization_key = ashkenazi
+	}
+	text = { # dutch
+		trigger = {
+			has_variable = DC_MarkCulture_dutch
+		}
+		localization_key = dutch
+	}
+	text = { # flemish
+		trigger = {
+			has_variable = DC_MarkCulture_flemish
+		}
+		localization_key = flemish
+	}
+	text = { # wallonian
+		trigger = {
+			has_variable = DC_MarkCulture_wallonian
+		}
+		localization_key = wallonian
+	}
+	text = { # boer
+		trigger = {
+			has_variable = DC_MarkCulture_boer
+		}
+		localization_key = boer
+	}
+	text = { # swiss
+		trigger = {
+			has_variable = DC_MarkCulture_swiss
+		}
+		localization_key = swiss
+	}
+	text = { # swedish
+		trigger = {
+			has_variable = DC_MarkCulture_swedish
+		}
+		localization_key = swedish
+	}
+	text = { # danish
+		trigger = {
+			has_variable = DC_MarkCulture_danish
+		}
+		localization_key = danish
+	}
+	text = { # norwegian
+		trigger = {
+			has_variable = DC_MarkCulture_norwegian
+		}
+		localization_key = norwegian
+	}
+	text = { # icelandic
+		trigger = {
+			has_variable = DC_MarkCulture_icelandic
+		}
+		localization_key = icelandic
+	}
+	text = { # finnish
+		trigger = {
+			has_variable = DC_MarkCulture_finnish
+		}
+		localization_key = finnish
+	}
+	text = { # sami
+		trigger = {
+			has_variable = DC_MarkCulture_sami
+		}
+		localization_key = sami
+	}
+	text = { # british
+		trigger = {
+			has_variable = DC_MarkCulture_british
+		}
+		localization_key = british
+	}
+	text = { # irish
+		trigger = {
+			has_variable = DC_MarkCulture_irish
+		}
+		localization_key = irish
+	}
+	text = { # australian
+		trigger = {
+			has_variable = DC_MarkCulture_australian
+		}
+		localization_key = australian
+	}
+	text = { # north_italian
+		trigger = {
+			has_variable = DC_MarkCulture_north_italian
+		}
+		localization_key = north_italian
+	}
+	text = { # south_italian
+		trigger = {
+			has_variable = DC_MarkCulture_south_italian
+		}
+		localization_key = south_italian
+	}
+	text = { # maltese
+		trigger = {
+			has_variable = DC_MarkCulture_maltese
+		}
+		localization_key = maltese
+	}
+	text = { # basque
+		trigger = {
+			has_variable = DC_MarkCulture_basque
+		}
+		localization_key = basque
+	}
+	text = { # spanish
+		trigger = {
+			has_variable = DC_MarkCulture_spanish
+		}
+		localization_key = spanish
+	}
+	text = { # catalan
+		trigger = {
+			has_variable = DC_MarkCulture_catalan
+		}
+		localization_key = catalan
+	}
+	text = { # portuguese
+		trigger = {
+			has_variable = DC_MarkCulture_portuguese
+		}
+		localization_key = portuguese
+	}
+	text = { # french
+		trigger = {
+			has_variable = DC_MarkCulture_french
+		}
+		localization_key = french
+	}
+	text = { # occitan
+		trigger = {
+			has_variable = DC_MarkCulture_occitan
+		}
+		localization_key = occitan
+	}
+	text = { # breton
+		trigger = {
+			has_variable = DC_MarkCulture_breton
+		}
+		localization_key = breton
+	}
+	text = { # croat
+		trigger = {
+			has_variable = DC_MarkCulture_croat
+		}
+		localization_key = croat
+	}
+	text = { # serb
+		trigger = {
+			has_variable = DC_MarkCulture_serb
+		}
+		localization_key = serb
+	}
+	text = { # bulgarian
+		trigger = {
+			has_variable = DC_MarkCulture_bulgarian
+		}
+		localization_key = bulgarian
+	}
+	text = { # albanian
+		trigger = {
+			has_variable = DC_MarkCulture_albanian
+		}
+		localization_key = albanian
+	}
+	text = { # slovene
+		trigger = {
+			has_variable = DC_MarkCulture_slovene
+		}
+		localization_key = slovene
+	}
+	text = { # bosniak
+		trigger = {
+			has_variable = DC_MarkCulture_bosniak
+		}
+		localization_key = bosniak
+	}
+	text = { # romanian
+		trigger = {
+			has_variable = DC_MarkCulture_romanian
+		}
+		localization_key = romanian
+	}
+	text = { # hungarian
+		trigger = {
+			has_variable = DC_MarkCulture_hungarian
+		}
+		localization_key = hungarian
+	}
+	text = { # polish
+		trigger = {
+			has_variable = DC_MarkCulture_polish
+		}
+		localization_key = polish
+	}
+	text = { # lithuanian
+		trigger = {
+			has_variable = DC_MarkCulture_lithuanian
+		}
+		localization_key = lithuanian
+	}
+	text = { # czech
+		trigger = {
+			has_variable = DC_MarkCulture_czech
+		}
+		localization_key = czech
+	}
+	text = { # slovak
+		trigger = {
+			has_variable = DC_MarkCulture_slovak
+		}
+		localization_key = slovak
+	}
+	text = { # russian
+		trigger = {
+			has_variable = DC_MarkCulture_russian
+		}
+		localization_key = russian
+	}
+	text = { # byelorussian
+		trigger = {
+			has_variable = DC_MarkCulture_byelorussian
+		}
+		localization_key = byelorussian
+	}
+	text = { # ukrainian
+		trigger = {
+			has_variable = DC_MarkCulture_ukrainian
+		}
+		localization_key = ukrainian
+	}
+	text = { # ugrian
+		trigger = {
+			has_variable = DC_MarkCulture_ugrian
+		}
+		localization_key = ugrian
+	}
+	text = { # latvian
+		trigger = {
+			has_variable = DC_MarkCulture_latvian
+		}
+		localization_key = latvian
+	}
+	text = { # estonian
+		trigger = {
+			has_variable = DC_MarkCulture_estonian
+		}
+		localization_key = estonian
+	}
+	text = { # greek
+		trigger = {
+			has_variable = DC_MarkCulture_greek
+		}
+		localization_key = greek
+	}
+	text = { # georgian
+		trigger = {
+			has_variable = DC_MarkCulture_georgian
+		}
+		localization_key = georgian
+	}
+	text = { # armenian
+		trigger = {
+			has_variable = DC_MarkCulture_armenian
+		}
+		localization_key = armenian
+	}
+	text = { # sephardic
+		trigger = {
+			has_variable = DC_MarkCulture_sephardic
+		}
+		localization_key = sephardic
+	}
+	text = { # turkish
+		trigger = {
+			has_variable = DC_MarkCulture_turkish
+		}
+		localization_key = turkish
+	}
+	text = { # azerbaijani
+		trigger = {
+			has_variable = DC_MarkCulture_azerbaijani
+		}
+		localization_key = azerbaijani
+	}
+	text = { # north_caucasian
+		trigger = {
+			has_variable = DC_MarkCulture_north_caucasian
+		}
+		localization_key = north_caucasian
+	}
+	text = { # maghrebi
+		trigger = {
+			has_variable = DC_MarkCulture_maghrebi
+		}
+		localization_key = maghrebi
+	}
+	text = { # misri
+		trigger = {
+			has_variable = DC_MarkCulture_misri
+		}
+		localization_key = misri
+	}
+	text = { # mashriqi
+		trigger = {
+			has_variable = DC_MarkCulture_mashriqi
+		}
+		localization_key = mashriqi
+	}
+	text = { # bedouin
+		trigger = {
+			has_variable = DC_MarkCulture_bedouin
+		}
+		localization_key = bedouin
+	}
+	text = { # berber
+		trigger = {
+			has_variable = DC_MarkCulture_berber
+		}
+		localization_key = berber
+	}
+	text = { # persian
+		trigger = {
+			has_variable = DC_MarkCulture_persian
+		}
+		localization_key = persian
+	}
+	text = { # uzbek
+		trigger = {
+			has_variable = DC_MarkCulture_uzbek
+		}
+		localization_key = uzbek
+	}
+	text = { # kazak
+		trigger = {
+			has_variable = DC_MarkCulture_kazak
+		}
+		localization_key = kazak
+	}
+	text = { # kirgiz
+		trigger = {
+			has_variable = DC_MarkCulture_kirgiz
+		}
+		localization_key = kirgiz
+	}
+	text = { # tajik
+		trigger = {
+			has_variable = DC_MarkCulture_tajik
+		}
+		localization_key = tajik
+	}
+	text = { # uighur
+		trigger = {
+			has_variable = DC_MarkCulture_uighur
+		}
+		localization_key = uighur
+	}
+	text = { # pashtun
+		trigger = {
+			has_variable = DC_MarkCulture_pashtun
+		}
+		localization_key = pashtun
+	}
+	text = { # baluchi
+		trigger = {
+			has_variable = DC_MarkCulture_baluchi
+		}
+		localization_key = baluchi
+	}
+	text = { # hazara
+		trigger = {
+			has_variable = DC_MarkCulture_hazara
+		}
+		localization_key = hazara
+	}
+	text = { # turkmen
+		trigger = {
+			has_variable = DC_MarkCulture_turkmen
+		}
+		localization_key = turkmen
+	}
+	text = { # kurdish
+		trigger = {
+			has_variable = DC_MarkCulture_kurdish
+		}
+		localization_key = kurdish
+	}
+	text = { # tatar
+		trigger = {
+			has_variable = DC_MarkCulture_tatar
+		}
+		localization_key = tatar
+	}
+	text = { # mongol
+		trigger = {
+			has_variable = DC_MarkCulture_mongol
+		}
+		localization_key = mongol
+	}
+	text = { # kalmyk
+		trigger = {
+			has_variable = DC_MarkCulture_kalmyk
+		}
+		localization_key = kalmyk
+	}
+	text = { # siberian
+		trigger = {
+			has_variable = DC_MarkCulture_siberian
+		}
+		localization_key = siberian
+	}
+	text = { # yakut
+		trigger = {
+			has_variable = DC_MarkCulture_yakut
+		}
+		localization_key = yakut
+	}
+	text = { # tibetan
+		trigger = {
+			has_variable = DC_MarkCulture_tibetan
+		}
+		localization_key = tibetan
+	}
+	text = { # assamese
+		trigger = {
+			has_variable = DC_MarkCulture_assamese
+		}
+		localization_key = assamese
+	}
+	text = { # bengali
+		trigger = {
+			has_variable = DC_MarkCulture_bengali
+		}
+		localization_key = bengali
+	}
+	text = { # bihari
+		trigger = {
+			has_variable = DC_MarkCulture_bihari
+		}
+		localization_key = bihari
+	}
+	text = { # manipuri
+		trigger = {
+			has_variable = DC_MarkCulture_manipuri
+		}
+		localization_key = manipuri
+	}
+	text = { # nepali
+		trigger = {
+			has_variable = DC_MarkCulture_nepali
+		}
+		localization_key = nepali
+	}
+	text = { # oriya
+		trigger = {
+			has_variable = DC_MarkCulture_oriya
+		}
+		localization_key = oriya
+	}
+	text = { # sinhala
+		trigger = {
+			has_variable = DC_MarkCulture_sinhala
+		}
+		localization_key = sinhala
+	}
+	text = { # avadhi
+		trigger = {
+			has_variable = DC_MarkCulture_avadhi
+		}
+		localization_key = avadhi
+	}
+	text = { # kanauji
+		trigger = {
+			has_variable = DC_MarkCulture_kanauji
+		}
+		localization_key = kanauji
+	}
+	text = { # panjabi
+		trigger = {
+			has_variable = DC_MarkCulture_panjabi
+		}
+		localization_key = panjabi
+	}
+	text = { # kashmiri
+		trigger = {
+			has_variable = DC_MarkCulture_kashmiri
+		}
+		localization_key = kashmiri
+	}
+	text = { # gujarati
+		trigger = {
+			has_variable = DC_MarkCulture_gujarati
+		}
+		localization_key = gujarati
+	}
+	text = { # marathi
+		trigger = {
+			has_variable = DC_MarkCulture_marathi
+		}
+		localization_key = marathi
+	}
+	text = { # sindi
+		trigger = {
+			has_variable = DC_MarkCulture_sindi
+		}
+		localization_key = sindi
+	}
+	text = { # rajput
+		trigger = {
+			has_variable = DC_MarkCulture_rajput
+		}
+		localization_key = rajput
+	}
+	text = { # kannada
+		trigger = {
+			has_variable = DC_MarkCulture_kannada
+		}
+		localization_key = kannada
+	}
+	text = { # malayalam
+		trigger = {
+			has_variable = DC_MarkCulture_malayalam
+		}
+		localization_key = malayalam
+	}
+	text = { # tamil
+		trigger = {
+			has_variable = DC_MarkCulture_tamil
+		}
+		localization_key = tamil
+	}
+	text = { # telegu
+		trigger = {
+			has_variable = DC_MarkCulture_telegu
+		}
+		localization_key = telegu
+	}
+	text = { # vietnamese
+		trigger = {
+			has_variable = DC_MarkCulture_vietnamese
+		}
+		localization_key = vietnamese
+	}
+	text = { # khmer
+		trigger = {
+			has_variable = DC_MarkCulture_khmer
+		}
+		localization_key = khmer
+	}
+	text = { # batak
+		trigger = {
+			has_variable = DC_MarkCulture_batak
+		}
+		localization_key = batak
+	}
+	text = { # dayak
+		trigger = {
+			has_variable = DC_MarkCulture_dayak
+		}
+		localization_key = dayak
+	}
+	text = { # malagasy
+		trigger = {
+			has_variable = DC_MarkCulture_malagasy
+		}
+		localization_key = malagasy
+	}
+	text = { # filipino
+		trigger = {
+			has_variable = DC_MarkCulture_filipino
+		}
+		localization_key = filipino
+	}
+	text = { # moro
+		trigger = {
+			has_variable = DC_MarkCulture_moro
+		}
+		localization_key = moro
+	}
+	text = { # javan
+		trigger = {
+			has_variable = DC_MarkCulture_javan
+		}
+		localization_key = javan
+	}
+	text = { # moluccan
+		trigger = {
+			has_variable = DC_MarkCulture_moluccan
+		}
+		localization_key = moluccan
+	}
+	text = { # thai
+		trigger = {
+			has_variable = DC_MarkCulture_thai
+		}
+		localization_key = thai
+	}
+	text = { # mon
+		trigger = {
+			has_variable = DC_MarkCulture_mon
+		}
+		localization_key = mon
+	}
+	text = { # khmu
+		trigger = {
+			has_variable = DC_MarkCulture_khmu
+		}
+		localization_key = khmu
+	}
+	text = { # lao
+		trigger = {
+			has_variable = DC_MarkCulture_lao
+		}
+		localization_key = lao
+	}
+	text = { # shan
+		trigger = {
+			has_variable = DC_MarkCulture_shan
+		}
+		localization_key = shan
+	}
+	text = { # burmese
+		trigger = {
+			has_variable = DC_MarkCulture_burmese
+		}
+		localization_key = burmese
+	}
+	text = { # kachin
+		trigger = {
+			has_variable = DC_MarkCulture_kachin
+		}
+		localization_key = kachin
+	}
+	text = { # karen
+		trigger = {
+			has_variable = DC_MarkCulture_karen
+		}
+		localization_key = karen
+	}
+	text = { # japanese
+		trigger = {
+			has_variable = DC_MarkCulture_japanese
+		}
+		localization_key = japanese
+	}
+	text = { # manchu
+		trigger = {
+			has_variable = DC_MarkCulture_manchu
+		}
+		localization_key = manchu
+	}
+	text = { # han
+		trigger = {
+			has_variable = DC_MarkCulture_han
+		}
+		localization_key = han
+	}
+	text = { # korean
+		trigger = {
+			has_variable = DC_MarkCulture_korean
+		}
+		localization_key = korean
+	}
+	text = { # ainu
+		trigger = {
+			has_variable = DC_MarkCulture_ainu
+		}
+		localization_key = ainu
+	}
+	text = { # hakka
+		trigger = {
+			has_variable = DC_MarkCulture_hakka
+		}
+		localization_key = hakka
+	}
+	text = { # miao
+		trigger = {
+			has_variable = DC_MarkCulture_miao
+		}
+		localization_key = miao
+	}
+	text = { # min
+		trigger = {
+			has_variable = DC_MarkCulture_min
+		}
+		localization_key = min
+	}
+	text = { # zhuang
+		trigger = {
+			has_variable = DC_MarkCulture_zhuang
+		}
+		localization_key = zhuang
+	}
+	text = { # yi
+		trigger = {
+			has_variable = DC_MarkCulture_yi
+		}
+		localization_key = yi
+	}
+	text = { # yue
+		trigger = {
+			has_variable = DC_MarkCulture_yue
+		}
+		localization_key = yue
+	}
+	text = { # polynesian
+		trigger = {
+			has_variable = DC_MarkCulture_polynesian
+		}
+		localization_key = polynesian
+	}
+	text = { # hawaiian
+		trigger = {
+			has_variable = DC_MarkCulture_hawaiian
+		}
+		localization_key = hawaiian
+	}
+	text = { # melanesian
+		trigger = {
+			has_variable = DC_MarkCulture_melanesian
+		}
+		localization_key = melanesian
+	}
+	text = { # micronesian
+		trigger = {
+			has_variable = DC_MarkCulture_micronesian
+		}
+		localization_key = micronesian
+	}
+	text = { # maori
+		trigger = {
+			has_variable = DC_MarkCulture_maori
+		}
+		localization_key = maori
+	}
+	text = { # aborigine
+		trigger = {
+			has_variable = DC_MarkCulture_aborigine
+		}
+		localization_key = aborigine
+	}
+	text = { # zapotec
+		trigger = {
+			has_variable = DC_MarkCulture_zapotec
+		}
+		localization_key = zapotec
+	}
+	text = { # mayan
+		trigger = {
+			has_variable = DC_MarkCulture_mayan
+		}
+		localization_key = mayan
+	}
+	text = { # nahua
+		trigger = {
+			has_variable = DC_MarkCulture_nahua
+		}
+		localization_key = nahua
+	}
+	text = { # tarascan
+		trigger = {
+			has_variable = DC_MarkCulture_tarascan
+		}
+		localization_key = tarascan
+	}
+	text = { # quechua
+		trigger = {
+			has_variable = DC_MarkCulture_quechua
+		}
+		localization_key = quechua
+	}
+	text = { # guarani
+		trigger = {
+			has_variable = DC_MarkCulture_guarani
+		}
+		localization_key = guarani
+	}
+	text = { # aimara
+		trigger = {
+			has_variable = DC_MarkCulture_aimara
+		}
+		localization_key = aimara
+	}
+	text = { # amazonian
+		trigger = {
+			has_variable = DC_MarkCulture_amazonian
+		}
+		localization_key = amazonian
+	}
+	text = { # patagonian
+		trigger = {
+			has_variable = DC_MarkCulture_patagonian
+		}
+		localization_key = patagonian
+	}
+	text = { # guajiro
+		trigger = {
+			has_variable = DC_MarkCulture_guajiro
+		}
+		localization_key = guajiro
+	}
+	text = { # tupinamba
+		trigger = {
+			has_variable = DC_MarkCulture_tupinamba
+		}
+		localization_key = tupinamba
+	}
+	text = { # metis
+		trigger = {
+			has_variable = DC_MarkCulture_metis
+		}
+		localization_key = metis
+	}
+	text = { # dakota
+		trigger = {
+			has_variable = DC_MarkCulture_dakota
+		}
+		localization_key = dakota
+	}
+	text = { # cherokee
+		trigger = {
+			has_variable = DC_MarkCulture_cherokee
+		}
+		localization_key = cherokee
+	}
+	text = { # muskogean
+		trigger = {
+			has_variable = DC_MarkCulture_muskogean
+		}
+		localization_key = muskogean
+	}
+	text = { # pueblo
+		trigger = {
+			has_variable = DC_MarkCulture_pueblo
+		}
+		localization_key = pueblo
+	}
+	text = { # inuit
+		trigger = {
+			has_variable = DC_MarkCulture_inuit
+		}
+		localization_key = inuit
+	}
+	text = { # cree
+		trigger = {
+			has_variable = DC_MarkCulture_cree
+		}
+		localization_key = cree
+	}
+	text = { # navajo
+		trigger = {
+			has_variable = DC_MarkCulture_navajo
+		}
+		localization_key = navajo
+	}
+	text = { # athabaskan
+		trigger = {
+			has_variable = DC_MarkCulture_athabaskan
+		}
+		localization_key = athabaskan
+	}
+	text = { # salish
+		trigger = {
+			has_variable = DC_MarkCulture_salish
+		}
+		localization_key = salish
+	}
+	text = { # nez_perce
+		trigger = {
+			has_variable = DC_MarkCulture_nez_perce
+		}
+		localization_key = nez_perce
+	}
+	text = { # siouan
+		trigger = {
+			has_variable = DC_MarkCulture_siouan
+		}
+		localization_key = siouan
+	}
+	text = { # comanche
+		trigger = {
+			has_variable = DC_MarkCulture_comanche
+		}
+		localization_key = comanche
+	}
+	text = { # algonquian
+		trigger = {
+			has_variable = DC_MarkCulture_algonquian
+		}
+		localization_key = algonquian
+	}
+	text = { # iroquoian
+		trigger = {
+			has_variable = DC_MarkCulture_iroquoian
+		}
+		localization_key = iroquoian
+	}
+	text = { # caddoan
+		trigger = {
+			has_variable = DC_MarkCulture_caddoan
+		}
+		localization_key = caddoan
+	}
+	text = { # paiute
+		trigger = {
+			has_variable = DC_MarkCulture_paiute
+		}
+		localization_key = paiute
+	}
+	text = { # hokan
+		trigger = {
+			has_variable = DC_MarkCulture_hokan
+		}
+		localization_key = hokan
+	}
+	text = { # apache
+		trigger = {
+			has_variable = DC_MarkCulture_apache
+		}
+		localization_key = apache
+	}
+	text = { # oodham
+		trigger = {
+			has_variable = DC_MarkCulture_oodham
+		}
+		localization_key = oodham
+	}
+	text = { # mixtec
+		trigger = {
+			has_variable = DC_MarkCulture_mixtec
+		}
+		localization_key = mixtec
+	}
+	text = { # muisca
+		trigger = {
+			has_variable = DC_MarkCulture_muisca
+		}
+		localization_key = muisca
+	}
+	text = { # miskito
+		trigger = {
+			has_variable = DC_MarkCulture_miskito
+		}
+		localization_key = miskito
+	}
+	text = { # cariban
+		trigger = {
+			has_variable = DC_MarkCulture_cariban
+		}
+		localization_key = cariban
+	}
+	text = { # yankee
+		trigger = {
+			has_variable = DC_MarkCulture_yankee
+		}
+		localization_key = yankee
+	}
+	text = { # dixie
+		trigger = {
+			has_variable = DC_MarkCulture_dixie
+		}
+		localization_key = dixie
+	}
+	text = { # mexican
+		trigger = {
+			has_variable = DC_MarkCulture_mexican
+		}
+		localization_key = mexican
+	}
+	text = { # central_american
+		trigger = {
+			has_variable = DC_MarkCulture_central_american
+		}
+		localization_key = central_american
+	}
+	text = { # caribeno
+		trigger = {
+			has_variable = DC_MarkCulture_caribeno
+		}
+		localization_key = caribeno
+	}
+	text = { # north_andean
+		trigger = {
+			has_variable = DC_MarkCulture_north_andean
+		}
+		localization_key = north_andean
+	}
+	text = { # south_andean
+		trigger = {
+			has_variable = DC_MarkCulture_south_andean
+		}
+		localization_key = south_andean
+	}
+	text = { # platinean
+		trigger = {
+			has_variable = DC_MarkCulture_platinean
+		}
+		localization_key = platinean
+	}
+	text = { # brazilian
+		trigger = {
+			has_variable = DC_MarkCulture_brazilian
+		}
+		localization_key = brazilian
+	}
+	text = { # afro_american
+		trigger = {
+			has_variable = DC_MarkCulture_afro_american
+		}
+		localization_key = afro_american
+	}
+	text = { # afro_caribbean
+		trigger = {
+			has_variable = DC_MarkCulture_afro_caribbean
+		}
+		localization_key = afro_caribbean
+	}
+	text = { # afro_caribeno
+		trigger = {
+			has_variable = DC_MarkCulture_afro_caribeno
+		}
+		localization_key = afro_caribeno
+	}
+	text = { # afro_brazilian
+		trigger = {
+			has_variable = DC_MarkCulture_afro_brazilian
+		}
+		localization_key = afro_brazilian
+	}
+	text = { # afro_antillean
+		trigger = {
+			has_variable = DC_MarkCulture_afro_antillean
+		}
+		localization_key = afro_antillean
+	}
+	text = { # akan
+		trigger = {
+			has_variable = DC_MarkCulture_akan
+		}
+		localization_key = akan
+	}
+	text = { # bambara
+		trigger = {
+			has_variable = DC_MarkCulture_bambara
+		}
+		localization_key = bambara
+	}
+	text = { # bassa
+		trigger = {
+			has_variable = DC_MarkCulture_bassa
+		}
+		localization_key = bassa
+	}
+	text = { # dyula
+		trigger = {
+			has_variable = DC_MarkCulture_dyula
+		}
+		localization_key = dyula
+	}
+	text = { # edo
+		trigger = {
+			has_variable = DC_MarkCulture_edo
+		}
+		localization_key = edo
+	}
+	text = { # ewe
+		trigger = {
+			has_variable = DC_MarkCulture_ewe
+		}
+		localization_key = ewe
+	}
+	text = { # fon
+		trigger = {
+			has_variable = DC_MarkCulture_fon
+		}
+		localization_key = fon
+	}
+	text = { # fulbe
+		trigger = {
+			has_variable = DC_MarkCulture_fulbe
+		}
+		localization_key = fulbe
+	}
+	text = { # haratin
+		trigger = {
+			has_variable = DC_MarkCulture_haratin
+		}
+		localization_key = haratin
+	}
+	text = { # hausa
+		trigger = {
+			has_variable = DC_MarkCulture_hausa
+		}
+		localization_key = hausa
+	}
+	text = { # ibibio
+		trigger = {
+			has_variable = DC_MarkCulture_ibibio
+		}
+		localization_key = ibibio
+	}
+	text = { # ibo
+		trigger = {
+			has_variable = DC_MarkCulture_ibo
+		}
+		localization_key = ibo
+	}
+	text = { # kissi
+		trigger = {
+			has_variable = DC_MarkCulture_kissi
+		}
+		localization_key = kissi
+	}
+	text = { # kru
+		trigger = {
+			has_variable = DC_MarkCulture_kru
+		}
+		localization_key = kru
+	}
+	text = { # mande
+		trigger = {
+			has_variable = DC_MarkCulture_mande
+		}
+		localization_key = mande
+	}
+	text = { # maures
+		trigger = {
+			has_variable = DC_MarkCulture_maures
+		}
+		localization_key = maures
+	}
+	text = { # mossi
+		trigger = {
+			has_variable = DC_MarkCulture_mossi
+		}
+		localization_key = mossi
+	}
+	text = { # senufo
+		trigger = {
+			has_variable = DC_MarkCulture_senufo
+		}
+		localization_key = senufo
+	}
+	text = { # songhai
+		trigger = {
+			has_variable = DC_MarkCulture_songhai
+		}
+		localization_key = songhai
+	}
+	text = { # tiv
+		trigger = {
+			has_variable = DC_MarkCulture_tiv
+		}
+		localization_key = tiv
+	}
+	text = { # tuareg
+		trigger = {
+			has_variable = DC_MarkCulture_tuareg
+		}
+		localization_key = tuareg
+	}
+	text = { # wolof
+		trigger = {
+			has_variable = DC_MarkCulture_wolof
+		}
+		localization_key = wolof
+	}
+	text = { # yoruba
+		trigger = {
+			has_variable = DC_MarkCulture_yoruba
+		}
+		localization_key = yoruba
+	}
+	text = { # bakongo
+		trigger = {
+			has_variable = DC_MarkCulture_bakongo
+		}
+		localization_key = bakongo
+	}
+	text = { # baguirmi
+		trigger = {
+			has_variable = DC_MarkCulture_baguirmi
+		}
+		localization_key = baguirmi
+	}
+	text = { # fang
+		trigger = {
+			has_variable = DC_MarkCulture_fang
+		}
+		localization_key = fang
+	}
+	text = { # kanuri
+		trigger = {
+			has_variable = DC_MarkCulture_kanuri
+		}
+		localization_key = kanuri
+	}
+	text = { # luba
+		trigger = {
+			has_variable = DC_MarkCulture_luba
+		}
+		localization_key = luba
+	}
+	text = { # lunda
+		trigger = {
+			has_variable = DC_MarkCulture_lunda
+		}
+		localization_key = lunda
+	}
+	text = { # mongo
+		trigger = {
+			has_variable = DC_MarkCulture_mongo
+		}
+		localization_key = mongo
+	}
+	text = { # sara
+		trigger = {
+			has_variable = DC_MarkCulture_sara
+		}
+		localization_key = sara
+	}
+	text = { # teda
+		trigger = {
+			has_variable = DC_MarkCulture_teda
+		}
+		localization_key = teda
+	}
+	text = { # equatorial_bantu
+		trigger = {
+			has_variable = DC_MarkCulture_equatorial_bantu
+		}
+		localization_key = equatorial_bantu
+	}
+	text = { # fluvian_bantu
+		trigger = {
+			has_variable = DC_MarkCulture_fluvian_bantu
+		}
+		localization_key = fluvian_bantu
+	}
+	text = { # nilotic
+		trigger = {
+			has_variable = DC_MarkCulture_nilotic
+		}
+		localization_key = nilotic
+	}
+	text = { # amhara
+		trigger = {
+			has_variable = DC_MarkCulture_amhara
+		}
+		localization_key = amhara
+	}
+	text = { # afar
+		trigger = {
+			has_variable = DC_MarkCulture_afar
+		}
+		localization_key = afar
+	}
+	text = { # azande
+		trigger = {
+			has_variable = DC_MarkCulture_azande
+		}
+		localization_key = azande
+	}
+	text = { # baganda
+		trigger = {
+			has_variable = DC_MarkCulture_baganda
+		}
+		localization_key = baganda
+	}
+	text = { # beja
+		trigger = {
+			has_variable = DC_MarkCulture_beja
+		}
+		localization_key = beja
+	}
+	text = { # dinka
+		trigger = {
+			has_variable = DC_MarkCulture_dinka
+		}
+		localization_key = dinka
+	}
+	text = { # fur
+		trigger = {
+			has_variable = DC_MarkCulture_fur
+		}
+		localization_key = fur
+	}
+	text = { # kikuyu
+		trigger = {
+			has_variable = DC_MarkCulture_kikuyu
+		}
+		localization_key = kikuyu
+	}
+	text = { # luo
+		trigger = {
+			has_variable = DC_MarkCulture_luo
+		}
+		localization_key = luo
+	}
+	text = { # maasai
+		trigger = {
+			has_variable = DC_MarkCulture_maasai
+		}
+		localization_key = maasai
+	}
+	text = { # nuer
+		trigger = {
+			has_variable = DC_MarkCulture_nuer
+		}
+		localization_key = nuer
+	}
+	text = { # nuba
+		trigger = {
+			has_variable = DC_MarkCulture_nuba
+		}
+		localization_key = nuba
+	}
+	text = { # oromo
+		trigger = {
+			has_variable = DC_MarkCulture_oromo
+		}
+		localization_key = oromo
+	}
+	text = { # ruanda
+		trigger = {
+			has_variable = DC_MarkCulture_ruanda
+		}
+		localization_key = ruanda
+	}
+	text = { # rundi
+		trigger = {
+			has_variable = DC_MarkCulture_rundi
+		}
+		localization_key = rundi
+	}
+	text = { # sidama
+		trigger = {
+			has_variable = DC_MarkCulture_sidama
+		}
+		localization_key = sidama
+	}
+	text = { # somali
+		trigger = {
+			has_variable = DC_MarkCulture_somali
+		}
+		localization_key = somali
+	}
+	text = { # sudanese
+		trigger = {
+			has_variable = DC_MarkCulture_sudanese
+		}
+		localization_key = sudanese
+	}
+	text = { # sukuma
+		trigger = {
+			has_variable = DC_MarkCulture_sukuma
+		}
+		localization_key = sukuma
+	}
+	text = { # swahili
+		trigger = {
+			has_variable = DC_MarkCulture_swahili
+		}
+		localization_key = swahili
+	}
+	text = { # tigray
+		trigger = {
+			has_variable = DC_MarkCulture_tigray
+		}
+		localization_key = tigray
+	}
+	text = { # unyamwezi
+		trigger = {
+			has_variable = DC_MarkCulture_unyamwezi
+		}
+		localization_key = unyamwezi
+	}
+	text = { # lacustrine_bantu
+		trigger = {
+			has_variable = DC_MarkCulture_lacustrine_bantu
+		}
+		localization_key = lacustrine_bantu
+	}
+	text = { # chewa
+		trigger = {
+			has_variable = DC_MarkCulture_chewa
+		}
+		localization_key = chewa
+	}
+	text = { # herero
+		trigger = {
+			has_variable = DC_MarkCulture_herero
+		}
+		localization_key = herero
+	}
+	text = { # khoisan
+		trigger = {
+			has_variable = DC_MarkCulture_khoisan
+		}
+		localization_key = khoisan
+	}
+	text = { # lomwe
+		trigger = {
+			has_variable = DC_MarkCulture_lomwe
+		}
+		localization_key = lomwe
+	}
+	text = { # makua
+		trigger = {
+			has_variable = DC_MarkCulture_makua
+		}
+		localization_key = makua
+	}
+	text = { # nguni
+		trigger = {
+			has_variable = DC_MarkCulture_nguni
+		}
+		localization_key = nguni
+	}
+	text = { # ovimbundu
+		trigger = {
+			has_variable = DC_MarkCulture_ovimbundu
+		}
+		localization_key = ovimbundu
+	}
+	text = { # sena
+		trigger = {
+			has_variable = DC_MarkCulture_sena
+		}
+		localization_key = sena
+	}
+	text = { # shona
+		trigger = {
+			has_variable = DC_MarkCulture_shona
+		}
+		localization_key = shona
+	}
+	text = { # sotho
+		trigger = {
+			has_variable = DC_MarkCulture_sotho
+		}
+		localization_key = sotho
+	}
+	text = { # tonga
+		trigger = {
+			has_variable = DC_MarkCulture_tonga
+		}
+		localization_key = tonga
+	}
+	text = { # tswana
+		trigger = {
+			has_variable = DC_MarkCulture_tswana
+		}
+		localization_key = tswana
+	}
+	text = { # xhosa
+		trigger = {
+			has_variable = DC_MarkCulture_xhosa
+		}
+		localization_key = xhosa
+	}
+	text = { # yao
+		trigger = {
+			has_variable = DC_MarkCulture_yao
+		}
+		localization_key = yao
+	}
+	text = { # zulu
+		trigger = {
+			has_variable = DC_MarkCulture_zulu
+		}
+		localization_key = zulu
+	}
+	text = { # kavango_bantu
+		trigger = {
+			has_variable = DC_MarkCulture_kavango_bantu
+		}
+		localization_key = kavango_bantu
+	}
+	text = { # anglo_canadian
+		trigger = {
+			has_variable = DC_MarkCulture_anglo_canadian
+		}
+		localization_key = anglo_canadian
+	}
+	text = { # franco_canadian
+		trigger = {
+			has_variable = DC_MarkCulture_franco_canadian
+		}
+		localization_key = franco_canadian
+	}
+	text = { # sorb
+		trigger = {
+			has_variable = DC_MarkCulture_sorb
+		}
+		localization_key = sorb
+	}
+	text = { # tuvan
+		trigger = {
+			has_variable = DC_MarkCulture_tuvan
+		}
+		localization_key = tuvan
+	}
+	text = { # corsican
+		trigger = {
+			has_variable = DC_MarkCulture_corsican
+		}
+		localization_key = corsican
+	}
+	text = { # yemenite
+		trigger = {
+			has_variable = DC_MarkCulture_yemenite
+		}
+		localization_key = yemenite
+	}
+
+	text = { # welsh
+		trigger = {
+			has_variable = DC_MarkCulture_welsh
+		}
+		localization_key = welsh
+	}
+	text = { # scottish
+		trigger = {
+			has_variable = DC_MarkCulture_scottish
+		}
+		localization_key = scottish
+	}
+	text = { # galician
+		trigger = {
+			has_variable = DC_MarkCulture_galician
+		}
+		localization_key = galician
+	}
+	text = { # malay
+		trigger = {
+			has_variable = DC_MarkCulture_malay
+		}
+		localization_key = malay
+	}
+	text = { # bornean
+		trigger = {
+			has_variable = DC_MarkCulture_bornean
+		}
+		localization_key = bornean
+	}
+	text = { # sumatran
+		trigger = {
+			has_variable = DC_MarkCulture_sumatran
+		}
+		localization_key = sumatran
+	}
+	text = { # balinese
+		trigger = {
+			has_variable = DC_MarkCulture_balinese
+		}
+		localization_key = balinese
+	}
+	text = { # cajun
+		trigger = {
+			has_variable = DC_MarkCulture_cajun
+		}
+		localization_key = cajun
+	}
+	text = { # assyrian
+		trigger = {
+			has_variable = DC_MarkCulture_assyrian
+		}
+		localization_key = assyrian
+	}
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+
+
+}
+
+DecisionCheat_MarkReligionVariable = {
+	type = country
+	random_valid = no
+	text = { # catholic
+		trigger = {
+			has_variable = DC_MarkReligion_catholic
+		}
+		localization_key = catholic
+	}
+	text = { # protestant
+		trigger = {
+			has_variable = DC_MarkReligion_protestant
+		}
+		localization_key = protestant
+	}
+	text = { # orthodox
+		trigger = {
+			has_variable = DC_MarkReligion_orthodox
+		}
+		localization_key = orthodox
+	}
+	text = { # oriental_orthodox
+		trigger = {
+			has_variable = DC_MarkReligion_oriental_orthodox
+		}
+		localization_key = oriental_orthodox
+	}
+	text = { # sunni
+		trigger = {
+			has_variable = DC_MarkReligion_sunni
+		}
+		localization_key = sunni
+	}
+	text = { # shiite
+		trigger = {
+			has_variable = DC_MarkReligion_shiite
+		}
+		localization_key = shiite
+	}
+	text = { # jewish
+		trigger = {
+			has_variable = DC_MarkReligion_jewish
+		}
+		localization_key = jewish
+	}
+	text = { # mahayana
+		trigger = {
+			has_variable = DC_MarkReligion_mahayana
+		}
+		localization_key = mahayana
+	}
+	text = { # gelugpa
+		trigger = {
+			has_variable = DC_MarkReligion_gelugpa
+		}
+		localization_key = gelugpa
+	}
+	text = { # theravada
+		trigger = {
+			has_variable = DC_MarkReligion_theravada
+		}
+		localization_key = theravada
+	}
+	text = { # hindu
+		trigger = {
+			has_variable = DC_MarkReligion_hindu
+		}
+		localization_key = hindu
+	}
+	text = { # shinto
+		trigger = {
+			has_variable = DC_MarkReligion_shinto
+		}
+		localization_key = shinto
+	}
+	text = { # sikh
+		trigger = {
+			has_variable = DC_MarkReligion_sikh
+		}
+		localization_key = sikh
+	}
+	text = { # animist
+		trigger = {
+			has_variable = DC_MarkReligion_animist
+		}
+		localization_key = animist
+	}
+	
+	text = {
+		localization_key = DecisionCheat_custom_empty
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

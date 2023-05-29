@@ -1,0 +1,184 @@
+﻿l_simp_chinese:
+ Open_GeneralCheat_Decision:"打开 [concept_modifier] 作弊类决议"
+ Open_GeneralCheat_Decision_desc:""
+ Close_GeneralCheat_Decision:"关闭 [concept_modifier] 作弊类决议"
+ Close_GeneralCheat_Decision_desc:""
+
+ IncreasePopLoyalists_Decision:"增加[concept_loyalist][concept_pop]"
+ IncreasePopLoyalists_Decision_desc:""
+ 
+ IncreasePopRadicals_Decision:"增加[concept_radical][concept_pop]"
+ IncreasePopRadicals_Decision_desc:""
+ 
+ IncreasePopLiteracy_Decision:"增加全国[concept_pop][concept_literacy]"
+ IncreasePopLiteracy_Decision_desc:""
+ IncreasePopLiteracy_Decision_cp:"增加全国[concept_pop]10%的[concept_literacy]"
+ 
+ DecreasePopLiteracy_Decision:"减少全国[concept_pop][concept_literacy]"
+ DecreasePopLiteracy_Decision_desc:""
+ DecreasePopLiteracy_Decision_cp:"减少全国[concept_pop]10%的[concept_literacy]"
+
+ 
+ AddTreasury_100K_Decision:"增加100K的[concept_money]"
+ AddTreasury_100K_Decision_desc:""
+ AddTreasury_1000K_Decision:"增加1000K的[concept_money]"
+ AddTreasury_1000K_Decision_desc:""
+ AddTreasury_10000K_Decision:"增加10000K的[concept_money]"
+ AddTreasury_10000K_Decision_desc:""
+ 
+ 
+
+ 
+ AddArableLand_100_Decision:"增加100的[concept_arable_land]"
+ AddArableLand_100_Decision_desc:"需要在[concept_decree]中[GetDecreeType('DecisionCheatDecree_MarkState').GetName][concept_state]使用"
+
+ MakeIndependent_Decision:"使国家独立"
+ MakeIndependent_Decision_desc:""
+ 
+ MakeAllStateIncorporated_Decision:"[Concept('concept_incorporated_state','$concept_incorporated$')][concept_unincorporated_state]"
+ MakeAllStateIncorporated_Decision_desc:""
+
+ AddCountryConstructionModifier_Decision:"获得 [concept_construction]增加"
+ AddCountryConstructionModifier_Decision_desc:""
+ RemoveCountryConstructionModifier_Decision:"移除 [concept_construction]增加"
+ RemoveCountryConstructionModifier_Decision_desc:""
+ 
+ AddStateTaxCapacityAddModifier_Decision:"获得 [concept_tax_capacity]增加"
+ AddStateTaxCapacityAddModifier_Decision_desc:""
+ RemoveStateTaxCapacityAddModifier_Decision:"移除 [concept_tax_capacity]增加"
+ RemoveStateTaxCapacityAddModifier_Decision_desc:""
+ 
+ AddStateInfrastructureAddModifier_Decision:"获得 [concept_infrastructure]增加"
+ AddStateInfrastructureAddModifier_Decision_desc:""
+ RemoveStateInfrastructureAddModifier_Decision:"移除 [concept_infrastructure]增加"
+ RemoveStateInfrastructureAddModifier_Decision_desc:""
+
+
+ AddStateConstructionModifier_Decision:"获得 地区建造效率"
+ AddStateConstructionModifier_Decision_desc:""
+ RemoveStateConstructionModifier_Decision:"移除 地区建造效率"
+ RemoveStateConstructionModifier_Decision_desc:""
+ 
+ AddCountryBureaucracyModifier_Decision:"获得 基础[concept_bureaucracy]增加"
+ AddCountryBureaucracyModifier_Decision_desc:""
+ RemoveCountryBureaucracyModifier_Decision:"移除 基础[concept_bureaucracy]增加"
+ RemoveCountryBureaucracyModifier_Decision_desc:""
+ 
+ AddCountryAuthorityModifier_Decision:"获得 基础[concept_authority]增加"
+ AddCountryAuthorityModifier_Decision_desc:""
+ RemoveCountryAuthorityModifier_Decision:"移除 基础[concept_authority]增加"
+ RemoveCountryAuthorityModifier_Decision_desc:""
+ 
+ AddCountryInfluenceModifier_Decision:"获得 基础[concept_influence]增加"
+ AddCountryInfluenceModifier_Decision_desc:""
+ RemoveCountryInfluenceModifier_Decision:"移除 基础[concept_influence]增加"
+ RemoveCountryInfluenceModifier_Decision_desc:""
+ 
+ AddWeeklyInnovationModifier_Decision:"获得 每周[concept_innovation]增加"
+ AddWeeklyInnovationModifier_Decision_desc:""
+ RemoveWeeklyInnovationModifier_Decision:"移除 每周[concept_innovation]增加"
+ RemoveWeeklyInnovationModifier_Decision_desc:""
+
+ AddStateBirthRateModifier_Decision:"获得 出生率"
+ AddStateBirthRateModifier_Decision_desc:""
+ RemoveStateBirthRateModifier_Decision:"移除 出生率"
+ RemoveStateBirthRateModifier_Decision_desc:""
+ 
+ AddMigrationPullModifier_Decision:"获得 移民吸引力增加"
+ AddMigrationPullModifier_Decision_desc:""
+ RemoveMigrationPullModifier_Decision:"移除 移民吸引力增加"
+ RemoveMigrationPullModifier_Decision_desc:""
+ 
+ AddInterestGroupApprovalModifier_Decision:"获得 利益集团支持度增加"
+ AddInterestGroupApprovalModifier_Decision_desc:""
+ RemoveInterestGroupApprovalModifier_Decision:"移除 利益集团支持度增加"
+ RemoveInterestGroupApprovalModifier_Decision_desc:""
+ 
+ AddCountryPrestigeModifier_Decision:"获得 国家威望增加"
+ AddCountryPrestigeModifier_Decision_desc:""
+ RemoveCountryPrestigeModifier_Decision:"移除 国家威望增加"
+ RemoveCountryPrestigeModifier_Decision_desc:""
+ 
+ AddUnityArmyBonusModifier_Decision:"获得 陆军加成"
+ AddUnityArmyBonusModifier_Decision_desc:""
+ RemoveUnityArmyBonusModifier_Decision:"移除 陆军加成"
+ RemoveUnityArmyBonusModifier_Decision_desc:""
+ 
+ AddUnityNavyBonusModifier_Decision:"获得 海军加成"
+ AddUnityNavyBonusModifier_Decision_desc:""
+ RemoveUnityNavyBonusModifier_Decision:"移除 海军加成"
+ RemoveUnityNavyBonusModifier_Decision_desc:""
+
+ AddCountryTaxIncomeBonusModifier_Decision:"获得 @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
+ AddCountryTaxIncomeBonusModifier_Decision_desc:""
+ RemoveCountryTaxIncomeBonusModifier_Decision:"移除 @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
+ RemoveCountryTaxIncomeBonusModifier_Decision_desc:""
+ 
+ AddCountryLegitimacyBaseBonusModifier_Decision:"获得 [concept_legitimacy]加成"
+ AddCountryLegitimacyBaseBonusModifier_Decision_desc:"你的[concept_government]有[GetPlayer.GetGovernmentLegitimacy|v]的[concept_legitimacy]"
+ RemoveCountryLegitimacyBaseBonusModifier_Decision:"移除 [concept_legitimacy]加成"
+ RemoveCountryLegitimacyBaseBonusModifier_Decision_desc:"你的[concept_government]有[GetPlayer.GetGovernmentLegitimacy|v]的[concept_legitimacy]"
+
+ AddBuildingMinesBonusModifier_Decision:"获得 资源产业加成"
+ AddBuildingMinesBonusModifier_Decision_desc:""
+ RemoveBuildingMinesBonusModifier_Decision:"移除 资源产业加成"
+ RemoveBuildingMinesBonusModifier_Decision_desc:""
+ 
+ AddBuildingFarmsBonusModifier_Decision:"获得 农业加成"
+ AddBuildingFarmsBonusModifier_Decision_desc:""
+ RemoveBuildingFarmsBonusModifier_Decision:"移除 农业加成"
+ RemoveBuildingFarmsBonusModifier_Decision_desc:""
+ 
+ AddCountryLawEnactmentTimeModifier_Decision:"获得 立法时间减少"
+ AddCountryLawEnactmentTimeModifier_Decision_desc:""
+ RemoveCountryLawEnactmentTimeModifier_Decision:"移除 立法时间减少"
+ RemoveCountryLawEnactmentTimeModifier_Decision_desc:""
+
+ AddStateAssimilationModifier_Decision:"获得 [concept_assimilation]加成"
+ AddStateAssimilationModifier_Decision_desc:""
+ RemoveStateAssimilationModifier_Decision:"移除 [concept_assimilation]加成"
+ RemoveStateAssimilationModifier_Decision_desc:""
+ 
+ AddCountryInfamyDecayDreaseModifier_Decision:"获得 恶名衰减加快"
+ AddCountryInfamyDecayDreaseModifier_Decision_desc:""
+ RemoveCountryInfamyDecayDreaseModifier_Decision:"移除 恶名衰减加快"
+ RemoveCountryInfamyDecayDreaseModifier_Decision_desc:""
+ 
+ AddCountryInfamyDecayIneaseModifier_Decision:"获得 恶名衰减减缓"
+ AddCountryInfamyDecayIneaseModifier_Decision_desc:""
+ RemoveCountryInfamyDecayIneaseModifier_Decision:"移除 恶名衰减减缓"
+ RemoveCountryInfamyDecayIneaseModifier_Decision_desc:""
+ 
+ AddStateStandardOfLivingModifier_Decision:"获得 生活水平加成"
+ AddStateStandardOfLivingModifier_Decision_desc:""
+ RemoveStateStandardOfLivingModifier_Decision:"移除 生活水平加成"
+ RemoveStateStandardOfLivingModifier_Decision_desc:""
+ 
+ AddStatePopQualificationModifier_Decision:"获得 [concept_pop_qualifications]加成"
+ AddStatePopQualificationModifier_Decision_desc:""
+ RemoveStatePopQualificationModifier_Decision:"移除 [concept_pop_qualifications]加成"
+ RemoveStatePopQualificationModifier_Decision_desc:""
+ 
+ AddColonyGrowthModifier_Decision:"获得 [concept_colonial_growth]加成"
+ AddColonyGrowthModifier_Decision_desc:""
+ RemoveColonyGrowthModifier_Decision:"移除 [concept_colonial_growth]加成"
+ RemoveColonyGrowthModifier_Decision_desc:""
+
+ AddStateEducationAccess_Decision:"获得 [concept_education_access]加成"
+ AddStateEducationAccess_Decision_desc:""
+ RemoveStateEducationAccess_Decision:"移除 [concept_education_access]加成"
+ RemoveStateEducationAccess_Decision_desc:""
+ 
+ AddCountryRelationImprove_Decision:"获得 改善关系加成"
+ AddCountryRelationImprove_Decision_desc:""
+ RemoveCountryRelationImprove_Decision:"移除 改善关系加成"
+ RemoveCountryRelationImprove_Decision_desc:""
+ 
+ AddCountryRelationDamage_Decision:"获得 破坏关系加成"
+ AddCountryRelationDamage_Decision_desc:""
+ RemoveCountryRelationDamage_Decision:"移除 破坏关系加成"
+ RemoveCountryRelationDamage_Decision_desc:""
+ 
+ TechnologAdd_All_Decision:"获得所有[concept_technology]"
+ TechnologAdd_All_Decision_desc:""
+

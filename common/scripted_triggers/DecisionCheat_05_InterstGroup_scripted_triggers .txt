@@ -1,0 +1,131 @@
+﻿DC_CheckSelectInterstGroupMarkVariable_trigger = {
+	OR = {
+		has_variable = DC_MarkInterstGroup_ig_armed_forces
+		has_variable = DC_MarkInterstGroup_ig_devout
+		has_variable = DC_MarkInterstGroup_ig_industrialists
+		has_variable = DC_MarkInterstGroup_ig_intelligentsia
+		has_variable = DC_MarkInterstGroup_ig_landowners
+		has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+		has_variable = DC_MarkInterstGroup_ig_rural_folk
+		has_variable = DC_MarkInterstGroup_ig_trade_unions
+	}
+}
+
+DC_Check_InterstGroup_PolStr_Modifier_trigger = {
+	OR = {
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_armed_forces_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_devout_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_industrialists_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_intelligentsia_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_landowners_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_petty_bourgeoisie_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_rural_folk_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+			has_modifier = DecisionCheatInterestGroup_polstr_ig_trade_unions_Modifier
+		}
+	}
+}
+DC_Check_InterstGroup_OneApproval_Modifier_trigger = {
+	OR = {
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+			has_modifier = DecisionCheatInterestGroup_ig_armed_forces_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+			has_modifier = DecisionCheatInterestGroup_ig_devout_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+			has_modifier = DecisionCheatInterestGroup_ig_industrialists_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+			has_modifier = DecisionCheatInterestGroup_ig_intelligentsia_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+			has_modifier = DecisionCheatInterestGroup_ig_landowners_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+			has_modifier = DecisionCheatInterestGroup_ig_petty_bourgeoisie_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+			has_modifier = DecisionCheatInterestGroup_ig_rural_folk_approval_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+			has_modifier = DecisionCheatInterestGroup_ig_trade_unions_approval_Modifier
+		}
+	}
+}
+DC_Check_InterstGroup_OnePopAttraction_Modifier_trigger = {
+	OR = {
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_armed_forces
+			has_modifier = DecisionCheatInterestGroup_ig_armed_forces_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_devout
+			has_modifier = DecisionCheatInterestGroup_ig_devout_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_industrialists
+			has_modifier = DecisionCheatInterestGroup_ig_industrialists_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_intelligentsia
+			has_modifier = DecisionCheatInterestGroup_ig_intelligentsia_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_landowners
+			has_modifier = DecisionCheatInterestGroup_ig_landowners_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_petty_bourgeoisie
+			has_modifier = DecisionCheatInterestGroup_ig_petty_bourgeoisie_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_rural_folk
+			has_modifier = DecisionCheatInterestGroup_ig_rural_folk_pop_attraction_Modifier
+		}
+		AND = {
+			has_variable = DC_MarkInterstGroup_ig_trade_unions
+			has_modifier = DecisionCheatInterestGroup_ig_trade_unions_pop_attraction_Modifier
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,728 @@
+﻿DecisionCheatAddSomePopluationEffect = {
+	if = {
+		limit = {
+			DC_CheckPopCulutreMarkVariable_trigger = yes
+			DC_CheckPopReligionMarkVariable_trigger = yes
+		}
+		every_scope_state = {
+			limit = {
+				has_decree = DecisionCheatDecree_MarkState
+			}
+			DC_AddPopluation_culture_religion = {
+				pop_type = $pop_type$
+				size = $size$
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			DC_CheckPopCulutreMarkVariable_trigger = yes
+		}
+		every_scope_state = {
+			limit = {
+				has_decree = DecisionCheatDecree_MarkState
+			}
+			DC_AddPopluation_culture = {
+				pop_type = $pop_type$
+				size = $size$
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			DC_CheckPopReligionMarkVariable_trigger = yes
+		}
+		every_scope_state = {
+			limit = {
+				has_decree = DecisionCheatDecree_MarkState
+			}
+			DC_AddPopluation_culture_religion = {
+				pop_type = $pop_type$
+				size = $size$
+			}
+		}
+	}
+	else = {
+		every_scope_state = {
+			limit = {
+				has_decree = DecisionCheatDecree_MarkState
+			}
+			create_pop = {
+				culture = han
+				pop_type = $pop_type$
+				size = $size$
+			}
+		}
+	}
+}
+DecisionCheatChangePopluationCultureEffect = {
+	every_scope_state = {
+		limit = {
+			has_decree = DecisionCheatDecree_MarkState
+		}
+		every_scope_pop = { DC_ChangePop_culture = yes }
+	}
+}
+DecisionCheatChangePopluationReligionEffect = {
+	every_scope_state = {
+		limit = {
+			has_decree = DecisionCheatDecree_MarkState
+		}
+		every_scope_pop = { DC_ChangePop_religion = yes }
+	}
+}
+
+#$pop_type$
+#$size$
+DC_AddPopluation_culture_religion = {
+	DC_select_culture_two_arguments_effect = {
+		effect = DC_AddPopluation_culture_religion_A_effect
+		varA = pop_type
+		valueA = $pop_type$
+		varB = size
+		valueB = $size$
+	}
+}
+DC_AddPopluation_culture_religion_A_effect = {
+	DC_select_religion_three_arguments_effect = {
+		effect = DC_AddPopluation_culture_religion_B_effect
+		varA = pop_type
+		valueA = $pop_type$
+		varB = size
+		valueB = $size$
+		varC = culture
+		valueC = $culture$
+	}
+}
+DC_AddPopluation_culture_religion_B_effect = {
+	create_pop = {
+		culture = $culture$
+		religion = $religion$
+		pop_type = $pop_type$
+		size = $size$
+	}
+}
+
+#$pop_type$
+#$size$
+DC_AddPopluation_culture = {
+	DC_select_culture_two_arguments_effect = {
+		effect = DC_AddPopluation_culture_effect
+		varA = pop_type
+		valueA = $pop_type$
+		varB = size
+		valueB = $size$
+	}
+}
+DC_AddPopluation_culture_effect = {
+	create_pop = {
+		culture = $culture$
+		pop_type = $pop_type$
+		size = $size$
+	}
+}
+#$pop_type$
+#$size$
+DC_AddPopluation_religion = {
+	DC_select_religion_two_arguments_effect = {
+		effect = DC_AddPopluation_religion_effect
+		varA = pop_type
+		valueA = $pop_type$
+		varB = size
+		valueB = $size$
+	}
+}
+DC_AddPopluation_religion_effect = {
+	create_pop = {
+		religion = $religion$
+		culture = han
+		pop_type = $pop_type$
+		size = $size$
+	}
+}
+DC_ChangePop_culture = {
+	DC_select_culture_no_arguments_effect = {
+		effect = DC_ChangePop_culture_effect
+	}
+}
+DC_ChangePop_culture_effect = {
+	change_pop_culture = {
+		target = cu:$culture$
+		value = 1
+	}
+}
+DC_ChangePop_religion = {
+	DC_select_religion_no_arguments_effect = {
+		effect = DC_ChangePop_religion_effect
+	}
+}
+DC_ChangePop_religion_effect = {
+	change_pop_religion = {
+		target = rel:$religion$
+		value = 1
+	}
+}
+
+
+
+DC_MarkCultureClrVariable_effect = {
+	remove_variable = DC_MarkCulture_north_german
+	remove_variable = DC_MarkCulture_south_german
+	remove_variable = DC_MarkCulture_ashkenazi
+	remove_variable = DC_MarkCulture_dutch
+	remove_variable = DC_MarkCulture_flemish
+	remove_variable = DC_MarkCulture_wallonian
+	remove_variable = DC_MarkCulture_boer
+	remove_variable = DC_MarkCulture_swiss
+	remove_variable = DC_MarkCulture_swedish
+	remove_variable = DC_MarkCulture_danish
+	remove_variable = DC_MarkCulture_norwegian
+	remove_variable = DC_MarkCulture_icelandic
+	remove_variable = DC_MarkCulture_finnish
+	remove_variable = DC_MarkCulture_sami
+	remove_variable = DC_MarkCulture_british
+	remove_variable = DC_MarkCulture_irish
+	remove_variable = DC_MarkCulture_australian
+	remove_variable = DC_MarkCulture_north_italian
+	remove_variable = DC_MarkCulture_south_italian
+	remove_variable = DC_MarkCulture_maltese
+	remove_variable = DC_MarkCulture_basque
+	remove_variable = DC_MarkCulture_spanish
+	remove_variable = DC_MarkCulture_catalan
+	remove_variable = DC_MarkCulture_portuguese
+	remove_variable = DC_MarkCulture_french
+	remove_variable = DC_MarkCulture_occitan
+	remove_variable = DC_MarkCulture_breton
+	remove_variable = DC_MarkCulture_croat
+	remove_variable = DC_MarkCulture_serb
+	remove_variable = DC_MarkCulture_bulgarian
+	remove_variable = DC_MarkCulture_albanian
+	remove_variable = DC_MarkCulture_slovene
+	remove_variable = DC_MarkCulture_bosniak
+	remove_variable = DC_MarkCulture_romanian
+	remove_variable = DC_MarkCulture_hungarian
+	remove_variable = DC_MarkCulture_polish
+	remove_variable = DC_MarkCulture_lithuanian
+	remove_variable = DC_MarkCulture_czech
+	remove_variable = DC_MarkCulture_slovak
+	remove_variable = DC_MarkCulture_russian
+	remove_variable = DC_MarkCulture_byelorussian
+	remove_variable = DC_MarkCulture_ukrainian
+	remove_variable = DC_MarkCulture_ugrian
+	remove_variable = DC_MarkCulture_latvian
+	remove_variable = DC_MarkCulture_estonian
+	remove_variable = DC_MarkCulture_greek
+	remove_variable = DC_MarkCulture_georgian
+	remove_variable = DC_MarkCulture_armenian
+	remove_variable = DC_MarkCulture_sephardic
+	remove_variable = DC_MarkCulture_turkish
+	remove_variable = DC_MarkCulture_azerbaijani
+	remove_variable = DC_MarkCulture_north_caucasian
+	remove_variable = DC_MarkCulture_maghrebi
+	remove_variable = DC_MarkCulture_misri
+	remove_variable = DC_MarkCulture_mashriqi
+	remove_variable = DC_MarkCulture_bedouin
+	remove_variable = DC_MarkCulture_berber
+	remove_variable = DC_MarkCulture_persian
+	remove_variable = DC_MarkCulture_uzbek
+	remove_variable = DC_MarkCulture_kazak
+	remove_variable = DC_MarkCulture_kirgiz
+	remove_variable = DC_MarkCulture_tajik
+	remove_variable = DC_MarkCulture_uighur
+	remove_variable = DC_MarkCulture_pashtun
+	remove_variable = DC_MarkCulture_baluchi
+	remove_variable = DC_MarkCulture_hazara
+	remove_variable = DC_MarkCulture_turkmen
+	remove_variable = DC_MarkCulture_kurdish
+	remove_variable = DC_MarkCulture_tatar
+	remove_variable = DC_MarkCulture_mongol
+	remove_variable = DC_MarkCulture_kalmyk
+	remove_variable = DC_MarkCulture_siberian
+	remove_variable = DC_MarkCulture_yakut
+	remove_variable = DC_MarkCulture_tibetan
+	remove_variable = DC_MarkCulture_assamese
+	remove_variable = DC_MarkCulture_bengali
+	remove_variable = DC_MarkCulture_bihari
+	remove_variable = DC_MarkCulture_manipuri
+	remove_variable = DC_MarkCulture_nepali
+	remove_variable = DC_MarkCulture_oriya
+	remove_variable = DC_MarkCulture_sinhala
+	remove_variable = DC_MarkCulture_avadhi
+	remove_variable = DC_MarkCulture_kanauji
+	remove_variable = DC_MarkCulture_panjabi
+	remove_variable = DC_MarkCulture_kashmiri
+	remove_variable = DC_MarkCulture_gujarati
+	remove_variable = DC_MarkCulture_marathi
+	remove_variable = DC_MarkCulture_sindi
+	remove_variable = DC_MarkCulture_rajput
+	remove_variable = DC_MarkCulture_kannada
+	remove_variable = DC_MarkCulture_malayalam
+	remove_variable = DC_MarkCulture_tamil
+	remove_variable = DC_MarkCulture_telegu
+	remove_variable = DC_MarkCulture_vietnamese
+	remove_variable = DC_MarkCulture_khmer
+	remove_variable = DC_MarkCulture_batak
+	remove_variable = DC_MarkCulture_dayak
+	remove_variable = DC_MarkCulture_malagasy
+	remove_variable = DC_MarkCulture_filipino
+	remove_variable = DC_MarkCulture_moro
+	remove_variable = DC_MarkCulture_javan
+	remove_variable = DC_MarkCulture_moluccan
+	remove_variable = DC_MarkCulture_thai
+	remove_variable = DC_MarkCulture_mon
+	remove_variable = DC_MarkCulture_khmu
+	remove_variable = DC_MarkCulture_lao
+	remove_variable = DC_MarkCulture_shan
+	remove_variable = DC_MarkCulture_burmese
+	remove_variable = DC_MarkCulture_kachin
+	remove_variable = DC_MarkCulture_karen
+	remove_variable = DC_MarkCulture_japanese
+	remove_variable = DC_MarkCulture_manchu
+	remove_variable = DC_MarkCulture_han
+	remove_variable = DC_MarkCulture_korean
+	remove_variable = DC_MarkCulture_ainu
+	remove_variable = DC_MarkCulture_hakka
+	remove_variable = DC_MarkCulture_miao
+	remove_variable = DC_MarkCulture_min
+	remove_variable = DC_MarkCulture_zhuang
+	remove_variable = DC_MarkCulture_yi
+	remove_variable = DC_MarkCulture_yue
+	remove_variable = DC_MarkCulture_polynesian
+	remove_variable = DC_MarkCulture_hawaiian
+	remove_variable = DC_MarkCulture_melanesian
+	remove_variable = DC_MarkCulture_micronesian
+	remove_variable = DC_MarkCulture_maori
+	remove_variable = DC_MarkCulture_aborigine
+	remove_variable = DC_MarkCulture_zapotec
+	remove_variable = DC_MarkCulture_mayan
+	remove_variable = DC_MarkCulture_nahua
+	remove_variable = DC_MarkCulture_tarascan
+	remove_variable = DC_MarkCulture_quechua
+	remove_variable = DC_MarkCulture_guarani
+	remove_variable = DC_MarkCulture_aimara
+	remove_variable = DC_MarkCulture_amazonian
+	remove_variable = DC_MarkCulture_patagonian
+	remove_variable = DC_MarkCulture_guajiro
+	remove_variable = DC_MarkCulture_tupinamba
+	remove_variable = DC_MarkCulture_metis
+	remove_variable = DC_MarkCulture_dakota
+	remove_variable = DC_MarkCulture_cherokee
+	remove_variable = DC_MarkCulture_muskogean
+	remove_variable = DC_MarkCulture_pueblo
+	remove_variable = DC_MarkCulture_inuit
+	remove_variable = DC_MarkCulture_cree
+	remove_variable = DC_MarkCulture_navajo
+	remove_variable = DC_MarkCulture_athabaskan
+	remove_variable = DC_MarkCulture_salish
+	remove_variable = DC_MarkCulture_nez_perce
+	remove_variable = DC_MarkCulture_siouan
+	remove_variable = DC_MarkCulture_comanche
+	remove_variable = DC_MarkCulture_algonquian
+	remove_variable = DC_MarkCulture_iroquoian
+	remove_variable = DC_MarkCulture_caddoan
+	remove_variable = DC_MarkCulture_paiute
+	remove_variable = DC_MarkCulture_hokan
+	remove_variable = DC_MarkCulture_apache
+	remove_variable = DC_MarkCulture_oodham
+	remove_variable = DC_MarkCulture_mixtec
+	remove_variable = DC_MarkCulture_muisca
+	remove_variable = DC_MarkCulture_miskito
+	remove_variable = DC_MarkCulture_cariban
+	remove_variable = DC_MarkCulture_yankee
+	remove_variable = DC_MarkCulture_dixie
+	remove_variable = DC_MarkCulture_mexican
+	remove_variable = DC_MarkCulture_central_american
+	remove_variable = DC_MarkCulture_caribeno
+	remove_variable = DC_MarkCulture_north_andean
+	remove_variable = DC_MarkCulture_south_andean
+	remove_variable = DC_MarkCulture_platinean
+	remove_variable = DC_MarkCulture_brazilian
+	remove_variable = DC_MarkCulture_afro_american
+	remove_variable = DC_MarkCulture_afro_caribbean
+	remove_variable = DC_MarkCulture_afro_caribeno
+	remove_variable = DC_MarkCulture_afro_brazilian
+	remove_variable = DC_MarkCulture_afro_antillean
+	remove_variable = DC_MarkCulture_akan
+	remove_variable = DC_MarkCulture_bambara
+	remove_variable = DC_MarkCulture_bassa
+	remove_variable = DC_MarkCulture_dyula
+	remove_variable = DC_MarkCulture_edo
+	remove_variable = DC_MarkCulture_ewe
+	remove_variable = DC_MarkCulture_fon
+	remove_variable = DC_MarkCulture_fulbe
+	remove_variable = DC_MarkCulture_haratin
+	remove_variable = DC_MarkCulture_hausa
+	remove_variable = DC_MarkCulture_ibibio
+	remove_variable = DC_MarkCulture_ibo
+	remove_variable = DC_MarkCulture_kissi
+	remove_variable = DC_MarkCulture_kru
+	remove_variable = DC_MarkCulture_mande
+	remove_variable = DC_MarkCulture_maures
+	remove_variable = DC_MarkCulture_mossi
+	remove_variable = DC_MarkCulture_senufo
+	remove_variable = DC_MarkCulture_songhai
+	remove_variable = DC_MarkCulture_tiv
+	remove_variable = DC_MarkCulture_tuareg
+	remove_variable = DC_MarkCulture_wolof
+	remove_variable = DC_MarkCulture_yoruba
+	remove_variable = DC_MarkCulture_bakongo
+	remove_variable = DC_MarkCulture_baguirmi
+	remove_variable = DC_MarkCulture_fang
+	remove_variable = DC_MarkCulture_kanuri
+	remove_variable = DC_MarkCulture_luba
+	remove_variable = DC_MarkCulture_lunda
+	remove_variable = DC_MarkCulture_mongo
+	remove_variable = DC_MarkCulture_sara
+	remove_variable = DC_MarkCulture_teda
+	remove_variable = DC_MarkCulture_equatorial_bantu
+	remove_variable = DC_MarkCulture_fluvian_bantu
+	remove_variable = DC_MarkCulture_nilotic
+	remove_variable = DC_MarkCulture_amhara
+	remove_variable = DC_MarkCulture_afar
+	remove_variable = DC_MarkCulture_azande
+	remove_variable = DC_MarkCulture_baganda
+	remove_variable = DC_MarkCulture_beja
+	remove_variable = DC_MarkCulture_dinka
+	remove_variable = DC_MarkCulture_fur
+	remove_variable = DC_MarkCulture_kikuyu
+	remove_variable = DC_MarkCulture_luo
+	remove_variable = DC_MarkCulture_maasai
+	remove_variable = DC_MarkCulture_nuer
+	remove_variable = DC_MarkCulture_nuba
+	remove_variable = DC_MarkCulture_oromo
+	remove_variable = DC_MarkCulture_ruanda
+	remove_variable = DC_MarkCulture_rundi
+	remove_variable = DC_MarkCulture_sidama
+	remove_variable = DC_MarkCulture_somali
+	remove_variable = DC_MarkCulture_sudanese
+	remove_variable = DC_MarkCulture_sukuma
+	remove_variable = DC_MarkCulture_swahili
+	remove_variable = DC_MarkCulture_tigray
+	remove_variable = DC_MarkCulture_unyamwezi
+	remove_variable = DC_MarkCulture_lacustrine_bantu
+	remove_variable = DC_MarkCulture_chewa
+	remove_variable = DC_MarkCulture_herero
+	remove_variable = DC_MarkCulture_khoisan
+	remove_variable = DC_MarkCulture_lomwe
+	remove_variable = DC_MarkCulture_makua
+	remove_variable = DC_MarkCulture_nguni
+	remove_variable = DC_MarkCulture_ovimbundu
+	remove_variable = DC_MarkCulture_sena
+	remove_variable = DC_MarkCulture_shona
+	remove_variable = DC_MarkCulture_sotho
+	remove_variable = DC_MarkCulture_tonga
+	remove_variable = DC_MarkCulture_tswana
+	remove_variable = DC_MarkCulture_xhosa
+	remove_variable = DC_MarkCulture_yao
+	remove_variable = DC_MarkCulture_zulu
+	remove_variable = DC_MarkCulture_kavango_bantu
+	remove_variable = DC_MarkCulture_anglo_canadian
+	remove_variable = DC_MarkCulture_franco_canadian
+	remove_variable = DC_MarkCulture_sorb
+	remove_variable = DC_MarkCulture_tuvan
+	remove_variable = DC_MarkCulture_corsican
+	remove_variable = DC_MarkCulture_yemenite
+	remove_variable = DC_MarkCulture_welsh
+	remove_variable = DC_MarkCulture_scottish
+	remove_variable = DC_MarkCulture_galician
+	remove_variable = DC_MarkCulture_malay
+	remove_variable = DC_MarkCulture_bornean
+	remove_variable = DC_MarkCulture_sumatran
+	remove_variable = DC_MarkCulture_balinese
+	remove_variable = DC_MarkCulture_cajun
+	remove_variable = DC_MarkCulture_assyrian
+}
+
+DC_MarkReligionClrVariable_effect = {
+	remove_variable = DC_MarkReligion_catholic
+	remove_variable = DC_MarkReligion_protestant
+	remove_variable = DC_MarkReligion_orthodox
+	remove_variable = DC_MarkReligion_oriental_orthodox
+	remove_variable = DC_MarkReligion_sunni
+	remove_variable = DC_MarkReligion_shiite
+	remove_variable = DC_MarkReligion_jewish
+	remove_variable = DC_MarkReligion_mahayana
+	remove_variable = DC_MarkReligion_gelugpa
+	remove_variable = DC_MarkReligion_theravada
+	remove_variable = DC_MarkReligion_hindu
+	remove_variable = DC_MarkReligion_shinto
+	remove_variable = DC_MarkReligion_sikh
+	remove_variable = DC_MarkReligion_animist
+}
+
+
+
+
+DC_Budget_IncreaseModifier = {
+	hidden_effect = { remove_enactment_modifier = $modifier$ }
+	if = {
+		limit = {
+			NOT = { has_variable = $var$ }
+		}
+		set_variable = {
+			name = $var$
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = $var$
+			add = 1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = $var$
+		}
+		add_enactment_modifier = {
+			name = $modifier$
+			multiplier = var:$var$
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = $modifier$
+		}
+	}
+}
+DC_Budget_DecreaseModifier = {
+	hidden_effect = { remove_enactment_modifier = $modifier$ }
+	if = {
+		limit = {
+			NOT = { has_variable = $var$ }
+		}
+		set_variable = {
+			name = $var$
+			value = -1
+		}
+	}
+	else = {
+		change_variable = {
+			name = $var$
+			subtract = 1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = $var$
+		}
+		add_enactment_modifier = {
+			name = $modifier$
+			multiplier = var:$var$
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = $modifier$
+		}
+	}
+}
+
+DC_Var_IncreaseModifier = {
+	hidden_effect = { remove_enactment_modifier = $modifier$ }
+	if = {
+		limit = {
+			NOT = { has_variable = $var$ }
+		}
+		set_variable = {
+			name = $var$
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = $var$
+			add = {
+				if = {
+					limit = {
+						has_variable = DC_VarIncreaseTenth
+					}
+					value = 0.1
+				}
+				else_if = {
+					limit = {
+						has_variable = DC_VarIncreaseHundredth
+					}
+					value = 0.01
+				}
+				else = {
+					value = 1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_variable = $var$
+		}
+		add_enactment_modifier = {
+			name = $modifier$
+			multiplier = var:$var$
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = $modifier$
+		}
+	}
+}
+
+DC_Var_DecreaseModifier = {
+	hidden_effect = { remove_enactment_modifier = $modifier$ }
+	if = {
+		limit = {
+			NOT = { has_variable = $var$ }
+		}
+		set_variable = {
+			name = $var$
+			value = -1
+		}
+	}
+	else = {
+		change_variable = {
+			name = $var$
+			subtract = {
+				if = {
+					limit = {
+						has_variable = DC_VarIncreaseTenth
+					}
+					value = 0.1
+				}
+				else_if = {
+					limit = {
+						has_variable = DC_VarIncreaseHundredth
+					}
+					value = 0.01
+				}
+				else = {
+					value = 1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_variable = $var$
+		}
+		add_enactment_modifier = {
+			name = $modifier$
+			multiplier = var:$var$
+		}
+	}
+	else = {
+		add_enactment_modifier = {
+			name = $modifier$
+		}
+	}
+}
+
+
+
+
+# $building_type$
+DC_CreateBuildingLevel_Effect = {
+	every_scope_state = {
+		limit = {
+			has_decree = DecisionCheatDecree_MarkState
+		}
+		if = {
+			limit = {
+				OR = {
+					any_scope_building = {
+						is_building_type = $building_type$
+						level < 10
+					}
+					NOT = { has_building = $building_type$ }
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 10
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = $building_type$
+					level < 50
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 50
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = $building_type$
+					level < 100
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 100
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = $building_type$
+					level < 300
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 300
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = $building_type$
+					level < 500
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 500
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = $building_type$
+					level < 1000
+				}
+			}
+			create_building = {
+				building = $building_type$
+				level = 1000
+			}
+		}	
+	}
+}
+
+# $building_type$
+DC_CreateBuildingLevel_Second_Effect = {
+	every_scope_state = {
+		limit = {
+			has_decree = DecisionCheatDecree_MarkState
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
