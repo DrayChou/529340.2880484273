@@ -25,6 +25,10 @@
  AddTreasury_1000K_Decision_desc:""
  AddTreasury_10000K_Decision:"增加10000K的[concept_money]"
  AddTreasury_10000K_Decision_desc:""
+ AddTreasury_100000K_Decision:"增加100000K的[concept_money]"
+ AddTreasury_100000K_Decision_desc:""
+ AddTreasury_1000000K_Decision:"增加1000000K的[concept_money]"
+ AddTreasury_1000000K_Decision_desc:""
  
  
 
@@ -113,6 +117,11 @@
  AddCountryTaxIncomeBonusModifier_Decision_desc:""
  RemoveCountryTaxIncomeBonusModifier_Decision:"移除 @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
  RemoveCountryTaxIncomeBonusModifier_Decision_desc:""
+
+ AddCountry10TaxIncomeBonusModifier_Decision:"获得 @money![GetStaticModifier('DecisionCheat_Country10TaxIncomeBonusModifier').GetDesc]"
+ AddCountry10TaxIncomeBonusModifier_Decision_desc:""
+ RemoveCountry10TaxIncomeBonusModifier_Decision:"移除 @money![GetStaticModifier('DecisionCheat_Country10TaxIncomeBonusModifier').GetDesc]"
+ RemoveCountry10TaxIncomeBonusModifier_Decision_desc:""
  
  AddCountryLegitimacyBaseBonusModifier_Decision:"获得 [concept_legitimacy]加成"
  AddCountryLegitimacyBaseBonusModifier_Decision_desc:"你的[concept_government]有[GetPlayer.GetGovernmentLegitimacy|v]的[concept_legitimacy]"

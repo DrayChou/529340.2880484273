@@ -26,6 +26,10 @@
  AddTreasury_10000K_Decision:"Add 10000K [concept_money]"
  AddTreasury_10000K_Decision_desc:""
  
+ AddTreasury_100000K_Decision:"Add 100000K [concept_money]"
+ AddTreasury_100000K_Decision_desc:""
+ AddTreasury_1000000K_Decision:"Add 1000000K [concept_money]"
+ AddTreasury_1000000K_Decision_desc:""
  
 
  
@@ -113,6 +117,11 @@
  AddCountryTaxIncomeBonusModifier_Decision_desc:""
  RemoveCountryTaxIncomeBonusModifier_Decision:"Remove @money![GetStaticModifier('DecisionCheat_CountryTaxIncomeBonusModifier').GetDesc]"
  RemoveCountryTaxIncomeBonusModifier_Decision_desc:""
+
+ AddCountry10TaxIncomeBonusModifier_Decision:"Gain @money![GetStaticModifier('DecisionCheat_Country10TaxIncomeBonusModifier').GetDesc]"
+ AddCountry10TaxIncomeBonusModifier_Decision_desc:""
+ RemoveCountry10TaxIncomeBonusModifier_Decision:"Remove @money![GetStaticModifier('DecisionCheat_Country10TaxIncomeBonusModifier').GetDesc]"
+ RemoveCountry10TaxIncomeBonusModifier_Decision_desc:""
  
  AddCountryLegitimacyBaseBonusModifier_Decision:"Gain [concept_legitimacy] Modifier"
  AddCountryLegitimacyBaseBonusModifier_Decision_desc:"Your [concept_government] has [GetPlayer.GetGovernmentLegitimacy|v] [concept_legitimacy]"

@@ -47,6 +47,10 @@ DecisionCheat_CountryTaxIncomeBonusModifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_tax_income_add = 10000000
 }
+DecisionCheat_Country10TaxIncomeBonusModifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 100000000
+}
 DecisionCheat_CountryLegitimacyBaseBonusModifier = {
 	country_legitimacy_base_add = 100
 }

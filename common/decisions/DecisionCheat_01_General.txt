@@ -183,6 +183,40 @@ AddTreasury_10000K_Decision = {
 		add_treasury = 10000000
 	}
 }
+AddTreasury_100000K_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = Open_GeneralCheat_Decision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_treasury = 100000000
+	}
+}
+AddTreasury_1000000K_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = Open_GeneralCheat_Decision_variable
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_treasury = 1000000000
+	}
+}
 
 AddArableLand_100_Decision = {
 	is_shown = {
@@ -821,6 +855,43 @@ RemoveCountryTaxIncomeBonusModifier_Decision = {
     }
 	when_taken = {
 		remove_modifier = DecisionCheat_CountryTaxIncomeBonusModifier
+	}
+}
+
+AddCountry10TaxIncomeBonusModifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = Open_GeneralCheat_Decision_variable
+		NOT = { has_modifier = DecisionCheat_Country10TaxIncomeBonusModifier }
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		add_modifier = DecisionCheat_Country10TaxIncomeBonusModifier
+	}
+} 
+RemoveCountry10TaxIncomeBonusModifier_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = Open_GeneralCheat_Decision_variable
+		has_modifier = DecisionCheat_Country10TaxIncomeBonusModifier
+	}
+
+	possible = {
+
+	}
+
+	ai_chance = {
+		base = 0
+    }
+	when_taken = {
+		remove_modifier = DecisionCheat_Country10TaxIncomeBonusModifier
 	}
 } 
 

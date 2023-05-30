@@ -5,6 +5,7 @@
 
  DecisionCheat_StateAssimilationModifier:"Assimilation Add"
  DecisionCheat_CountryTaxIncomeBonusModifier:"TaxIncome Bonus"
+ DecisionCheat_Country10TaxIncomeBonusModifier:"TaxIncome Bonus x10"
  DecisionCheat_CountryLegitimacyBaseBonusModifier:"Legitimacy"
  DecisionCheat_BuildingMinesBonusModifier:"Resource Industry Bonus"
  DecisionCheat_BuildingFarmsBonusModifier:"Agricultural Industry Bonus"

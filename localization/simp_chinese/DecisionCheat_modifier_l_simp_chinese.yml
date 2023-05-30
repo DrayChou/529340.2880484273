@@ -5,6 +5,7 @@
 
  DecisionCheat_StateAssimilationModifier:"同化加成"
  DecisionCheat_CountryTaxIncomeBonusModifier:"赋税能力加成"
+ DecisionCheat_Country10TaxIncomeBonusModifier:"赋税能力加成x10"
  DecisionCheat_CountryLegitimacyBaseBonusModifier:"合法性加成"
  DecisionCheat_BuildingMinesBonusModifier:"资源产业加成"
  DecisionCheat_BuildingFarmsBonusModifier:"农业加成"
