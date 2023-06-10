@@ -33,9 +33,17 @@ DecisionCheat_UnityArmyBonusModifier = {
 	unit_army_offense_add = 300
 	unit_army_defense_add = 300
 }
+DecisionCheat_UnityArmyBonusModifierx2 = {
+	unit_army_offense_add = 600
+	unit_army_defense_add = 600
+}
 DecisionCheat_UnityNavyBonusModifier = {
 	unit_navy_offense_add = 100
 	unit_navy_defense_add = 100
+}
+DecisionCheat_UnityNavyBonusModifierx2 = {
+	unit_navy_offense_add = 200
+	unit_navy_defense_add = 200
 }
 DecisionCheat_StateTaxCapacityAddModifier = {
 	state_tax_capacity_add = 1000

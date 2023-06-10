@@ -25,7 +25,9 @@
  DecisionCheat_InterestGroupApprovalModifier:"利益集团支持度增加"
  DecisionCheat_CountryPrestigeModifier:"国家威望增加"
  DecisionCheat_UnityArmyBonusModifier:"陆军加成"
+ DecisionCheat_UnityArmyBonusModifierx2:"陆军加成x2"
  DecisionCheat_UnityNavyBonusModifier:"海军加成"
+ DecisionCheat_UnityNavyBonusModifierx2:"海军加成x2"
  
  DecisionCheat_StateStandardOfLivingModifier:"生活水平加成"
  DecisionCheat_StatePopQualificationModifier:"资质加成"
